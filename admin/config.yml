@@ -10,6 +10,7 @@ backend:
   repo: system76/blog
   branch: master
   cms_label_prefix: cms/
+  base_url: https://netlify.origin76.com
 
 collections:
   - name: blog
