@@ -1,8 +1,14 @@
 <template>
-  <article class="w-full max-w-7xl mx-auto py-4 px-4 pb-12">
-    <h1 class="font-serif font-bold text-3xl my-6 mx-auto lg:text-5xl lg:my-12 max-w-5xl">
-      {{ $prismic.asText(post.data.title) }}
-    </h1>
+  <article class="pt-4 pb-12">
+    <header class="w-full mx-auto max-w-5xl px-4 mb-6 lg:my-12">
+      <h3 class="text-sm font-bold text-gray-500 uppercase lg:text-md">
+        <time>{{ publishedAt }}</time>
+      </h3>
+
+      <h1 class="font-serif font-bold text-3xl my-3 md:text-4xl lg:text-5xl lg:my-4">
+        {{ $prismic.asText(post.data.title) }}
+      </h1>
+    </header>
 
     <slice-zone :slices="post.data.slices" />
   </article>
@@ -23,6 +29,18 @@
         return { post }
       } else {
         error({ statusCode: 404, message: 'Blog post not found' })
+      }
+    },
+
+    computed: {
+      publishedAt () {
+        return (new Date(this.post.first_publication_date)).toLocaleDateString('en-US', {
+          day: 'numeric',
+          month: 'long',
+          timeZone: 'MST',
+          weekday: 'long',
+          year: 'numeric'
+        })
       }
     }
   }

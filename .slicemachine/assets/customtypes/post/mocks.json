@@ -1,34 +1,34 @@
 {
-  "id": "d56807fb-3e92-46f9-9dd6-48331506d87c",
-  "uid": "sequi-modi-commodi",
+  "id": "fb4d91b4-1cea-4840-a6fd-fe51c5ff8262",
+  "uid": "doloribus-accusamus-tempora",
   "type": "post",
   "data": {
-    "uid": "optio-non-a",
+    "uid": "earum-repellendus-et",
     "title": [
       {
         "type": "heading1",
-        "text": "Syndicate real-time interfaces",
+        "text": "Iterate dynamic supply-chains",
         "spans": []
       }
     ],
     "description": [
       {
         "type": "paragraph",
-        "text": "Sunt ullamco esse reprehenderit sint pariatur deserunt. Minim sit nostrud est eiusmod quis dolore sunt tempor quis minim minim.",
+        "text": "Velit Lorem magna laboris occaecat excepteur exercitation ea anim ullamco minim. Ex reprehenderit exercitation ea elit commodo non eiusmod ex nulla duis commodo ipsum. Voluptate consectetur velit tempor non aliquip minim in commodo tempor et consectetur do fugiat culpa consequat.",
         "spans": []
       }
     ],
     "image": {
       "dimensions": {
-        "width": 800,
+        "width": 1600,
         "height": 800
       },
       "alt": "Placeholder image",
       "copyright": null,
-      "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=800&h=800&fit=crop"
+      "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=1600&h=800&fit=crop"
     },
-    "seoTitle": "synthesize open-source architectures",
-    "seoDescription": "productize vertical applications",
+    "seoTitle": "repurpose cross-media initiatives",
+    "seoDescription": "incubate frictionless architectures",
     "seoSocial": [
       {
         "image": {
@@ -38,10 +38,10 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=1200&h=600&fit=crop"
+          "url": "https://images.unsplash.com/photo-1606248897732-2c5ffe759c04?w=1200&h=600&fit=crop"
         },
-        "title": "revolutionize turn-key ROI",
-        "description": "cultivate granular synergies"
+        "title": "enhance virtual platforms",
+        "description": "mesh frictionless content"
       },
       {
         "image": {
@@ -51,10 +51,62 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=1200&h=600&fit=crop"
+          "url": "https://images.unsplash.com/photo-1596195689404-24d8a8d1c6ea?w=1200&h=600&fit=crop"
         },
-        "title": "revolutionize B2B paradigms",
-        "description": "strategize interactive e-markets"
+        "title": "reinvent proactive e-tailers",
+        "description": "exploit virtual interfaces"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 1200,
+            "height": 600
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&h=600&fit=crop"
+        },
+        "title": "extend bricks-and-clicks web-readiness",
+        "description": "envisioneer compelling eyeballs"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 1200,
+            "height": 600
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=1200&h=600&fit=crop"
+        },
+        "title": "brand efficient synergies",
+        "description": "transition bricks-and-clicks architectures"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 1200,
+            "height": 600
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=1200&h=600&fit=crop"
+        },
+        "title": "benchmark rich convergence",
+        "description": "facilitate front-end blockchains"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 1200,
+            "height": 600
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1551739440-5dd934d3a94a?w=1200&h=600&fit=crop"
+        },
+        "title": "engineer impactful paradigms",
+        "description": "evolve sticky niches"
       }
     ]
   }

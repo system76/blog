@@ -19,17 +19,6 @@
     }
   },
   "slices": {
-    "PostCopy": {
-      "default-slice": {
-        "primary": {
-          "text": {
-            "config": {
-              "patternType": "PARAGRAPH",
-              "blocks": 1
-            }
-          }
-        }
-      }
-    }
+    "PostCopy": {}
   }
 }

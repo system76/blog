@@ -84,6 +84,8 @@ export default {
 
   image: {
     domains: ['https://images.prismic.io'],
+    prismic: {},
+    provider: 'static',
 
     // Mirrored to tailwind breakpoints + some extra
     screens: {
