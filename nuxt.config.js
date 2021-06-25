@@ -1,5 +1,7 @@
 const [, REPO] = (process.env.GITHUB_REPOSITORY || '').slice('/')
 
+console.log('data', process.env.GITHUB_REPOSITORY, REPO)
+
 export default {
   target: 'static',
 
