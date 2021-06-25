@@ -1,3 +1,5 @@
+const [, REPO] = (process.env.GITHUB_REPOSITORY || '').slice('/')
+
 export default {
   target: 'static',
 
@@ -92,6 +94,10 @@ export default {
       xl: 1280,
       '2xl': 1536
     }
+  },
+
+  router: {
+    base: (process.env.CI != null) ? `/${REPO}/` : null
   },
 
   prismic: {
