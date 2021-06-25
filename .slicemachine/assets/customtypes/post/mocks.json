@@ -1,0 +1,61 @@
+{
+  "id": "d56807fb-3e92-46f9-9dd6-48331506d87c",
+  "uid": "sequi-modi-commodi",
+  "type": "post",
+  "data": {
+    "uid": "optio-non-a",
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Syndicate real-time interfaces",
+        "spans": []
+      }
+    ],
+    "description": [
+      {
+        "type": "paragraph",
+        "text": "Sunt ullamco esse reprehenderit sint pariatur deserunt. Minim sit nostrud est eiusmod quis dolore sunt tempor quis minim minim.",
+        "spans": []
+      }
+    ],
+    "image": {
+      "dimensions": {
+        "width": 800,
+        "height": 800
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=800&h=800&fit=crop"
+    },
+    "seoTitle": "synthesize open-source architectures",
+    "seoDescription": "productize vertical applications",
+    "seoSocial": [
+      {
+        "image": {
+          "dimensions": {
+            "width": 1200,
+            "height": 600
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9?w=1200&h=600&fit=crop"
+        },
+        "title": "revolutionize turn-key ROI",
+        "description": "cultivate granular synergies"
+      },
+      {
+        "image": {
+          "dimensions": {
+            "width": 1200,
+            "height": 600
+          },
+          "alt": "Placeholder image",
+          "copyright": null,
+          "url": "https://images.unsplash.com/photo-1491975474562-1f4e30bc9468?w=1200&h=600&fit=crop"
+        },
+        "title": "revolutionize B2B paradigms",
+        "description": "strategize interactive e-markets"
+      }
+    ]
+  }
+}

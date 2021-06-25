@@ -1,0 +1,106 @@
+{
+  "id": "post",
+  "label": "Post",
+  "status": true,
+  "repeatable": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "URL Slug",
+          "placeholder": "invading-lemurs-in-denver"
+        }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "Lemurs Now Invade Denver!",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Description",
+          "placeholder": "Today a local shenaniganer...",
+          "allowTargetBlank": true,
+          "single": "paragraph,strong,em"
+        }
+      },
+      "image": {
+        "type": "Image",
+        "config": {
+          "label": "Image",
+          "constraint": {
+            "width": 800,
+            "height": 800
+          },
+          "thumbnails": []
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "post-copy": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO": {
+      "seoTitle": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "Search Engine Title"
+        }
+      },
+      "seoDescription": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "Search Engine Description"
+        }
+      },
+      "seoSocial": {
+        "type": "Group",
+        "config": {
+          "type": "Group",
+          "fields": {
+            "image": {
+              "type": "Image",
+              "config": {
+                "label": "Image",
+                "constraint": {
+                  "width": 1200,
+                  "height": 600
+                },
+                "thumbnails": []
+              }
+            },
+            "title": {
+              "type": "Text",
+              "config": {
+                "label": "Social Title",
+                "placeholder": "Social Media Title"
+              }
+            },
+            "description": {
+              "type": "Text",
+              "config": {
+                "label": "Social Description",
+                "placeholder": "Social Media Description"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
