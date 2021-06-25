@@ -68,7 +68,7 @@
             provider="prismic"
           />
 
-          <h3 class="text-sm font-bold text-gray-500 uppercase mb-4">
+          <h3 class="text-sm font-bold text-gray-500 uppercase mt-6 mb-4">
             <time>{{ publishedAt(post.first_publication_date) }}</time>
           </h3>
 
