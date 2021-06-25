@@ -7,6 +7,17 @@ module.exports = {
     require('@tailwindcss/typography')
   ],
 
+  purge: {
+    content: [
+      'components/**/*.{vue,js}',
+      'layouts/**/*.vue',
+      'pages/**/*.vue',
+      'plugins/**/*.{js,ts}',
+      'slices/**/*.vue',
+      'nuxt.config.{js,ts}'
+    ]
+  },
+
   theme: {
     borderWidth: {
       DEFAULT: '1px',

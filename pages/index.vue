@@ -65,6 +65,7 @@
             class="w-full object-scale-down object-cover rounded-lg"
             sizes="sm:100vw md:50vw lg:33vw"
             loading="lazy"
+            provider="prismic"
           />
 
           <h3 class="text-sm font-bold text-gray-500 uppercase mb-4">
