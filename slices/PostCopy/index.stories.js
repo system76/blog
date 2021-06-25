@@ -4,24 +4,24 @@ import mocks from './mocks.json'
 import Slice from './'
 
 export default {
-  title: model.name,
+  title: model.name
 }
 
 // TODO: Update to loop over mocks.json
 export const DefaultSlice = () => ({
   components: {
     Slice,
-    SliceZone,
+    SliceZone
   },
-  data() {
+  data () {
     return {
       mock: mocks[0],
-      resolver() {
+      resolver () {
         return Slice
-      },
+      }
     }
   },
-  template: '<slice-zone :slices="[ mock ]" :resolver="resolver" />',
+  template: '<slice-zone :slices="[ mock ]" :resolver="resolver" />'
 })
 
 DefaultSlice.storyName = mocks[0].name

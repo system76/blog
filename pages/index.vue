@@ -47,8 +47,7 @@
       class="max-w-7xl mx-auto py-4 px-4 grid gap-8 md:gap-16 md:grid-cols-2 lg:grid-cols-3 xl:gap-24"
     >
       <li
-        v-for="(post, i) in posts.results"
-        v-if="(i !== 0)"
+        v-for="post in otherPosts"
         :key="post.id"
       >
         <post-list :post="post" />
@@ -58,34 +57,44 @@
 </template>
 
 <script>
-export default {
-  asyncData: async ({ $prismic }) => ({
-    posts: await $prismic.api.query(
-      $prismic.predicates.at('document.type', 'post'),
-      { orderings : '[my.post.date desc]' }
-    )
-  }),
+  export default {
+    asyncData: async ({ $prismic }) => ({
+      posts: await $prismic.api.query(
+        $prismic.predicates.at('document.type', 'post'),
+        { orderings: '[my.post.date desc]' }
+      )
+    }),
 
-  computed: {
-    firstPost () {
-      if (this.posts.results.length > 0) {
-        return this.posts.results[0]
-      } else {
-        return null
+    computed: {
+      firstPost () {
+        if (this.posts.results.length > 0) {
+          return this.posts.results[0]
+        } else {
+          return null
+        }
+      },
+
+      otherPosts () {
+        if (this.posts.results.length > 1) {
+          const n = [...this.posts.results]
+          n.shift()
+          return n
+        } else {
+          return []
+        }
+      }
+    },
+
+    methods: {
+      publishedAt (date) {
+        return (new Date(date)).toLocaleDateString('en-US', {
+          day: 'numeric',
+          month: 'long',
+          timeZone: 'MST',
+          weekday: 'long',
+          year: 'numeric'
+        })
       }
     }
-  },
-
-  methods: {
-    publishedAt (date) {
-      return (new Date(date)).toLocaleDateString('en-US', {
-        day: 'numeric',
-        month: 'long',
-        timeZone: 'MST',
-        weekday: 'long',
-        year: 'numeric'
-      })
-    }
   }
-}
 </script>

@@ -83,33 +83,33 @@
 </template>
 
 <script>
-export default {
-  props: {
-    error: {
-      type: [Object, Error],
-      default: () => new Error('Internal Server Error')
-    }
-  },
+  export default {
+    props: {
+      error: {
+        type: [Object, Error],
+        default: () => new Error('Internal Server Error')
+      }
+    },
 
-  head: {
-    title: 'Error!'
-  },
+    head: {
+      title: 'Error!'
+    },
 
-  computed: {
-    status () {
-      const statusCode = Number(this.error.statusCode)
-      const status = Number(this.error.status)
+    computed: {
+      status () {
+        const statusCode = Number(this.error.statusCode)
+        const status = Number(this.error.status)
 
-      if (statusCode > 0 && statusCode < 600) {
-        return statusCode
-      } else if (status > 0 && statusCode < 600) {
-        return status
-      } else {
-        return 404
+        if (statusCode > 0 && statusCode < 600) {
+          return statusCode
+        } else if (status > 0 && statusCode < 600) {
+          return status
+        } else {
+          return 404
+        }
       }
     }
   }
-}
 </script>
 
 <style module>

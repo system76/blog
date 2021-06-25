@@ -1,6 +1,4 @@
-const [, REPO] = (process.env.GITHUB_REPOSITORY || '').slice('/')
-
-console.log('data', process.env.GITHUB_REPOSITORY, REPO)
+const [, REPO] = (process.env.GITHUB_REPOSITORY || '').split('/')
 
 export default {
   target: 'static',
@@ -99,7 +97,7 @@ export default {
   },
 
   router: {
-    base: (process.env.CI != null) ? `/${REPO}/` : null
+    base: (process.env.CI != null) ? `/${REPO}/` : '/'
   },
 
   prismic: {

@@ -1,28 +1,28 @@
 <template>
   <prismic-rich-text
     :field="slice.primary.text"
-    :htmlSerializer="htmlSerializer"
+    :html-serializer="htmlSerializer"
     class="prose max-w-prose mx-auto lg:prose-lg xl:prose-xl"
   />
 </template>
 
 <script>
-export default {
-  props: {
-    slice: {
-      type: Object,
-      required: true,
-      default: () => ({})
-    }
-  },
+  export default {
+    props: {
+      slice: {
+        type: Object,
+        required: true,
+        default: () => ({})
+      }
+    },
 
-  methods: {
-    htmlSerializer(type, element, content, children) {
-      if (type === 'embed' && element.oembed.provider_name === 'YouTube') {
-        const ratio = (element.oembed.height / element.oembed.width).toFixed(3)
-        const [, vid] = element.oembed.embed_url.split('?v=')
+    methods: {
+      htmlSerializer (type, element, content, children) {
+        if (type === 'embed' && element.oembed.provider_name === 'YouTube') {
+          const ratio = (element.oembed.height / element.oembed.width).toFixed(3)
+          const [, vid] = element.oembed.embed_url.split('?v=')
 
-        return `
+          return `
           <div
             data-oembed="${element.oembed.embed_url}"
             data-oembed-type="video"
@@ -39,12 +39,12 @@ export default {
             </object>
           </div>
         `
-      }
+        }
 
-      return null
+        return null
+      }
     }
   }
-}
 </script>
 
 <style scoped>

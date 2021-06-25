@@ -34,27 +34,27 @@
 </template>
 
 <script>
-export default {
-  name: 'PostList',
+  export default {
+    name: 'PostList',
 
-  props: {
-    post: {
-      type: Object,
-      required: true,
-      default: () => ({})
-    }
-  },
+    props: {
+      post: {
+        type: Object,
+        required: true,
+        default: () => ({})
+      }
+    },
 
-  computed: {
-    publishedAt () {
-      return (new Date(this.post.first_publication_date)).toLocaleDateString('en-US', {
-        day: 'numeric',
-        month: 'long',
-        timeZone: 'MST',
-        weekday: 'long',
-        year: 'numeric'
-      })
+    computed: {
+      publishedAt () {
+        return (new Date(this.post.first_publication_date)).toLocaleDateString('en-US', {
+          day: 'numeric',
+          month: 'long',
+          timeZone: 'MST',
+          weekday: 'long',
+          year: 'numeric'
+        })
+      }
     }
   }
-}
 </script>
