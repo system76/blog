@@ -1,20 +1,28 @@
-# blog
+# System76 Blog
 
-## Build Setup
+The blog website is powered by [NuxtJS][1] using [Prismic][2] as a CMS, and
+[tailwindcss][3] for styles.
 
-```bash
-# install dependencies
-$ npm install
+## Adding / Editing Content
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+All content is edited in [Prismic][2]. When this site builds, it downloads all
+of the content and renders it in a beautiful website.
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+## Adding CMS Components
 
-# generate static project
-$ npm run generate
-```
+To make blog posts *pop*, we allow content editors to use custom Vue components
+via [Slice Machine][4]. Simply run `npm run slicemachine` to start the Slice
+Machine interface. You will also want to start [Storybook][5] via
+`npm run storybook` for testing and screenshots.
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+## Deployments
+
+[Prismic][2] sends webhooks to GitHub actions every time content changes. This
+will trigger Nuxt to rebuild the site. This also occurs when code gets pushed
+to the `master` branch.
+
+[1]: https://nuxtjs.org/
+[2]: https://prismic.io/
+[3]: https://tailwindcss.com/
+[4]: https://www.slicemachine.dev/
+[5]: https://storybook.js.org/
