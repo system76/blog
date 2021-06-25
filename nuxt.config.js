@@ -1,5 +1,3 @@
-const [, REPO] = (process.env.GITHUB_REPOSITORY || '').split('/')
-
 export default {
   target: 'static',
 
@@ -85,6 +83,8 @@ export default {
   },
 
   image: {
+    domains: ['https://images.prismic.io'],
+
     // Mirrored to tailwind breakpoints + some extra
     screens: {
       xs: 320,
@@ -94,10 +94,6 @@ export default {
       xl: 1280,
       '2xl': 1536
     }
-  },
-
-  router: {
-    base: (REPO != null) ? `/${REPO}/` : '/'
   },
 
   prismic: {

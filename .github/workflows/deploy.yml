@@ -40,5 +40,6 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
+          cname: blog.origin76.com
           github_token: ${{ secrets.RELEASE_TOKEN }}
           publish_dir: ./dist
