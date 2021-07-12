@@ -1,11 +1,14 @@
 <template>
   <article class="pt-4 pb-12">
-    <header class="w-full mx-auto max-w-5xl px-4 mb-6 lg:my-12">
-      <h3 class="text-sm font-bold text-gray-500 uppercase lg:text-md">
-        <time>{{ publishedAt }}</time>
-      </h3>
+    <header class="prose sm:prose-sm xl:prose-xl w-full mx-auto max-w-5xl px-4 mb-6 lg:my-12">
+      <time
+        class="text-sm font-bold text-gray-600 uppercase lg:text-md"
+        :datetime="post.first_publication_date"
+      >
+        {{ publishedAt }}
+      </time>
 
-      <h1 class="font-serif font-bold text-3xl my-3 md:text-4xl lg:text-5xl lg:my-4">
+      <h1 class="my-3 lg:my-4">
         {{ $prismic.asText(post.data.title) }}
       </h1>
     </header>

@@ -8,23 +8,23 @@
     <nuxt-link
       v-if="firstPost"
       :to="$prismic.linkResolver(firstPost)"
-      class="grid grid-cols-1 gap-6 items-center max-w-6xl mx-auto py-4 px-4 md:grid md:grid-cols-2 md:gap-16 md:my-8 xl:grid-cols-3"
+      class="blog-post grid grid-cols-1 gap-6 items-center max-w-6xl mx-auto py-4 px-4 md:grid md:grid-cols-2 md:gap-16 md:my-8 xl:grid-cols-3"
     >
       <div class="w-full xl:col-span-2">
         <div class="aspect-w-1 aspect-h-1 lg:aspect-w-2">
-          <nuxt-img
+          <nuxt-picture
             :src="firstPost.data.image.small.url"
             :alt="firstPost.data.image.small.alt"
             :copyright="firstPost.data.image.small.copyright"
-            class="w-full object-scale-down rounded-lg object-cover lg:hidden"
+            class="w-full object-scale-down object-cover lg:hidden"
           />
 
-          <nuxt-img
+          <nuxt-picture
             v-if="firstPost.data.image"
             :src="firstPost.data.image.url"
             :alt="firstPost.data.image.alt"
             :copyright="firstPost.data.image.copyright"
-            class="hidden w-full object-scale-down rounded-lg object-cover lg:block"
+            class="hidden w-full object-scale-down object-cover lg:block"
           />
         </div>
       </div>
@@ -53,15 +53,15 @@
         :key="post.id"
       >
         <nuxt-link
-          class="block w-full mb-6"
+          class="blog-post block w-full mb-6"
           :to="$prismic.linkResolver(post)"
         >
-          <nuxt-img
+          <nuxt-picture
             :src="post.data.image.small.url"
             :alt="post.data.image.small.alt"
             :copyright="post.data.image.small.copyright"
-            class="w-full object-scale-down object-cover rounded-lg"
-            sizes="sm:100vw md:50vw lg:33vw"
+            class="w-full object-scale-down object-cover"
+            sizes="md:100vw lg:50vw xl:33vw"
             loading="lazy"
           />
 
@@ -124,3 +124,9 @@
     }
   }
 </script>
+
+<style scoped>
+  .blog-post picture >>> img {
+    border-radius: 0.5rem;
+  }
+</style>
