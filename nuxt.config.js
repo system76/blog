@@ -64,7 +64,8 @@ export default {
   ],
 
   plugins: [
-    '~/plugins/components'
+    '~/plugins/components',
+    '~/plugins/font-awesome'
   ],
 
   buildModules: [
@@ -85,6 +86,7 @@ export default {
   image: {
     domains: ['https://images.prismic.io'],
     provider: 'static',
+    prismic: {},
 
     // Mirrored to tailwind breakpoints + some extra
     screens: {

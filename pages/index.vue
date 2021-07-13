@@ -17,6 +17,7 @@
             :alt="firstPost.data.image.small.alt"
             :copyright="firstPost.data.image.small.copyright"
             class="w-full object-scale-down object-cover lg:hidden"
+            provider="prismic"
           />
 
           <nuxt-picture
@@ -25,6 +26,7 @@
             :alt="firstPost.data.image.alt"
             :copyright="firstPost.data.image.copyright"
             class="hidden w-full object-scale-down object-cover lg:block"
+            provider="prismic"
           />
         </div>
       </div>
@@ -63,6 +65,7 @@
             class="w-full object-scale-down object-cover"
             sizes="md:100vw lg:50vw xl:33vw"
             loading="lazy"
+            provider="prismic"
           />
 
           <h3 class="text-sm font-bold text-gray-500 uppercase mt-6 mb-4">

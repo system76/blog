@@ -53,6 +53,30 @@
         }
       }
     },
+    "Social": {
+      "socialText": {
+        "type": "Text",
+        "config": {
+          "label": "",
+          "placeholder": ""
+        }
+      },
+      "socialLinks": {
+        "type": "Group",
+        "config": {
+          "type": "Group",
+          "fields": {
+            "link": {
+              "type": "Embed",
+              "config": {
+                "label": "Link",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      }
+    },
     "SEO": {
       "seoTitle": {
         "type": "Text",
