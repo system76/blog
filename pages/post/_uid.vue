@@ -21,7 +21,18 @@
     </nav>
 
     <article class="pt-4">
-      <header class="prose sm:prose-sm xl:prose-xl w-full mx-auto max-w-5xl px-4 my-6 lg:my-12">
+      <header class="w-full mx-auto max-w-5xl px-4 my-6 lg:my-12">
+        <div class="-mx-3 my-2 lg:my-3">
+          <nuxt-link
+            v-for="tag in post.tags"
+            :key="tag"
+            class="inline-flex items-center px-3 py-0.5 rounded-full text-sm font-medium bg-gray-100 text-gray-900 transition duration-150 ease-in-out hover:bg-orange-500 focus:bg-orange-500"
+            :to="`/tags/${encodeURIComponent(tag)}`"
+          >
+            {{ tag }}
+          </nuxt-link>
+        </div>
+
         <time
           class="text-sm font-bold text-gray-600 uppercase lg:text-md"
           :datetime="post.first_publication_date"
@@ -29,7 +40,7 @@
           {{ publishedAt }}
         </time>
 
-        <h1 class="my-3 lg:my-4">
+        <h1 class="sys-article-h1 my-3 lg:my-4">
           {{ $prismic.asText(post.data.title) }}
         </h1>
       </header>

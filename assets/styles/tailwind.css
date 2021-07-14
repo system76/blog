@@ -4,7 +4,7 @@
 
 @layer components {
   .sys-article-h1 {
-    @apply text-warm-gray-600 font-sans font-extralight text-5xl leading-8 sm:text-7xl sm:leading-13 xl:text-8xl xl:leading-14;
+    @apply text-warm-gray-600 font-sans font-extralight text-5xl leading-12 sm:text-7xl sm:leading-13 xl:text-8xl xl:leading-14;
   }
 
   .sys-article-h2 {
