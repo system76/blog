@@ -1,14 +1,24 @@
 <template>
   <main>
-    <nuxt-picture
-      src="/images/hero.jpg"
-      class="w-full"
-    />
+    <div>
+      <nuxt-picture
+        src="/images/hero.jpg"
+        class="w-full md:hidden"
+        width="800"
+        height="513"
+        alt="The Blog of System76"
+      />
+      <nuxt-picture
+        src="/images/hero.jpg"
+        class="hidden w-full md:block"
+        alt="The Blog of System76"
+      />
+    </div>
 
     <nuxt-link
       v-if="firstPost"
       :to="$prismic.linkResolver(firstPost)"
-      class="blog-post grid grid-cols-1 gap-6 items-center max-w-6xl mx-auto py-4 px-4 md:grid md:grid-cols-2 md:gap-16 md:my-8 xl:grid-cols-3"
+      class="blog-post grid grid-cols-1 gap-6 items-center max-w-6xl mx-auto py-4 px-4 md:grid md:grid-cols-2 md:gap-8 md:mt-8 xl:grid-cols-3"
     >
       <div class="w-full xl:col-span-2">
         <div class="aspect-w-1 aspect-h-1 lg:aspect-w-2">
@@ -32,11 +42,11 @@
       </div>
 
       <div class="md:my-4">
-        <h3 class="text-sm font-bold text-gray-500 uppercase mb-4 lg:text-md">
+        <h3 class="text-sm font-bold text-gray-500 uppercase mb-1 lg:text-md">
           <time>{{ publishedAt(firstPost.first_publication_date) }}</time>
         </h3>
 
-        <h1 class="font-serif font-bold text-3xl mb-2 lg:mb-6 xl:mb-8">
+        <h1 class="sys-article-h2 mb-2 md:mb-4">
           {{ $prismic.asText(firstPost.data.title) }}
         </h1>
 
@@ -48,7 +58,7 @@
 
     <ul
       v-if="posts.results.length > 1"
-      class="max-w-6xl mx-auto py-4 px-4 grid gap-8 md:gap-16 md:grid-cols-2 lg:grid-cols-3"
+      class="max-w-6xl mx-auto py-4 px-4 grid gap-4 md:gap-8 md:grid-cols-2 lg:grid-cols-3"
     >
       <li
         v-for="post in otherPosts"
@@ -68,11 +78,11 @@
             provider="prismic"
           />
 
-          <h3 class="text-sm font-bold text-gray-500 uppercase mt-6 mb-4">
+          <h3 class="text-sm font-bold text-gray-500 uppercase mt-6 mb-1">
             <time>{{ publishedAt(post.first_publication_date) }}</time>
           </h3>
 
-          <h1 class="font-serif font-bold text-3xl mb-2 md:text-2xl">
+          <h1 class="sys-article-h2 mb-2 md:sys-article-h3 md:mb-4">
             {{ $prismic.asText(post.data.title) }}
           </h1>
 

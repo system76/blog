@@ -99,6 +99,10 @@ export default {
     }
   },
 
+  tailwindcss: {
+    cssPath: '~assets/styles/tailwind.css'
+  },
+
   prismic: {
     disableGenerator: true,
     endpoint: 'https://blog-system76.cdn.prismic.io/api/v2',
