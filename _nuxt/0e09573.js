@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{340:function(n,e,t){"use strict";t.r(e);var c={fetch:function(n){var e=n.params;return(0,n.redirect)("/post/".concat(e.uid))}},r=t(23),component=Object(r.a)(c,undefined,undefined,!1,null,null,null);e.default=component.exports}}]);
