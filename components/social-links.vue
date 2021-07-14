@@ -116,8 +116,6 @@
 </template>
 
 <script>
-  const FULL_HOST = 'https://blog.origin76.com'
-
   export default {
     props: {
       post: {
@@ -140,14 +138,14 @@
 
       redditShare () {
         return 'http://www.reddit.com/submit?' + this.createQuery({
-          title: this.post.data.socialText,
+          title: this.post.data.socialText || this.post.data.seoTitle,
           url: this.fullUrl
         })
       },
 
       twitterShare () {
         return 'https://twitter.com/intent/tweet?' + this.createQuery({
-          text: this.post.data.socialText,
+          text: this.post.data.socialText || this.post.data.seoTitle,
           url: this.fullUrl,
           via: 'system76',
           original_referer: this.fullUrl
@@ -155,7 +153,7 @@
       },
 
       fullUrl () {
-        return `${FULL_HOST}/post/${this.post.uid}`
+        return `${process.env.HOST}/post/${this.post.uid}`
       }
     },
 
@@ -168,7 +166,7 @@
 
       discussionLink (service) {
         const d = (this.post.data.socialLinks || []).find((d) => {
-          return (d.link && d.link.provider_name.toLowerCase() === service)
+          return (d.link && d.link.provider_name && d.link.provider_name.toLowerCase() === service)
         })
 
         return (d != null) ? d.link.url || d.link.embed_url : null
@@ -179,7 +177,7 @@
           event.preventDefault()
 
           navigator.share({
-            title: this.post.data.socialText,
+            title: this.post.data.socialText || this.post.data.seoTitle,
             url: this.fullUrl
           })
         }

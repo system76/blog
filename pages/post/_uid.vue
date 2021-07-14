@@ -61,6 +61,41 @@
       }
     },
 
+    head () {
+      const seoImage = (this.post.data.seoSocial[0] != null)
+        ? this.post.data.seoSocial[0].image
+        : null
+
+      return {
+        title: this.post.data.seoTitle,
+
+        meta: [
+          { hid: 'description', name: 'description', content: this.post.data.seoDescription },
+
+          { hid: 'og:site_name', property: 'og:site_name', content: 'System76 Blog' },
+          { hid: 'og:title', property: 'og:title', content: this.post.data.seoTitle },
+          { hid: 'og:description', property: 'og:description', content: this.post.data.seoDescription },
+          { hid: 'og:url', property: 'og:url', content: `${process.env.HOST}/post/${this.post.uid}` },
+
+          { hid: 'twitter:title', name: 'twitter:title', content: this.post.data.seoTitle },
+          { hid: 'twitter:description', name: 'twitter:description', content: this.post.data.seoDescription },
+          { hid: 'twitter:site', name: 'twitter:site', content: '@system76' },
+
+          ...(seoImage)
+            ? [
+              { hid: 'og:image', property: 'og:image', content: seoImage.url },
+              { hid: 'og:image:alt', property: 'og:image:alt', content: seoImage.alt },
+              { hid: 'og:image:width', property: 'og:image:width', content: seoImage.dimensions.width },
+              { hid: 'og:image:height', property: 'og:image:height', content: seoImage.dimensions.height },
+
+              { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+              { hid: 'twitter:image:src', name: 'twitter:image:src', content: seoImage.url }
+            ]
+            : []
+        ]
+      }
+    },
+
     computed: {
       publishedAt () {
         return (new Date(this.post.first_publication_date)).toLocaleDateString('en-US', {

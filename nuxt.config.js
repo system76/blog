@@ -1,3 +1,5 @@
+const HOST = 'https://blog.origin76.com'
+
 export default {
   target: 'static',
 
@@ -11,6 +13,8 @@ export default {
   build: {
     transpile: ['nuxt-sm', 'vue-slicezone']
   },
+
+  env: { HOST },
 
   head: {
     description: 'Official System76 Blog',
@@ -31,10 +35,20 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
 
       { hid: 'description', name: 'description', content: 'Official System76 Blog' },
+
+      { hid: 'og:site_name', property: 'og:site_name', content: 'System76 Blog' },
       { hid: 'og:title', property: 'og:title', content: 'System76 Blog' },
       { hid: 'og:description', property: 'og:description', content: 'Official System76 Blog' },
+      { hid: 'og:image', property: 'og:image', content: `${HOST}/images/social.jpg` },
+      { hid: 'og:image:alt', property: 'og:image:alt', content: 'The Blog of System76' },
+      { hid: 'og:image:width', property: 'og:image:width', content: 500 },
+      { hid: 'og:image:height', property: 'og:image:height', content: 1000 },
+
       { hid: 'twitter:title', name: 'twitter:title', content: 'System76 Blog' },
-      { hid: 'twitter:description', name: 'twitter:description', content: 'Official System76 Blog' }
+      { hid: 'twitter:description', name: 'twitter:description', content: 'Official System76 Blog' },
+      { hid: 'twitter:site', name: 'twitter:site', content: '@system76' },
+      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
+      { hid: 'twitter:image:src', name: 'twitter:image:src', content: `${HOST}/images/social.jpg` }
     ],
 
     link: [
