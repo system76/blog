@@ -8,6 +8,8 @@
 
 <script>
   export default {
+    name: 'PostCopy',
+
     props: {
       slice: {
         type: Object,

@@ -1,26 +1,16 @@
 {
-  "_cts": {
-    "post": {
-      "image": {
-        "content": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2"
-      },
-      "description": {
-        "config": {
-          "patternType": "PARAGRAPH",
-          "blocks": 1
-        }
-      },
-      "title": {
-        "config": {
-          "patternType": "HEADING",
-          "blocks": 1
-        }
-      },
-      "socialLinks": {}
-    }
-  },
   "slices": {
     "PostCopy": {},
-    "PostImage": {}
+    "PostImage": {
+      "article-width": {
+        "primary": {}
+      },
+      "full-width": {
+        "primary": {}
+      }
+    }
+  },
+  "_cts": {
+    "post": {}
   }
 }

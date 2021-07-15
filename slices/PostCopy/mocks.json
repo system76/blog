@@ -7,8 +7,18 @@
     "primary": {
       "text": [
         {
+          "type": "heading2",
+          "text": "IF IT’S FULLY CONFIGURABLE…WHAT CAN I CONFIGURE?",
+          "spans": []
+        },
+        {
+          "type": "heading3",
+          "text": "Your Layout",
+          "spans": []
+        },
+        {
           "type": "paragraph",
-          "text": "Duis dolore culpa aliqua occaecat commodo laborum ex laboris id. Eiusmod deserunt ad et do ex ipsum enim ex fugiat eiusmod sint.",
+          "text": "Bring commonly used keys right beneath your fingertips. Remap your layout in the System76 Keyboard Configurator application, and then move your keycaps to match. Launch uses only three key sizes (1U, 1.5U, and 2U) to expand your options!",
           "spans": []
         }
       ]

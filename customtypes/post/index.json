@@ -33,7 +33,7 @@
       "image": {
         "type": "Image",
         "config": {
-          "label": "Image",
+          "label": "Preview",
           "constraint": {
             "width": 1600,
             "height": 800
@@ -46,10 +46,10 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
-            "post-copy": {
+            "post_image": {
               "type": "SharedSlice"
             },
-            "post_image": {
+            "post_copy": {
               "type": "SharedSlice"
             }
           }
@@ -60,7 +60,7 @@
       "socialText": {
         "type": "Text",
         "config": {
-          "label": "",
+          "label": "Default Share Text",
           "placeholder": ""
         }
       },

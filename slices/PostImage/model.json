@@ -5,8 +5,8 @@
   "description": "PostImage",
   "variations": [
     {
-      "id": "default-slice",
-      "name": "Default slice",
+      "id": "full-width",
+      "name": "Full Width",
       "docURL": "...",
       "version": "sktwi1xtmkfgx8626",
       "description": "PostImage",
@@ -25,6 +25,57 @@
                 "height": 512
               }
             ]
+          },
+          "type": "Image"
+        },
+        "showAlt": {
+          "config": {
+            "label": "Show Caption",
+            "placeholder_false": "hidden",
+            "placeholder_true": "visible",
+            "default_value": true
+          },
+          "type": "Boolean"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "article-width",
+      "name": "Article Width",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PostImage",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": null,
+              "height": null
+            },
+            "thumbnails": []
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "free-width",
+      "name": "Free Width",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PostImage",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": null,
+              "height": null
+            },
+            "thumbnails": []
           },
           "type": "Image"
         }

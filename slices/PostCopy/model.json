@@ -1,8 +1,8 @@
 {
-  "id": "post-copy",
+  "id": "post_copy",
   "type": "SharedSlice",
   "name": "PostCopy",
-  "description": "Post Copy",
+  "description": "PostCopy",
   "variations": [
     {
       "id": "default-slice",
@@ -16,7 +16,7 @@
             "label": "Text",
             "placeholder": "Write an awesome story here!",
             "allowTargetBlank": true,
-            "multi": "paragraph,preformatted,heading1,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
+            "multi": "paragraph,preformatted,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
           },
           "type": "StructuredText"
         }
