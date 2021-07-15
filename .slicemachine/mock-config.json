@@ -21,14 +21,6 @@
   },
   "slices": {
     "PostCopy": {},
-    "PostHero": {
-      "default-slice": {
-        "primary": {
-          "image": {
-            "content": "https://images.unsplash.com/photo-1456926631375-92c8ce872def"
-          }
-        }
-      }
-    }
+    "PostImage": {}
   }
 }

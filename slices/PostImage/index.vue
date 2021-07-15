@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full my-6">
+  <figure class="w-full my-6 md:my-12">
     <nuxt-picture
       :alt="slice.primary.image.small.alt"
       :copyright="slice.primary.image.small.copyright"
@@ -20,12 +20,21 @@
       class="hidden md:block"
       loading="lazy"
     />
-  </section>
+
+    <figcaption
+      v-if="slice.primary.image.alt"
+      class="w-full mx-auto text-base max-w-[65ch] px-4 mt-1 sm:text-lg xl:text-xl"
+    >
+      <small class="text-sm text-gray-600">
+        {{ slice.primary.image.alt }}
+      </small>
+    </figcaption>
+  </figure>
 </template>
 
 <script>
   export default {
-    name: 'PostHero',
+    name: 'PostImage',
 
     props: {
       slice: {

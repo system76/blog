@@ -2,7 +2,7 @@
   <prismic-rich-text
     :field="slice.primary.text"
     :html-serializer="htmlSerializer"
-    class="prose sm:prose-sm xl:prose-xl max-w-5xl px-4 mx-auto"
+    class="px-4 mx-auto max-w-[65ch] prose sm:prose-sm xl:prose-xl"
   />
 </template>
 

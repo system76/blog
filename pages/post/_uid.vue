@@ -21,7 +21,7 @@
     </nav>
 
     <article class="pt-4">
-      <header class="w-full mx-auto max-w-5xl px-4 my-6 lg:my-12">
+      <header class="w-full mx-auto text-base max-w-[65ch] px-4 mt-6 mb-10 sm:text-lg lg:mt-8 lg:mb-16 xl:text-xl">
         <div class="-mx-3 my-2 lg:my-3">
           <nuxt-link
             v-for="tag in post.tags"

@@ -2,7 +2,7 @@
   {
     "variation": "default-slice",
     "name": "Default slice",
-    "slice_type": "post_hero",
+    "slice_type": "post_image",
     "items": [],
     "primary": {
       "image": {
