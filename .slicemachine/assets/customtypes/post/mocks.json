@@ -1,20 +1,20 @@
 {
-  "id": "71bfed9a-f593-462c-907f-d7781b07e29d",
-  "uid": "velit-ut-rerum",
+  "id": "4e2a7984-0442-4e56-b6b5-73153fc40ae1",
+  "uid": "quo-itaque-dolor",
   "type": "post",
   "data": {
-    "uid": "eveniet-iste-inventore",
+    "uid": "corporis-omnis-architecto",
     "title": [
       {
         "type": "heading1",
-        "text": "Synergize value-added infrastructures",
+        "text": "Empower e-business ROI",
         "spans": []
       }
     ],
     "description": [
       {
         "type": "paragraph",
-        "text": "Laboris est irure esse duis quis cillum culpa adipisicing culpa ullamco voluptate.",
+        "text": "Excepteur excepteur cupidatat ea cupidatat commodo aliqua ea. Esse labore reprehenderit id quis nostrud cupidatat est et.",
         "spans": []
       }
     ],
@@ -27,72 +27,8 @@
       "copyright": null,
       "url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=1600&h=800&fit=crop"
     },
-    "socialText": "integrate dot-com deliverables",
+    "socialText": "exploit B2C infomediaries",
     "socialLinks": [
-      {
-        "link": {
-          "title": "Introducing Slice Machine",
-          "author_name": "Prismic",
-          "author_url": "https://www.youtube.com/channel/UCJq6AEgtWeZt7ziQ-fLKOeA",
-          "type": "video",
-          "height": 113,
-          "width": 200,
-          "version": "1.0",
-          "provider_name": "YouTube",
-          "provider_url": "https://www.youtube.com/",
-          "thumbnail_height": 360,
-          "thumbnail_width": 480,
-          "thumbnail_url": "https://i.ytimg.com/vi/iewZXv94XGY/hqdefault.jpg",
-          "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/iewZXv94XGY?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-        }
-      },
-      {
-        "link": {
-          "url": "https://twitter.com/prismicio/status/1356293316158095361",
-          "author_name": "Prismic",
-          "author_url": "https://twitter.com/prismicio",
-          "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Gatsby is a popular choice for Prismic users and we work hard on delivering a CMS that plays to its strengths.<br><br>But, what makes <a href=\"https://twitter.com/GatsbyJS?ref_src=twsrc%5Etfw\">@GatsbyJS</a> so popular?<br><br>Here are some of <a href=\"https://twitter.com/mxstbr?ref_src=twsrc%5Etfw\">@mxstbr</a>&#39;s thoughts on Gatsby&#39;s success and how they&#39;re improving developer experience.<a href=\"https://t.co/ZjCPvsWWUD\">https://t.co/ZjCPvsWWUD</a> <a href=\"https://t.co/EQqzJpeNKl\">pic.twitter.com/EQqzJpeNKl</a></p>&mdash; Prismic (@prismicio) <a href=\"https://twitter.com/prismicio/status/1356293316158095361?ref_src=twsrc%5Etfw\">February 1, 2021</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
-          "width": 550,
-          "height": null,
-          "type": "rich",
-          "cache_age": "3153600000",
-          "provider_name": "Twitter",
-          "provider_url": "http://www.twitter.com/",
-          "version": "1.0"
-        }
-      },
-      {
-        "link": {
-          "url": "https://twitter.com/prismicio/status/1356293316158095361",
-          "author_name": "Prismic",
-          "author_url": "https://twitter.com/prismicio",
-          "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Gatsby is a popular choice for Prismic users and we work hard on delivering a CMS that plays to its strengths.<br><br>But, what makes <a href=\"https://twitter.com/GatsbyJS?ref_src=twsrc%5Etfw\">@GatsbyJS</a> so popular?<br><br>Here are some of <a href=\"https://twitter.com/mxstbr?ref_src=twsrc%5Etfw\">@mxstbr</a>&#39;s thoughts on Gatsby&#39;s success and how they&#39;re improving developer experience.<a href=\"https://t.co/ZjCPvsWWUD\">https://t.co/ZjCPvsWWUD</a> <a href=\"https://t.co/EQqzJpeNKl\">pic.twitter.com/EQqzJpeNKl</a></p>&mdash; Prismic (@prismicio) <a href=\"https://twitter.com/prismicio/status/1356293316158095361?ref_src=twsrc%5Etfw\">February 1, 2021</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
-          "width": 550,
-          "height": null,
-          "type": "rich",
-          "cache_age": "3153600000",
-          "provider_name": "Twitter",
-          "provider_url": "http://www.twitter.com/",
-          "version": "1.0"
-        }
-      },
-      {
-        "link": {
-          "title": "Introducing Slice Machine",
-          "author_name": "Prismic",
-          "author_url": "https://www.youtube.com/channel/UCJq6AEgtWeZt7ziQ-fLKOeA",
-          "type": "video",
-          "height": 113,
-          "width": 200,
-          "version": "1.0",
-          "provider_name": "YouTube",
-          "provider_url": "https://www.youtube.com/",
-          "thumbnail_height": 360,
-          "thumbnail_width": 480,
-          "thumbnail_url": "https://i.ytimg.com/vi/iewZXv94XGY/hqdefault.jpg",
-          "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/iewZXv94XGY?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
-        }
-      },
       {
         "link": {
           "title": "Data Modelling — Create your Custom Types and Slices",
@@ -109,10 +45,91 @@
           "thumbnail_url": "https://i.ytimg.com/vi/c-ATzcy6VkI/hqdefault.jpg",
           "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/c-ATzcy6VkI?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
         }
+      },
+      {
+        "link": {
+          "title": "Introducing Slice Machine",
+          "author_name": "Prismic",
+          "author_url": "https://www.youtube.com/channel/UCJq6AEgtWeZt7ziQ-fLKOeA",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/iewZXv94XGY/hqdefault.jpg",
+          "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/iewZXv94XGY?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        }
+      },
+      {
+        "link": {
+          "title": "Prismic January Product Meetup",
+          "author_name": "Prismic",
+          "author_url": "https://www.youtube.com/channel/UCJq6AEgtWeZt7ziQ-fLKOeA",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/fiOwHYFkUz0/hqdefault.jpg",
+          "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/fiOwHYFkUz0?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        }
+      },
+      {
+        "link": {
+          "title": "Introducing Slice Machine",
+          "author_name": "Prismic",
+          "author_url": "https://www.youtube.com/channel/UCJq6AEgtWeZt7ziQ-fLKOeA",
+          "type": "video",
+          "height": 113,
+          "width": 200,
+          "version": "1.0",
+          "provider_name": "YouTube",
+          "provider_url": "https://www.youtube.com/",
+          "thumbnail_height": 360,
+          "thumbnail_width": 480,
+          "thumbnail_url": "https://i.ytimg.com/vi/iewZXv94XGY/hqdefault.jpg",
+          "html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/iewZXv94XGY?feature=oembed\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>"
+        }
+      },
+      {
+        "link": {
+          "url": "https://twitter.com/prismicio/status/1354835716430319617",
+          "author_name": "Prismic",
+          "author_url": "https://twitter.com/prismicio",
+          "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Does anyone want to create a wildly popular website for discussing &#39;Wall Street Bets&#39; using Prismic?<br><br>It may or may not have to look a lot like <a href=\"https://twitter.com/hashtag/reddit?src=hash&amp;ref_src=twsrc%5Etfw\">#reddit</a> and we won&#39;t make it private.<br><br>Just asking for some friends...</p>&mdash; Prismic (@prismicio) <a href=\"https://twitter.com/prismicio/status/1354835716430319617?ref_src=twsrc%5Etfw\">January 28, 2021</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
+          "width": 550,
+          "height": null,
+          "type": "rich",
+          "cache_age": "3153600000",
+          "provider_name": "Twitter",
+          "provider_url": "http://www.twitter.com/",
+          "version": "1.0"
+        }
+      },
+      {
+        "link": {
+          "url": "https://twitter.com/prismicio/status/1354835716430319617",
+          "author_name": "Prismic",
+          "author_url": "https://twitter.com/prismicio",
+          "html": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Does anyone want to create a wildly popular website for discussing &#39;Wall Street Bets&#39; using Prismic?<br><br>It may or may not have to look a lot like <a href=\"https://twitter.com/hashtag/reddit?src=hash&amp;ref_src=twsrc%5Etfw\">#reddit</a> and we won&#39;t make it private.<br><br>Just asking for some friends...</p>&mdash; Prismic (@prismicio) <a href=\"https://twitter.com/prismicio/status/1354835716430319617?ref_src=twsrc%5Etfw\">January 28, 2021</a></blockquote>\n<script async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></script>\n",
+          "width": 550,
+          "height": null,
+          "type": "rich",
+          "cache_age": "3153600000",
+          "provider_name": "Twitter",
+          "provider_url": "http://www.twitter.com/",
+          "version": "1.0"
+        }
       }
     ],
-    "seoTitle": "exploit transparent vortals",
-    "seoDescription": "benchmark transparent synergies",
+    "seoTitle": "recontextualize ubiquitous infrastructures",
+    "seoDescription": "engage intuitive ROI",
     "seoSocial": [
       {
         "image": {
@@ -122,10 +139,10 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1560762484-813fc97650a0?w=1200&h=600&fit=crop"
+          "url": "https://images.unsplash.com/photo-1593642633279-1796119d5482?w=1200&h=600&fit=crop"
         },
-        "title": "leverage cross-media web-readiness",
-        "description": "strategize transparent blockchains"
+        "title": "engineer holistic eyeballs",
+        "description": "drive distributed models"
       },
       {
         "image": {
@@ -135,10 +152,10 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=1200&h=600&fit=crop"
+          "url": "https://images.unsplash.com/photo-1547394765-185e1e68f34e?w=1200&h=600&fit=crop"
         },
-        "title": "revolutionize seamless interfaces",
-        "description": "deliver real-time convergence"
+        "title": "embrace frictionless metrics",
+        "description": "integrate synergistic e-business"
       },
       {
         "image": {
@@ -148,10 +165,10 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1607582278038-6bebbd4d7b72?w=1200&h=600&fit=crop"
+          "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=1200&h=600&fit=crop"
         },
-        "title": "transition vertical technologies",
-        "description": "reintermediate turn-key solutions"
+        "title": "drive e-business action-items",
+        "description": "deploy customized solutions"
       },
       {
         "image": {
@@ -161,10 +178,10 @@
           },
           "alt": "Placeholder image",
           "copyright": null,
-          "url": "https://images.unsplash.com/photo-1601933973783-43cf8a7d4c5f?w=1200&h=600&fit=crop"
+          "url": "https://images.unsplash.com/photo-1587905069134-008460d7a636?w=1200&h=600&fit=crop"
         },
-        "title": "maximize intuitive relationships",
-        "description": "unleash enterprise technologies"
+        "title": "implement revolutionary experiences",
+        "description": "utilize intuitive platforms"
       }
     ]
   }

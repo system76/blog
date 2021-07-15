@@ -1,0 +1,35 @@
+{
+  "id": "post_hero",
+  "type": "SharedSlice",
+  "name": "PostHero",
+  "description": "PostHero",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "PostHero",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 3840,
+              "height": 960
+            },
+            "thumbnails": [
+              {
+                "name": "small",
+                "width": 768,
+                "height": 512
+              }
+            ]
+          },
+          "type": "Image"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

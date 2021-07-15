@@ -48,6 +48,9 @@
           "choices": {
             "post-copy": {
               "type": "SharedSlice"
+            },
+            "post_hero": {
+              "type": "SharedSlice"
             }
           }
         }

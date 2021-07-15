@@ -5,7 +5,7 @@ export default {
 
   components: [
     '~/components',
-    '~/slices'
+    { path: '~/slices', extensions: ['vue'] }
   ],
 
   telemtry: true,
