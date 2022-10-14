@@ -1,0 +1,259 @@
+{
+  "slices": {
+    "components": {
+      "post_copy": {
+        "library": "slices",
+        "id": "post_copy",
+        "name": "PostCopy",
+        "description": "PostCopy",
+        "model": {
+          "id": "post_copy",
+          "type": "SharedSlice",
+          "name": "PostCopy",
+          "description": "PostCopy",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "Copy",
+              "primary": {
+                "text": {
+                  "config": {
+                    "label": "Text",
+                    "placeholder": "Write an awesome story here!",
+                    "allowTargetBlank": true,
+                    "multi": "paragraph,preformatted,heading2,heading3,heading4,heading5,heading6,strong,em,hyperlink,image,embed,list-item,o-list-item"
+                  },
+                  "type": "StructuredText"
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "post_copy",
+            "items": [],
+            "primary": {
+              "text": [
+                {
+                  "type": "heading2",
+                  "text": "IF IT’S FULLY CONFIGURABLE…WHAT CAN I CONFIGURE?",
+                  "spans": []
+                },
+                {
+                  "type": "heading3",
+                  "text": "Your Layout",
+                  "spans": []
+                },
+                {
+                  "type": "paragraph",
+                  "text": "Bring commonly used keys right beneath your fingertips. Remap your layout in the System76 Keyboard Configurator application, and then move your keycaps to match. Launch uses only three key sizes (1U, 1.5U, and 2U) to expand your options!",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostCopy/default-slice/preview.png",
+            "width": 1168,
+            "height": 289
+          }
+        }
+      },
+      "post_image": {
+        "library": "slices",
+        "id": "post_image",
+        "name": "PostImage",
+        "description": "PostImage",
+        "model": {
+          "id": "post_image",
+          "type": "SharedSlice",
+          "name": "PostImage",
+          "description": "PostImage",
+          "variations": [
+            {
+              "id": "full-width",
+              "name": "Full Width",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "PostImage",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 3840,
+                      "height": 1280
+                    },
+                    "thumbnails": [
+                      {
+                        "name": "small",
+                        "width": 768,
+                        "height": 512
+                      }
+                    ]
+                  },
+                  "type": "Image"
+                },
+                "showAlt": {
+                  "config": {
+                    "label": "Show Caption",
+                    "placeholder_false": "hidden",
+                    "placeholder_true": "visible",
+                    "default_value": true
+                  },
+                  "type": "Boolean"
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "article-width",
+              "name": "Article Width",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "PostImage",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": null,
+                      "height": null
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            },
+            {
+              "id": "free-width",
+              "name": "Free Width",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "PostImage",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": null,
+                      "height": null
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "full-width": {
+            "variation": "full-width",
+            "name": "Full Width",
+            "slice_type": "post_image",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 3840,
+                  "height": 960
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=3840&h=960&fit=crop",
+                "small": {
+                  "dimensions": {
+                    "width": 768,
+                    "height": 512
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=768&h=512&fit=crop"
+                }
+              },
+              "showAlt": {
+                "content": true
+              }
+            }
+          },
+          "article-width": {
+            "variation": "article-width",
+            "name": "Article Width",
+            "slice_type": "post_image",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 768,
+                  "height": 512
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=768&h=512&fit=crop"
+              }
+            }
+          },
+          "free-width": {
+            "variation": "free-width",
+            "name": "Free Width",
+            "slice_type": "post_image",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 1000,
+                  "height": 800
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?w=1000&h=800&fit=crop"
+              }
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {
+          "full-width": {
+            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostImage/full-width/preview.png",
+            "width": 1168,
+            "height": 317
+          },
+          "article-width": {
+            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostImage/article-width/preview.png",
+            "width": 1168,
+            "height": 437
+          },
+          "free-width": {
+            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostImage/free-width/preview.png",
+            "width": 1168,
+            "height": 692
+          }
+        }
+      }
+    }
+  }
+}

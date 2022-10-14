@@ -30,8 +30,8 @@
       </div>
 
       <h3 class="text-sm font-bold text-gray-500 uppercase mb-1">
-        <time :datetime="post.first_publication_date">
-          {{ publishedAt(post.first_publication_date) }}
+        <time :datetime="datePublished">
+          {{ publishedAt(datePublished) }}
         </time>
       </h3>
 
@@ -58,7 +58,16 @@
         required: true
       }
     },
-
+    computed: {
+      datePublished () {
+        if ('date' in this.post.data) {
+          if (this.post.data.date) {
+            return this.post.data.date
+          }
+        }
+        return this.post.first_publication_date
+      }
+    },
     methods: {
       normalizeURL,
 

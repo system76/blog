@@ -108,8 +108,17 @@
     },
 
     computed: {
+      datePublished () {
+        if ('date' in this.post.data) {
+          if (this.post.data.date) {
+            return this.post.data.date
+          }
+        }
+        return this.post.first_publication_date
+      },
+
       publishedAt () {
-        return (new Date(this.post.first_publication_date)).toLocaleDateString('en-US', {
+        return (new Date(this.datePublished)).toLocaleDateString('en-US', {
           day: 'numeric',
           month: 'long',
           timeZone: 'MST',
