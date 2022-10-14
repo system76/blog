@@ -20,6 +20,18 @@
 
     methods: {
       htmlSerializer (type, element, content, children) {
+        if (type === 'hyperlink') {
+          if (element.data.type === 'post') {
+            return null
+          }
+          if (!element.data.url.includes('https://href.li/?')) {
+            const target = element.data.target
+              ? `target="${element.data.target}" rel="noopener"`
+              : ''
+            return `<a ${target} href="https://href.li/?${element.data.url}">${children}</a>`
+          }
+        }
+
         if (type === 'embed' && element.oembed.provider_name === 'YouTube') {
           const ratio = (element.oembed.height / element.oembed.width).toFixed(3)
           const [, vid] = element.oembed.embed_url.split('?v=')
