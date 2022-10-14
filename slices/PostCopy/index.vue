@@ -25,10 +25,13 @@
             return null
           }
           if (!element.data.url.includes('https://href.li/?')) {
-            const target = element.data.target
-              ? `target="${element.data.target}" rel="noopener"`
-              : ''
-            return `<a ${target} href="https://href.li/?${element.data.url}">${children}</a>`
+            element.data.url = `https://href.li/?${element.data.url}`
+          }
+        }
+
+        if (type === 'image') {
+          if (element.alt == null) {
+            element.alt = 'Image'
           }
         }
 
