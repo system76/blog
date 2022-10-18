@@ -6,6 +6,9 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch: {}
+  repository_dispatch:
+    types: [deploy_production]
 
 jobs:
   Deploy:
