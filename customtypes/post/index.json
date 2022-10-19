@@ -41,6 +41,13 @@
           "thumbnails": []
         }
       },
+      "date": {
+        "type": "Timestamp",
+        "config": {
+          "label": "Date (if not today)",
+          "placeholder": ""
+        }
+      },
       "slices": {
         "type": "Slices",
         "fieldset": "Slice Zone",
@@ -67,7 +74,6 @@
       "socialLinks": {
         "type": "Group",
         "config": {
-          "type": "Group",
           "fields": {
             "link": {
               "type": "Embed",
@@ -98,7 +104,6 @@
       "seoSocial": {
         "type": "Group",
         "config": {
-          "type": "Group",
           "fields": {
             "image": {
               "type": "Image",
