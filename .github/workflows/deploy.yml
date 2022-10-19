@@ -6,6 +6,9 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch: {}
+  repository_dispatch:
+    types: [deploy_production]
 
 jobs:
   Deploy:
@@ -18,7 +21,7 @@ jobs:
       - name: Setup
         uses: actions/setup-node@v2
         with:
-          node-version: 14
+          node-version: 16
 
       - name: Cache
         uses: actions/cache@v2
