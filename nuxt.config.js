@@ -1,4 +1,4 @@
-const HOST = 'https://blog.origin76.com'
+const HOST = 'https://blog.system76.com'
 
 export default {
   target: 'static',
@@ -84,12 +84,14 @@ export default {
 
   buildModules: [
     '@nuxt/image',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@/modules/sitemap-generator'
   ],
 
   modules: [
     'nuxt-sm',
-    '@nuxtjs/prismic'
+    '@nuxtjs/prismic',
+    '@nuxtjs/sitemap'
   ],
 
   loading: {
@@ -126,6 +128,10 @@ export default {
     endpoint: 'https://blog-system76.cdn.prismic.io/api/v2',
     linkResolver: '~/plugins/link-resolver',
     modern: true
+  },
+
+  sitemap: {
+    hostname: 'https://blog.system76.com'
   },
 
   storybook: {
