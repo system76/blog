@@ -62,12 +62,17 @@
       SliceZone
     },
 
-    async asyncData ({ $prismic, error, params }) {
+    async asyncData ({ $prismic, error, redirect, params, from }) {
       const post = await $prismic.api.getByUID('post', params.uid)
 
       if (post) {
         return { post }
       } else {
+        if (from) {
+          if ('id' in from.params) {
+            return redirect(`https://www.tumblr.com/system76/${from.params.id}/${from.params.uid}`)
+          }
+        }
         error({ statusCode: 404, message: 'Blog post not found' })
       }
     },
