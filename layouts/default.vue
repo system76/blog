@@ -7,6 +7,12 @@
         </a>
       </template>
 
+      <template #copy>
+        <a href="https://system76.com/specials">
+          Build Your Beast and save through Nov. 1!
+        </a>
+      </template>
+
       <template #local>
         <span :class="$style.hidden" />
       </template>
