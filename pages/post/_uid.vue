@@ -35,7 +35,7 @@
 
         <time
           class="text-sm font-bold text-gray-600 uppercase lg:text-md"
-          :datetime="post.first_publication_date"
+          :datetime="datePublished"
         >
           {{ publishedAt }}
         </time>
