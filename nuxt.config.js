@@ -97,6 +97,10 @@ export default {
     failedColor: '#dc4405'
   },
 
+  generate: {
+    fallback: '404.html'
+  },
+
   image: {
     domains: ['https://images.prismic.io'],
     provider: 'static',
