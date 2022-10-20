@@ -24,8 +24,8 @@
           if (element.data.type === 'post') {
             return null
           }
-          if (!element.data.url.includes('https://href.li/?')) {
-            element.data.url = `https://href.li/?${element.data.url}`
+          if (element.data.url.includes('https://href.li/?')) {
+            element.data.url = element.data.url.split('https://href.li/?')[1]
           }
         }
 
