@@ -60,7 +60,7 @@ export default {
         async: true,
         defer: true,
         'data-domain': 'blog.system76.com',
-        src: 'https://plausible.io/js/plausible.js'
+        src: 'https://plausible.io/js/plausible.outbound-links.js'
       },
       {
         innerHTML: 'window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }'
