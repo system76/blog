@@ -3,8 +3,7 @@ import Prismic from 'prismic-javascript'
 import { apiEndpoint } from './sm.json'
 const prismicApiUrl = apiEndpoint
 
-const HOST = process.env === 'production' ? 'https://blog.system76.com' : 'http://localhost:3000'
-
+const HOST = process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://blog.system76.com'
 export default {
   target: 'static',
 
