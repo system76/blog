@@ -1,4 +1,9 @@
-const HOST = 'https://blog.system76.com'
+import Prismic from 'prismic-javascript'
+
+import { apiEndpoint } from './sm.json'
+const prismicApiUrl = apiEndpoint
+
+const HOST = process.env === 'production' ? 'https://blog.system76.com' : 'http://localhost:3000'
 
 export default {
   target: 'static',
@@ -84,14 +89,14 @@ export default {
 
   buildModules: [
     '@nuxt/image',
-    '@nuxtjs/tailwindcss',
-    '@/modules/sitemap-generator'
+    '@nuxtjs/tailwindcss'
   ],
 
   modules: [
     'nuxt-sm',
     '@nuxtjs/prismic',
-    '@nuxtjs/sitemap'
+    '@nuxtjs/sitemap',
+    '@nuxtjs/feed'
   ],
 
   loading: {
@@ -125,7 +130,7 @@ export default {
 
   prismic: {
     disableGenerator: true,
-    endpoint: 'https://blog-system76.cdn.prismic.io/api/v2',
+    endpoint: prismicApiUrl,
     linkResolver: '~/plugins/link-resolver',
     modern: true
   },
@@ -133,6 +138,41 @@ export default {
   sitemap: {
     hostname: 'https://blog.system76.com'
   },
+
+  feed: [{
+    path: '/rss.xml',
+    type: 'rss2',
+    async create (feed) {
+      feed.options = {
+        title: 'System76 Blog RSS Feed',
+        link: `${HOST}/rss.xml`,
+        description: 'System76 Blog RSS Feed',
+        generator: 'Nuxt.js'
+      }
+      try {
+        const api = await Prismic.getApi(prismicApiUrl)
+        const { results: posts } = await api.query(
+          Prismic.Predicates.at('document.type', 'post'),
+          { orderings: '[my.post.date desc]' }
+        )
+        posts.forEach((post) => {
+          feed.addItem({
+            title: post.data.seoTitle,
+            id: post.id,
+            link: `${HOST}/post/${post.uid}`,
+            description: post.data.seoDescription,
+            category: post.tags.join(', '),
+            published: new Date(post.last_publication_date),
+            content: post.data.seoDescription + ` <a href="${HOST}/post/${post.uid}</a>"`
+          })
+        })
+      } catch (error) {
+        console.log('error', error) // eslint-disable-line no-console
+        process.exit(1)
+      }
+    }
+
+  }],
 
   storybook: {
     stories: ['~/slices/**/*.stories.js', '~/.slicemachine/assets/slices/**/*.stories.js']
