@@ -53,13 +53,13 @@ const updateRssFile = () => {
   fs.readdirSync(process.cwd()).forEach((file) => {
     console.log(file) // eslint-disable-line no-console
   })
-  const rssFeedPath = './dist/rss.xml'
-  const rssFeed = fs.readFileSync(rssFeedPath, 'utf8')
-  const rssFeedReplaced = rssFeed.replace(
-    '?>',
-    '?>\r\n<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>'
-  )
-  fs.writeFileSync(rssFeedPath, rssFeedReplaced)
+  // const rssFeedPath = './dist/rss.xml'
+  // const rssFeed = fs.readFileSync(rssFeedPath, 'utf8')
+  // const rssFeedReplaced = rssFeed.replace(
+  //   '?>',
+  //   '?>\r\n<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>'
+  // )
+  // fs.writeFileSync(rssFeedPath, rssFeedReplaced)
 }
 
 module.exports = {
