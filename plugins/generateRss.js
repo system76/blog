@@ -1,4 +1,5 @@
 import fs from 'fs'
+import path from 'path'
 import Prismic from 'prismic-javascript'
 
 import { apiEndpoint } from '../sm.json'
@@ -49,13 +50,15 @@ const createFeed = async (feed, HOST) => {
 }
 
 const updateRssFile = () => {
-  const rssFeedPath = 'dist/rss.xml'
-  const rssFeed = fs.readFileSync(rssFeedPath, 'utf8')
-  const rssFeedReplaced = rssFeed.replace(
-    '?>',
-    '?>\r\n<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>'
-  )
-  fs.writeFileSync(rssFeedPath, rssFeedReplaced)
+  const rssFeedPath = path.resolve(__dirname, 'rss.xml')
+  if (fs.fileExistsSync(rssFeedPath)) {
+    const rssFeed = fs.readFileSync(rssFeedPath, 'utf8')
+    const rssFeedReplaced = rssFeed.replace(
+      '?>',
+      '?>\r\n<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>'
+    )
+    fs.writeFileSync(rssFeedPath, rssFeedReplaced)
+  }
 }
 
 module.exports = {
