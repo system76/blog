@@ -50,8 +50,7 @@ const createFeed = async (feed, HOST) => {
 }
 
 const updateRssFile = () => {
-  const rssFeedPath = path.resolve(__dirname, 'rss.xml')
-  // const rssFeedPath = path.join(__dirname, '..', 'dist', 'rss.xml')
+  const rssFeedPath = path.resolve(__dirname, '..', 'dist', 'rss.xml')
   if (fs.existsSync(rssFeedPath)) {
     const rssFeed = fs.readFileSync(rssFeedPath, 'utf8')
     const rssFeedReplaced = rssFeed.replace(
