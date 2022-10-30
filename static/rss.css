@@ -1,0 +1,41 @@
+body {
+  font-family: var(--font-family-sans);
+  font-size: 12pt;
+  background-color: var(--color-white);
+}
+
+html {
+  line-height: var(--line-height);
+}
+
+h1,
+h2 {
+  font-family: var(--font-family-slab);
+}
+
+:root {
+  --color-warm-gray: #574f4a;
+  --color-black: #000;
+  --color-green: #73c48f;
+  --color-light-gray: #f6f6f6;
+  --color-orange: #faa41a;
+  --color-white: #fff;
+  --color-yellow: #ffce51;
+  --color-dark-gray: #404040;
+  --color-medium-gray: #a6a6a6;
+  --color-red: #f15d22;
+  --color-blue: #48b9c7;
+  --color-purple: #330a24;
+
+  --font-family-sans: Fira Sans, system-ui, -apple-system, Segoe UI, Roboto,
+    Ubuntu, Cantarell, Noto Sans, sans-serif, Segoe UI, Roboto, Ubuntu,
+    Cantarell, Noto Sans, sans-serif, Segoe UI, Roboto, Ubuntu, Cantarell,
+    Nato Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol,
+    Noto Color Emoji;
+  --font-family-slab: Roboto Slab, serif;
+  --font-family-mono: Ubuntu Mono, Ubuntu Monospace, Menlo, Consolas,
+    Roboto Mono, Noto Mono, Oxygen Mono, Liberation Mono, monospace;
+  --line-height: 1.5;
+  --box-shadow-light-action: 0 0 8px rgba(250, 164, 26, 0.7),
+    0 0 1px rgba(250, 164, 26, 0.7);
+}
