@@ -49,7 +49,7 @@ const createFeed = async (feed, HOST) => {
 }
 
 const updateRssFile = () => {
-  const rssFeedPath = '../dist/rss.xml'
+  const rssFeedPath = './dist/rss.xml'
   const rssFeed = fs.readFileSync(rssFeedPath, 'utf8')
   const rssFeedReplaced = rssFeed.replace(
     '?>',
