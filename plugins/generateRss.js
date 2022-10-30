@@ -1,5 +1,4 @@
 import fs from 'fs'
-import path from 'path'
 import Prismic from 'prismic-javascript'
 
 import { apiEndpoint } from '../sm.json'
@@ -50,7 +49,7 @@ const createFeed = async (feed, HOST) => {
 }
 
 const updateRssFile = () => {
-  const rssFeedPath = path.join(__dirname, '..', 'dist', 'rss.xml')
+  const rssFeedPath = '../dist/rss.xml'
   const rssFeed = fs.readFileSync(rssFeedPath, 'utf8')
   const rssFeedReplaced = rssFeed.replace(
     '?>',
