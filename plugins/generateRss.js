@@ -51,14 +51,12 @@ const createFeed = async (feed, HOST) => {
 
 const updateRssFile = () => {
   const rssFeedPath = path.resolve(__dirname, '..', 'dist', 'rss.xml')
-  if (fs.existsSync(rssFeedPath)) {
-    const rssFeed = fs.readFileSync(rssFeedPath, 'utf8')
-    const rssFeedReplaced = rssFeed.replace(
-      '?>',
-      '?>\r\n<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>'
-    )
-    fs.writeFileSync(rssFeedPath, rssFeedReplaced)
-  }
+  const rssFeed = fs.readFileSync(rssFeedPath, 'utf8')
+  const rssFeedReplaced = rssFeed.replace(
+    '?>',
+    '?>\r\n<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>'
+  )
+  fs.writeFileSync(rssFeedPath, rssFeedReplaced)
 }
 
 module.exports = {
