@@ -49,6 +49,10 @@ const createFeed = async (feed, HOST) => {
 }
 
 const updateRssFile = () => {
+  console.log('cwd', process.cwd()) // eslint-disable-line no-console
+  fs.readdirSync(process.cwd()).forEach((file) => {
+    console.log(file) // eslint-disable-line no-console
+  })
   const rssFeedPath = './dist/rss.xml'
   const rssFeed = fs.readFileSync(rssFeedPath, 'utf8')
   const rssFeedReplaced = rssFeed.replace(
