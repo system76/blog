@@ -43,7 +43,7 @@ const createFeed = async (feed, HOST) => {
         },
         date: new Date(post.last_publication_date),
         content:
-          post.data.seoDescription + ` <a href="${HOST}/post/${post.uid}</a>"`
+          post.data.seoDescription + ` <a href="${HOST}/post/${post.uid}">${HOST}/post/${post.uid}</a>`
       })
     })
   } catch (error) {
