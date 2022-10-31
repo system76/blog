@@ -1,17 +1,19 @@
 import fs from 'fs'
 import path from 'path'
-import Prismic from 'prismic-javascript'
+import * as prismic from '@prismicio/client'
 
 import { apiEndpoint } from '../sm.json'
 
 const createFeed = async (feed, HOST) => {
   try {
-    const api = await Prismic.getApi(apiEndpoint)
-    const data = await api.query(
-      Prismic.Predicates.at('document.type', 'post'),
-      { orderings: '[my.post.date desc]' }
-    )
-    const posts = data.results
+    const client = prismic.client(apiEndpoint)
+    const { results: posts } = await client.query([
+      prismic.predicates.at('document.type', 'post')
+    ], {
+      orderings: '[my.post.date desc]',
+      pageSize: 10
+    })
+
     feed.options = {
       title: 'System76 Blog RSS Feed',
       link: `${HOST}/rss.xml`,
@@ -23,6 +25,7 @@ const createFeed = async (feed, HOST) => {
       copyright: `All rights reserved ${new Date().getFullYear()}, System76`,
       updated: new Date(posts[0].last_publication_date)
     }
+
     posts.forEach((post) => {
       feed.addItem({
         title: post.data.seoTitle,
