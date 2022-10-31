@@ -26,7 +26,7 @@
             <p style="margin-left:8px">
               <xsl:value-of select="description"/>
               <br/>
-              <a href="{link}" target="_blank">
+              <a href="{link}" target="_blank" style="color:var(--color-orange)">
                 <xsl:value-of select="link"/>
               </a>
             </p>
