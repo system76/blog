@@ -4,9 +4,17 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Sat, 29 Oct 2022 00:29:08 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 31 Oct 2022 15:19:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Nuxt.js</generator>
+        <item>
+            <title><![CDATA[SpoOoOoOky Update: Murmurin’s of a Pop!_OS October]]></title>
+            <link>https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october</link>
+            <guid>Y1_hxBIAACoAZGNJ</guid>
+            <pubDate>Mon, 31 Oct 2022 15:17:30 GMT</pubDate>
+            <description><![CDATA[‘Twas a dark n stormy night. The developers were clackin’ at their keyboards, sweat oozing from their brow. Yaargh.]]></description>
+            <content:encoded><![CDATA[‘Twas a dark n stormy night. The developers were clackin’ at their keyboards, sweat oozing from their brow. Yaargh. <a href="https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october</a>"]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Celebrating 5 Years of Pop!_OS]]></title>
             <link>https://blog.system76.com/post/celebrating-5-years-of-pop_os</link>
