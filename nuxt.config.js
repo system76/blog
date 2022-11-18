@@ -1,9 +1,9 @@
-import Prismic from 'prismic-javascript'
+import { createFeed, updateRssFile } from './plugins/generateRss.js' // eslint-disable-line import/named
 
 import { apiEndpoint } from './sm.json'
 const prismicApiUrl = apiEndpoint
-
 const HOST = process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://blog.system76.com'
+
 export default {
   target: 'static',
 
@@ -135,47 +135,27 @@ export default {
   },
 
   sitemap: {
-    hostname: 'https://blog.system76.com'
+    hostname: HOST
   },
 
-  feed: [{
-    path: '/rss.xml',
-    type: 'rss2',
-    async create (feed) {
-      feed.options = {
-        title: 'System76 Blog RSS Feed',
-        link: `${HOST}/rss.xml`,
-        description: 'System76 Blog RSS Feed',
-        generator: 'Nuxt.js'
-      }
-      try {
-        const api = await Prismic.getApi(prismicApiUrl)
-        const { results: posts } = await api.query(
-          Prismic.Predicates.at('document.type', 'post'),
-          { orderings: '[my.post.date desc]' }
-        )
-        posts.forEach((post) => {
-          feed.addItem({
-            title: post.data.seoTitle,
-            id: post.id,
-            link: `${HOST}/post/${post.uid}`,
-            description: post.data.seoDescription,
-            category: post.tags.join(', '),
-            published: new Date(post.last_publication_date),
-            content: post.data.seoDescription + ` <a href="${HOST}/post/${post.uid}</a>"`
-          })
-        })
-      } catch (error) {
-        console.log('error', error) // eslint-disable-line no-console
-        process.exit(1)
-      }
+  feed: [
+    {
+      path: '/rss.xml',
+      type: 'rss2',
+      create: async feed => await createFeed(feed, HOST)
     }
-
-  }],
+  ],
 
   storybook: {
     stories: ['~/slices/**/*.stories.js', '~/.slicemachine/assets/slices/**/*.stories.js']
   },
 
-  ignore: ['**/*.stories.js']
+  ignore: ['**/*.stories.js'],
+
+  hooks: {
+    // happens after the static site is generated
+    close: async () => {
+      await updateRssFile() // manually add xsl stylesheet to rss.xml
+    }
+  }
 }
