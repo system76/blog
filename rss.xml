@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 02 Nov 2022 14:25:31 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 31 Oct 2022 15:17:30 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-        <generator>Nuxt.js</generator>
+        <generator>@nuxtjs/feed</generator>
+        <language>en</language>
+        <image>
+            <title>System76 Blog RSS Feed</title>
+            <url>https://blog.system76.com/images/hero.jpg</url>
+            <link>https://blog.system76.com/rss.xml</link>
+        </image>
+        <copyright>All rights reserved 2022, System76</copyright>
         <item>
             <title><![CDATA[SpoOoOoOky Update: Murmurin’s of a Pop!_OS October]]></title>
             <link>https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october</link>
             <guid>Y1_hxBIAACoAZGNJ</guid>
             <pubDate>Mon, 31 Oct 2022 15:17:30 GMT</pubDate>
             <description><![CDATA[‘Twas a dark n stormy night. The developers were clackin’ at their keyboards, sweat oozing from their brow. Yaargh.]]></description>
-            <content:encoded><![CDATA[‘Twas a dark n stormy night. The developers were clackin’ at their keyboards, sweat oozing from their brow. Yaargh. <a href="https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october</a>"]]></content:encoded>
+            <content:encoded><![CDATA[‘Twas a dark n stormy night. The developers were clackin’ at their keyboards, sweat oozing from their brow. Yaargh. <a href="https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october">https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/41392b86-d6ff-466b-8bcc-7dcab86d07a8_October+Updates+Blog+image.png"/>
         </item>
         <item>
             <title><![CDATA[Celebrating 5 Years of Pop!_OS]]></title>
@@ -21,7 +30,8 @@
             <guid>Y1BC9BIAACwAH4ew</guid>
             <pubDate>Fri, 21 Oct 2022 21:35:53 GMT</pubDate>
             <description><![CDATA[Five years. Can you believe it? To celebrate, we’re looking back at where Pop!_OS started, how it’s grown, and where it’s going next. Thanks for joining us on this journey!]]></description>
-            <content:encoded><![CDATA[Five years. Can you believe it? To celebrate, we’re looking back at where Pop!_OS started, how it’s grown, and where it’s going next. Thanks for joining us on this journey! <a href="https://blog.system76.com/post/celebrating-5-years-of-pop_os</a>"]]></content:encoded>
+            <content:encoded><![CDATA[Five years. Can you believe it? To celebrate, we’re looking back at where Pop!_OS started, how it’s grown, and where it’s going next. Thanks for joining us on this journey! <a href="https://blog.system76.com/post/celebrating-5-years-of-pop_os">https://blog.system76.com/post/celebrating-5-years-of-pop_os</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/7463d555-c761-41ad-a9d4-c2f824161ce8_1.jpg"/>
         </item>
         <item>
             <title><![CDATA[Pop!_OS 22.04 LTS has landed!]]></title>
@@ -29,7 +39,8 @@
             <guid>Y0X2kBIAACgA8hA5</guid>
             <pubDate>Wed, 19 Oct 2022 21:14:29 GMT</pubDate>
             <description><![CDATA[Now that those bunny eggs have been painted and the afikomen has been found, it’s time to upgrade Pop!_OS! Here’s what’s new in Pop!_OS 22.04 LTS:]]></description>
-            <content:encoded><![CDATA[Now that those bunny eggs have been painted and the afikomen has been found, it’s time to upgrade Pop!_OS! Here’s what’s new in Pop!_OS 22.04 LTS: <a href="https://blog.system76.com/post/popos-2204-lts-has-landed</a>"]]></content:encoded>
+            <content:encoded><![CDATA[Now that those bunny eggs have been painted and the afikomen has been found, it’s time to upgrade Pop!_OS! Here’s what’s new in Pop!_OS 22.04 LTS: <a href="https://blog.system76.com/post/popos-2204-lts-has-landed">https://blog.system76.com/post/popos-2204-lts-has-landed</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/7e0c2cb6-21ca-44c6-8c56-6c2b7afec9d9_c23b895717aa71e4610c98ba4a31d2c2f732855a.png"/>
         </item>
         <item>
             <title><![CDATA[Pop!_OS 21.10 has landed!]]></title>
@@ -37,7 +48,8 @@
             <guid>Y0YC8RIAACwA8kc2</guid>
             <pubDate>Wed, 19 Oct 2022 21:14:18 GMT</pubDate>
             <description><![CDATA[Now that the first snowflake has descended gracefully upon our Denver headquarters, it’s time to upgrade to the newest version of Pop!_OS. Here’s what’s new in Pop!_OS 21.10:]]></description>
-            <content:encoded><![CDATA[Now that the first snowflake has descended gracefully upon our Denver headquarters, it’s time to upgrade to the newest version of Pop!_OS. Here’s what’s new in Pop!_OS 21.10: <a href="https://blog.system76.com/post/popos-2110-has-landed</a>"]]></content:encoded>
+            <content:encoded><![CDATA[Now that the first snowflake has descended gracefully upon our Denver headquarters, it’s time to upgrade to the newest version of Pop!_OS. Here’s what’s new in Pop!_OS 21.10: <a href="https://blog.system76.com/post/popos-2110-has-landed">https://blog.system76.com/post/popos-2110-has-landed</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/2300d0d5-018b-4e84-875f-10596ffec47f_34303cca97371922e1c2ea482142473e2861e103.png"/>
         </item>
         <item>
             <title><![CDATA[Open Up: Contributions and Collaborations]]></title>
@@ -45,7 +57,8 @@
             <guid>Y0YrjhIAAC4A8vsS</guid>
             <pubDate>Wed, 19 Oct 2022 22:17:56 GMT</pubDate>
             <description><![CDATA[Hello fellow space travelers! It’s been a while since we catalogued all of our goings on here on Starship Pop!_OS, so we thought it might be a good time to highlight what our upstream contributions have looked like over the last couple of years. We’ve been logging some major light years! Have a look.]]></description>
-            <content:encoded><![CDATA[Hello fellow space travelers! It’s been a while since we catalogued all of our goings on here on Starship Pop!_OS, so we thought it might be a good time to highlight what our upstream contributions have looked like over the last couple of years. We’ve been logging some major light years! Have a look. <a href="https://blog.system76.com/post/open-up-contributions-and-collaborations</a>"]]></content:encoded>
+            <content:encoded><![CDATA[Hello fellow space travelers! It’s been a while since we catalogued all of our goings on here on Starship Pop!_OS, so we thought it might be a good time to highlight what our upstream contributions have looked like over the last couple of years. We’ve been logging some major light years! Have a look. <a href="https://blog.system76.com/post/open-up-contributions-and-collaborations">https://blog.system76.com/post/open-up-contributions-and-collaborations</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/01aca281-2ef4-47be-b368-c080573648d3_4e4dbaba47127de2fade1aff2fc37c64168dd055.png"/>
         </item>
         <item>
             <title><![CDATA[Robert Bunn is developing an AI to prevent preterm births]]></title>
@@ -53,7 +66,8 @@
             <guid>Y0h8bBIAACoA_SW7</guid>
             <pubDate>Wed, 19 Oct 2022 22:00:26 GMT</pubDate>
             <description><![CDATA[As part of System76’s Unleash Your Potential Program, AI researcher Robert Bunn has been using the Oryx Pro to develop artificial intelligence to predict and prevent preterm births.]]></description>
-            <content:encoded><![CDATA[As part of System76’s Unleash Your Potential Program, AI researcher Robert Bunn has been using the Oryx Pro to develop artificial intelligence to predict and prevent preterm births. <a href="https://blog.system76.com/post/robert-bunn-is-developing-an-ai-to-prevent-preterm</a>"]]></content:encoded>
+            <content:encoded><![CDATA[As part of System76’s Unleash Your Potential Program, AI researcher Robert Bunn has been using the Oryx Pro to develop artificial intelligence to predict and prevent preterm births. <a href="https://blog.system76.com/post/robert-bunn-is-developing-an-ai-to-prevent-preterm">https://blog.system76.com/post/robert-bunn-is-developing-an-ai-to-prevent-preterm</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/d0082df4-27be-4288-86e6-94f645af2744_tumblr_57be8ae932e55e928c8a16ad5602b784_c8717c54_500.png"/>
         </item>
         <item>
             <title><![CDATA[Marquita Wiggins is Developing her Open Source Graphic Design Program: Designy]]></title>
@@ -61,7 +75,8 @@
             <guid>Y0iBKhIAACsA_Tr7</guid>
             <pubDate>Wed, 19 Oct 2022 21:13:04 GMT</pubDate>
             <description><![CDATA[The Unleash Your Potential Program provides a System76 computer to six winners for accelerating the completion of their next project. This week, we interviewed Marquita Wiggins.]]></description>
-            <content:encoded><![CDATA[The Unleash Your Potential Program provides a System76 computer to six winners for accelerating the completion of their next project. This week, we interviewed Marquita Wiggins. <a href="https://blog.system76.com/post/marquita-wiggins-is-developing-her-open-source</a>"]]></content:encoded>
+            <content:encoded><![CDATA[The Unleash Your Potential Program provides a System76 computer to six winners for accelerating the completion of their next project. This week, we interviewed Marquita Wiggins. <a href="https://blog.system76.com/post/marquita-wiggins-is-developing-her-open-source">https://blog.system76.com/post/marquita-wiggins-is-developing-her-open-source</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/5f6de99a-1745-4ecd-97b9-ac1f92128d30_tumblr_3c9ee42a6659806f0b0686f15bf0e475_4cb5e8e5_500.png"/>
         </item>
         <item>
             <title><![CDATA[Massimo Pascale and his Lemur Pro Explore Dark Matter Substructure with the Sunburst Arc]]></title>
@@ -69,7 +84,8 @@
             <guid>Y0iI1xIAACsA_V2V</guid>
             <pubDate>Wed, 19 Oct 2022 21:13:19 GMT</pubDate>
             <description><![CDATA[Unleash Your Potential Program winner Massimo Pascale is a graduate student studying astrophysics at the University of California, Berkeley. Using his Lemur Pro, he’s studying early galaxies and more]]></description>
-            <content:encoded><![CDATA[Unleash Your Potential Program winner Massimo Pascale is a graduate student studying astrophysics at the University of California, Berkeley. Using his Lemur Pro, he’s studying early galaxies and more <a href="https://blog.system76.com/post/massimo-pascale-and-his-lemur-pro-explore-dark</a>"]]></content:encoded>
+            <content:encoded><![CDATA[Unleash Your Potential Program winner Massimo Pascale is a graduate student studying astrophysics at the University of California, Berkeley. Using his Lemur Pro, he’s studying early galaxies and more <a href="https://blog.system76.com/post/massimo-pascale-and-his-lemur-pro-explore-dark">https://blog.system76.com/post/massimo-pascale-and-his-lemur-pro-explore-dark</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/8135b048-b495-4c60-9bf2-a5959842fa62_tumblr_29f13bfa05f4c46978b83eca22a19ad7_3e08ed64_500.png"/>
         </item>
         <item>
             <title><![CDATA[Behind the Scenes: Production Team]]></title>
@@ -77,7 +93,8 @@
             <guid>Y0iPOBIAAC8A_Xos</guid>
             <pubDate>Wed, 19 Oct 2022 21:14:53 GMT</pubDate>
             <description><![CDATA[The Production Team is responsible for making our physical products a reality. In this week’s Spotlight, we talk with our Production Manager and 4th-generation machinist Chris Fielder. Have a look!]]></description>
-            <content:encoded><![CDATA[The Production Team is responsible for making our physical products a reality. In this week’s Spotlight, we talk with our Production Manager and 4th-generation machinist Chris Fielder. Have a look! <a href="https://blog.system76.com/post/behind-the-scenes-production-team</a>"]]></content:encoded>
+            <content:encoded><![CDATA[The Production Team is responsible for making our physical products a reality. In this week’s Spotlight, we talk with our Production Manager and 4th-generation machinist Chris Fielder. Have a look! <a href="https://blog.system76.com/post/behind-the-scenes-production-team">https://blog.system76.com/post/behind-the-scenes-production-team</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/57144fd1-c438-40da-81b7-3da0bcb2c696_tumblr_7221d83b8a94856a67a13880b360650b_16fbae50_500.jpg"/>
         </item>
         <item>
             <title><![CDATA[UYPP: Cameron Nagle’s Starting Small Podcast]]></title>
@@ -85,47 +102,8 @@
             <guid>Y0iYaxIAACwA_aN2</guid>
             <pubDate>Wed, 19 Oct 2022 21:15:34 GMT</pubDate>
             <description><![CDATA[The System76 Unleash Your Potential Program selected six winners this year to receive a System76 computer to help them pursue their next project. This week we spoke with UYPP winner Cameron Nagle]]></description>
-            <content:encoded><![CDATA[The System76 Unleash Your Potential Program selected six winners this year to receive a System76 computer to help them pursue their next project. This week we spoke with UYPP winner Cameron Nagle <a href="https://blog.system76.com/post/uypp-cameron-nagles-starting-small-podcast</a>"]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Pop!_OS 21.04: A Release of COSMIC Proportions]]></title>
-            <link>https://blog.system76.com/post/popos-2104-a-release-of-cosmic-proportions</link>
-            <guid>YPCQHRIAAC8A8Xi3</guid>
-            <pubDate>Wed, 19 Oct 2022 21:16:04 GMT</pubDate>
-            <description><![CDATA[Pop!_OS is developed to help you unleash your potential by providing you efficient tools that streamline your workflow. Pop!_OS 21.04 continues this ethos with COSMIC, a set of catered customizations geared towards accommodating a variety of use cases.]]></description>
-            <content:encoded><![CDATA[Pop!_OS is developed to help you unleash your potential by providing you efficient tools that streamline your workflow. Pop!_OS 21.04 continues this ethos with COSMIC, a set of catered customizations geared towards accommodating a variety of use cases. <a href="https://blog.system76.com/post/popos-2104-a-release-of-cosmic-proportions</a>"]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[UYPP: Ben Ruel’s Garage Garden]]></title>
-            <link>https://blog.system76.com/post/uypp-ben-ruels-garage-garden</link>
-            <guid>Y0iL8RIAAC8A_Wt0</guid>
-            <pubDate>Wed, 19 Oct 2022 21:15:43 GMT</pubDate>
-            <description><![CDATA[Back in March, we announced the winners for our Unleash Your Potential Program, in which six participants got to configure their own System76 computer to use for their awesome projects.]]></description>
-            <content:encoded><![CDATA[Back in March, we announced the winners for our Unleash Your Potential Program, in which six participants got to configure their own System76 computer to use for their awesome projects. <a href="https://blog.system76.com/post/uypp-ben-ruels-garage-garden</a>"]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Behind the Scenes of System76: Industrial Design]]></title>
-            <link>https://blog.system76.com/post/behind-the-scenes-of-system76-industrial-design</link>
-            <guid>YNU1FhIAACwA4ZA-</guid>
-            <pubDate>Fri, 21 Oct 2022 03:52:03 GMT</pubDate>
-            <description><![CDATA[Helming the design process is Mechanical Engineer John Grano, who wears a number of different hats here. We sat down with John this week to discuss industrial design and the team behind our beautiful open source hardware.]]></description>
-            <content:encoded><![CDATA[Helming the design process is Mechanical Engineer John Grano, who wears a number of different hats here. We sat down with John this week to discuss industrial design and the team behind our beautiful open source hardware. <a href="https://blog.system76.com/post/behind-the-scenes-of-system76-industrial-design</a>"]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Behind the Scenes of System76: Sales Team]]></title>
-            <link>https://blog.system76.com/post/behind-the-scenes-of-system76-sales-team</link>
-            <guid>Y0iTvRIAACgA_Y6X</guid>
-            <pubDate>Thu, 20 Oct 2022 20:04:16 GMT</pubDate>
-            <description><![CDATA[The System76 Behind the Scenes series aims to give readers an inside look at the people behind our mission. This week, we spoke with VP of Sales Sam Mondlick.]]></description>
-            <content:encoded><![CDATA[The System76 Behind the Scenes series aims to give readers an inside look at the people behind our mission. This week, we spoke with VP of Sales Sam Mondlick. <a href="https://blog.system76.com/post/behind-the-scenes-of-system76-sales-team</a>"]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Behind the Scenes of System76: Customer Happiness Team]]></title>
-            <link>https://blog.system76.com/post/behind-the-scenes-of-system76-customer-happiness</link>
-            <guid>Y0iU_hIAAC0A_ZQ4</guid>
-            <pubDate>Wed, 19 Oct 2022 21:19:49 GMT</pubDate>
-            <description><![CDATA[In this installment of our Behind the Scenes series, we spoke with head happiness guru Emma Marshall, an enthusiastic Linux, pink, and T-Swift enthusiast who helms the Support Team.]]></description>
-            <content:encoded><![CDATA[In this installment of our Behind the Scenes series, we spoke with head happiness guru Emma Marshall, an enthusiastic Linux, pink, and T-Swift enthusiast who helms the Support Team. <a href="https://blog.system76.com/post/behind-the-scenes-of-system76-customer-happiness</a>"]]></content:encoded>
+            <content:encoded><![CDATA[The System76 Unleash Your Potential Program selected six winners this year to receive a System76 computer to help them pursue their next project. This week we spoke with UYPP winner Cameron Nagle <a href="https://blog.system76.com/post/uypp-cameron-nagles-starting-small-podcast">https://blog.system76.com/post/uypp-cameron-nagles-starting-small-podcast</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/a436f5a0-7db7-44f5-aa8b-cd9b0342827a_tumblr_52ea36b0e5e1595d78b793ff91004a0e_230fec5c_500.png"/>
         </item>
     </channel>
 </rss>
