@@ -13,11 +13,11 @@
       </div>
       <xsl:for-each select="item">
         <a href="{link}" target="_blank" style="color:var(--color-warm-gray);text-decoration:none;margin:1em,0,1em,0">
-          <div style="background-color:#DDDDDD">
-            <h2 style="margin-bottom:0px;margin-left:8px;">
+          <div>
+            <h2 style="margin-bottom:0px;margin-left:8px;font-weight:400;">
               <xsl:value-of select="title"/>
             </h2>
-            <span style="font-style:italic;color:var(--color-warm-gray);margin-left:12px">
+            <span style="font-weight:700;color:var(--color-warm-gray);margin-left:12px;text-transform:uppercase;">
               <xsl:value-of select="pubDate"/>
             </span>
           </div>
