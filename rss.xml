@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 30 Nov 2022 22:49:40 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Nov 2022 23:21:57 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[November at System76: Products, Promos, & COSMIC DE]]></title>
             <link>https://blog.system76.com/post/november-at-system76-products-promos--cosmic-de</link>
             <guid>Y4fJQhIAACkApvru</guid>
-            <pubDate>Wed, 30 Nov 2022 22:49:40 GMT</pubDate>
+            <pubDate>Wed, 30 Nov 2022 23:21:57 GMT</pubDate>
             <description><![CDATA[After last week’s feast and many, many leftovers, we’re serving up a summary of all the juicy morsels we’ve encountered this month here at System76. Bon appétit!]]></description>
             <content:encoded><![CDATA[After last week’s feast and many, many leftovers, we’re serving up a summary of all the juicy morsels we’ve encountered this month here at System76. Bon appétit! <a href="https://blog.system76.com/post/november-at-system76-products-promos--cosmic-de">https://blog.system76.com/post/november-at-system76-products-promos--cosmic-de</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/61c8b497-7ad9-42df-ba4e-0c95abbf169e_blog+-Newsletter+-+november.png"/>
