@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Mon, 31 Oct 2022 15:17:30 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Nov 2022 21:41:12 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2022, System76</copyright>
+        <item>
+            <title><![CDATA[November at System76: Products, Promos, & COSMIC DE]]></title>
+            <link>https://blog.system76.com/post/november-at-system76-products-promos--cosmic-de</link>
+            <guid>Y4fJQhIAACkApvru</guid>
+            <pubDate>Wed, 30 Nov 2022 21:41:12 GMT</pubDate>
+            <description><![CDATA[After last week’s feast and many, many leftovers, we’re serving up a summary of all the juicy morsels we’ve encountered this month here at System76. Bon appétit!]]></description>
+            <content:encoded><![CDATA[After last week’s feast and many, many leftovers, we’re serving up a summary of all the juicy morsels we’ve encountered this month here at System76. Bon appétit! <a href="https://blog.system76.com/post/november-at-system76-products-promos--cosmic-de">https://blog.system76.com/post/november-at-system76-products-promos--cosmic-de</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/61c8b497-7ad9-42df-ba4e-0c95abbf169e_blog+-Newsletter+-+november.png"/>
+        </item>
         <item>
             <title><![CDATA[SpoOoOoOky Update: Murmurin’s of a Pop!_OS October]]></title>
             <link>https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[The Production Team is responsible for making our physical products a reality. In this week’s Spotlight, we talk with our Production Manager and 4th-generation machinist Chris Fielder. Have a look!]]></description>
             <content:encoded><![CDATA[The Production Team is responsible for making our physical products a reality. In this week’s Spotlight, we talk with our Production Manager and 4th-generation machinist Chris Fielder. Have a look! <a href="https://blog.system76.com/post/behind-the-scenes-production-team">https://blog.system76.com/post/behind-the-scenes-production-team</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/57144fd1-c438-40da-81b7-3da0bcb2c696_tumblr_7221d83b8a94856a67a13880b360650b_16fbae50_500.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[UYPP: Cameron Nagle’s Starting Small Podcast]]></title>
-            <link>https://blog.system76.com/post/uypp-cameron-nagles-starting-small-podcast</link>
-            <guid>Y0iYaxIAACwA_aN2</guid>
-            <pubDate>Wed, 19 Oct 2022 21:15:34 GMT</pubDate>
-            <description><![CDATA[The System76 Unleash Your Potential Program selected six winners this year to receive a System76 computer to help them pursue their next project. This week we spoke with UYPP winner Cameron Nagle]]></description>
-            <content:encoded><![CDATA[The System76 Unleash Your Potential Program selected six winners this year to receive a System76 computer to help them pursue their next project. This week we spoke with UYPP winner Cameron Nagle <a href="https://blog.system76.com/post/uypp-cameron-nagles-starting-small-podcast">https://blog.system76.com/post/uypp-cameron-nagles-starting-small-podcast</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/a436f5a0-7db7-44f5-aa8b-cd9b0342827a_tumblr_52ea36b0e5e1595d78b793ff91004a0e_230fec5c_500.png"/>
         </item>
     </channel>
 </rss>
