@@ -65,6 +65,10 @@
 </script>
 
 <style scoped>
+  >>> .twitter-tweet {
+    margin: 0 auto;
+  }
+
   >>> .videoWrapper {
     position: relative;
     padding-bottom: calc(var(--aspect-ratio, .5625) * 100%);
