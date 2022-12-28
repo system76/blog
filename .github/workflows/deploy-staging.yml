@@ -42,7 +42,7 @@ jobs:
           NODE_ENV: staging
 
       - name: Checkout Staging Repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           repository: system76/blog-staging
           path: 'deploy'
@@ -53,10 +53,8 @@ jobs:
           cp -r dist/* deploy
           cd deploy
           touch .nojekyll
-
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          cname: blog.genesis76.com
-          github_token: ${{ secrets.RELEASE_TOKEN }}
-          publish_dir: ./deploy
+          echo blog.genesis76.com > CNAME
+          echo blog.genesis76.com > READMI.md
+          git add .
+          git commit -m $GITHUB_SHA
+          git push
