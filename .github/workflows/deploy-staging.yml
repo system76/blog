@@ -1,0 +1,62 @@
+---
+
+name: Deploy
+
+on:
+  push:
+    branches:
+      - staging
+  workflow_dispatch: {}
+  repository_dispatch:
+    types: [deploy_staging]
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Cache
+        uses: actions/cache@v3
+        id: npm-cache
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        run: npx nuxt generate
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NODE_ENV: staging
+
+      - name: Checkout Staging Repository
+        uses: actions/checkout@v2
+        with:
+          repository: system76/blog-staging
+          path: 'deploy'
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push files to target
+        run: |
+          cp -r dist/* deploy
+          cd deploy
+          touch .nojekyll
+
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          cname: blog.genesis76.com
+          github_token: ${{ secrets.RELEASE_TOKEN }}
+          publish_dir: ./deploy
