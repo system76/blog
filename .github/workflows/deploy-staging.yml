@@ -38,15 +38,15 @@ jobs:
       - name: Build
         run: npx nuxt generate
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NODE_ENV: staging
 
       - name: Checkout Staging Repository
         uses: actions/checkout@v3
         with:
           repository: system76/blog-staging
+          ref: main
           path: 'deploy'
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RELEASE_TOKEN }}
 
       - name: Push files to target
         run: |
