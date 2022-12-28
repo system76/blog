@@ -2,7 +2,11 @@ import { createFeed, updateRssFile } from './plugins/generateRss.js' // eslint-d
 
 import { apiEndpoint } from './sm.json'
 const prismicApiUrl = apiEndpoint
-const HOST = process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://blog.system76.com'
+const HOST = process.env.NODE_ENV === 'development'
+  ? 'http://localhost:3000'
+  : process.env.NODE_ENV === 'staging'
+    ? 'https://blog.genesis76.com'
+    : 'https://blog.system76.com'
 
 export default {
   target: 'static',
