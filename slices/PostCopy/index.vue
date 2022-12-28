@@ -33,6 +33,11 @@
           if (element.alt == null) {
             element.alt = 'Image'
           }
+
+          // do not auto compress gifs
+          if (element.url) {
+            element.url = element.url.replace('.gif?auto=compress,format', '.gif')
+          }
         }
 
         if (type === 'embed' && element.oembed.provider_name === 'YouTube') {
