@@ -6,9 +6,6 @@ on:
   push:
     branches:
       - staging
-  workflow_dispatch: {}
-  repository_dispatch:
-    types: [deploy_staging]
 
 jobs:
   Deploy_Staging:
