@@ -11,7 +11,7 @@ on:
     types: [deploy_staging]
 
 jobs:
-  Deploy Staging:
+  Deploy_Staging:
     runs-on: ubuntu-latest
 
     steps:
