@@ -1,6 +1,6 @@
 ---
 
-name: Deploy
+name: Deploy Staging
 
 on:
   push:
@@ -60,7 +60,7 @@ jobs:
           cd deploy
           touch .nojekyll
           echo blog.genesis76.com > CNAME
-          echo blog.genesis76.com > READMI.md
+          echo blog.genesis76.com > README.md
           git add .
           git commit -m $GITHUB_SHA
           git push
