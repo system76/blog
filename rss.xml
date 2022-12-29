@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 28 Dec 2022 23:11:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Dec 2022 16:50:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[2022 at System76: A Year in Review]]></title>
             <link>https://blog.system76.com/post/2022-at-system76-a-year-in-review</link>
             <guid>Y6SsoRIAAC8ApphP</guid>
-            <pubDate>Wed, 28 Dec 2022 23:11:31 GMT</pubDate>
+            <pubDate>Thu, 29 Dec 2022 16:50:01 GMT</pubDate>
             <description><![CDATA[It’s that time of year again…to end it! In preparation for the New Year, we’re taking a look back at the milestones we reached in 2022.]]></description>
             <content:encoded><![CDATA[It’s that time of year again…to end it! In preparation for the New Year, we’re taking a look back at the milestones we reached in 2022. <a href="https://blog.system76.com/post/2022-at-system76-a-year-in-review">https://blog.system76.com/post/2022-at-system76-a-year-in-review</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/3ea41489-20e5-4875-9e3f-c9001f754fab_blog-hero-decemberupdates.jpg"/>
