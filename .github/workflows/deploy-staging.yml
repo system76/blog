@@ -47,20 +47,17 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: system76/blog-staging
-          ref: main
+          ref: gh-pages
           path: 'deploy'
           token: ${{ secrets.RELEASE_TOKEN }}
 
-      - name: Push files to target
+      - name: Push build to blog-staging repo
         run: |
           cp -r dist/* deploy
           cd deploy
           touch .nojekyll
-          echo blog.genesis76.com > CNAME
-          echo -e "# System76 Staging Blog\n" > README.md
-          echo -e "[blog.genesis76.com](https://blog.genesis76.com)\n" >> README.md
-          echo -e "since gh only allows one gh-pages per repo, we deploy the staging branch from [system76/blog](https://github.com/system76/blog/tree/staging) here.\n" >> README.md
-          echo -e "User-agent: *\nDisallow: /\n" > robots.txt
+          echo "blog.genesis76.com" > CNAME
+          echo -e "User-agent: *\nDisallow: /" > robots.txt
           git add .
-          git commit -m $GITHUB_SHA
+          git commit -m 'deploy: $(echo ${GITHUB_SHA} | cut -c1-8)'
           git push
