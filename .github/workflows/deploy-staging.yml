@@ -1,0 +1,63 @@
+---
+
+name: Deploy Staging
+
+on:
+  push:
+    branches:
+      - staging
+
+jobs:
+  Deploy_Staging:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Cache
+        uses: actions/cache@v3
+        id: npm-cache
+        with:
+          path: '**/node_modules'
+          key: ${{ runner.os }}-npm-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-npm-
+
+      - name: Install
+        run: npm ci
+
+      - name: Build
+        run: npx nuxt generate
+        env:
+          NODE_ENV: staging
+
+      # https://github.com/actions/checkout#push-a-commit-using-the-built-in-token
+      - name: Set GitHub Actions as Commit Author
+        run: |
+          git config --global user.name github-actions
+          git config --global user.email github-actions@github.com
+
+      - name: Checkout Staging Repository
+        uses: actions/checkout@v3
+        with:
+          repository: system76/blog-staging
+          ref: gh-pages
+          path: 'deploy'
+          token: ${{ secrets.RELEASE_TOKEN }}
+
+      - name: Push build to blog-staging repo
+        run: |
+          cp -r dist/* deploy
+          cd deploy
+          touch .nojekyll
+          echo "blog.genesis76.com" > CNAME
+          echo -e "User-agent: *\nDisallow: /" > robots.txt
+          git add .
+          git commit -m 'deploy: ${GITHUB_SHA::8}'
+          git push
