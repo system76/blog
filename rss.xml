@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 30 Nov 2022 23:21:57 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 28 Dec 2022 23:11:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2022, System76</copyright>
+        <item>
+            <title><![CDATA[2022 at System76: A Year in Review]]></title>
+            <link>https://blog.system76.com/post/2022-at-system76-a-year-in-review</link>
+            <guid>Y6SsoRIAAC8ApphP</guid>
+            <pubDate>Wed, 28 Dec 2022 23:11:31 GMT</pubDate>
+            <description><![CDATA[It’s that time of year again…to end it! In preparation for the New Year, we’re taking a look back at the milestones we reached in 2022.]]></description>
+            <content:encoded><![CDATA[It’s that time of year again…to end it! In preparation for the New Year, we’re taking a look back at the milestones we reached in 2022. <a href="https://blog.system76.com/post/2022-at-system76-a-year-in-review">https://blog.system76.com/post/2022-at-system76-a-year-in-review</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/3ea41489-20e5-4875-9e3f-c9001f754fab_blog-hero-decemberupdates.jpg"/>
+        </item>
         <item>
             <title><![CDATA[November at System76: Products, Promos, & COSMIC DE]]></title>
             <link>https://blog.system76.com/post/november-at-system76-products-promos--cosmic-de</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Unleash Your Potential Program winner Massimo Pascale is a graduate student studying astrophysics at the University of California, Berkeley. Using his Lemur Pro, he’s studying early galaxies and more]]></description>
             <content:encoded><![CDATA[Unleash Your Potential Program winner Massimo Pascale is a graduate student studying astrophysics at the University of California, Berkeley. Using his Lemur Pro, he’s studying early galaxies and more <a href="https://blog.system76.com/post/massimo-pascale-and-his-lemur-pro-explore-dark">https://blog.system76.com/post/massimo-pascale-and-his-lemur-pro-explore-dark</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/8135b048-b495-4c60-9bf2-a5959842fa62_tumblr_29f13bfa05f4c46978b83eca22a19ad7_3e08ed64_500.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Behind the Scenes: Production Team]]></title>
-            <link>https://blog.system76.com/post/behind-the-scenes-production-team</link>
-            <guid>Y0iPOBIAAC8A_Xos</guid>
-            <pubDate>Wed, 19 Oct 2022 21:14:53 GMT</pubDate>
-            <description><![CDATA[The Production Team is responsible for making our physical products a reality. In this week’s Spotlight, we talk with our Production Manager and 4th-generation machinist Chris Fielder. Have a look!]]></description>
-            <content:encoded><![CDATA[The Production Team is responsible for making our physical products a reality. In this week’s Spotlight, we talk with our Production Manager and 4th-generation machinist Chris Fielder. Have a look! <a href="https://blog.system76.com/post/behind-the-scenes-production-team">https://blog.system76.com/post/behind-the-scenes-production-team</a>]]></content:encoded>
-            <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/57144fd1-c438-40da-81b7-3da0bcb2c696_tumblr_7221d83b8a94856a67a13880b360650b_16fbae50_500.jpg"/>
         </item>
     </channel>
 </rss>
