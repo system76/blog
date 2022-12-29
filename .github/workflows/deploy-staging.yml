@@ -57,10 +57,9 @@ jobs:
           cd deploy
           touch .nojekyll
           echo blog.genesis76.com > CNAME
-          echo "# System76 Staging Blog\n" > README.md
-          echo "[blog.genesis76.com](blog.genesis76.com)\n" >> README.md
-          echo "since gh only allows one gh-pages per repo, we deploy the staging branch from [system76/blog]{(https://github.com/system76/blog/tree/staging) here.\n" >> README.md
-          echo "blog.genesis76.com" >> README.md
+          echo -e "# System76 Staging Blog\n" > README.md
+          echo -e "[blog.genesis76.com](blog.genesis76.com)\n" >> README.md
+          echo -e "since gh only allows one gh-pages per repo, we deploy the staging branch from [system76/blog]{(https://github.com/system76/blog/tree/staging) here.\n" >> README.md
           git add .
           git commit -m $GITHUB_SHA
           git push
