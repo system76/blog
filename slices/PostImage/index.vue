@@ -95,7 +95,7 @@
       showAlt () {
         switch (this.slice.variation) {
         case 'full-width':
-          return (this.slice.primary.showAlt && this.slie.primary.image.alt)
+          return (this.slice.primary.showAlt && this.slice.primary.image.alt)
 
         default:
           return this.slice.primary.image.alt
