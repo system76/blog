@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 31 Jan 2023 13:57:23 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Jan 2023 18:04:38 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[More On COSMIC DE To Kick Off 2023!]]></title>
             <link>https://blog.system76.com/post/more-on-cosmic-de-to-kick-off-2023</link>
             <guid>Y9LwRhEAACwA98ZN</guid>
-            <pubDate>Tue, 31 Jan 2023 13:57:23 GMT</pubDate>
+            <pubDate>Tue, 31 Jan 2023 18:04:38 GMT</pubDate>
             <description><![CDATA[Alex shares more progress on the work-in-progress COSMIC DE for Pop!_OS. This one’s got new mockups for you to poke around in!]]></description>
             <content:encoded><![CDATA[Alex shares more progress on the work-in-progress COSMIC DE for Pop!_OS. This one’s got new mockups for you to poke around in! <a href="https://blog.system76.com/post/more-on-cosmic-de-to-kick-off-2023">https://blog.system76.com/post/more-on-cosmic-de-to-kick-off-2023</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/45e47bac-096b-4f89-9ac5-ee9550d7b2e1_COSMIC-header.png"/>
