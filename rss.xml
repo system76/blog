@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 29 Dec 2022 16:50:01 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 31 Jan 2023 13:57:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[More On COSMIC DE To Kick Off 2023!]]></title>
+            <link>https://blog.system76.com/post/more-on-cosmic-de-to-kick-off-2023</link>
+            <guid>Y9LwRhEAACwA98ZN</guid>
+            <pubDate>Tue, 31 Jan 2023 13:57:23 GMT</pubDate>
+            <description><![CDATA[Alex shares more progress on the work-in-progress COSMIC DE for Pop!_OS. This one’s got new mockups for you to poke around in!]]></description>
+            <content:encoded><![CDATA[Alex shares more progress on the work-in-progress COSMIC DE for Pop!_OS. This one’s got new mockups for you to poke around in! <a href="https://blog.system76.com/post/more-on-cosmic-de-to-kick-off-2023">https://blog.system76.com/post/more-on-cosmic-de-to-kick-off-2023</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/45e47bac-096b-4f89-9ac5-ee9550d7b2e1_COSMIC-header.png"/>
+        </item>
         <item>
             <title><![CDATA[2022 at System76: A Year in Review]]></title>
             <link>https://blog.system76.com/post/2022-at-system76-a-year-in-review</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[The Unleash Your Potential Program provides a System76 computer to six winners for accelerating the completion of their next project. This week, we interviewed Marquita Wiggins.]]></description>
             <content:encoded><![CDATA[The Unleash Your Potential Program provides a System76 computer to six winners for accelerating the completion of their next project. This week, we interviewed Marquita Wiggins. <a href="https://blog.system76.com/post/marquita-wiggins-is-developing-her-open-source">https://blog.system76.com/post/marquita-wiggins-is-developing-her-open-source</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/5f6de99a-1745-4ecd-97b9-ac1f92128d30_tumblr_3c9ee42a6659806f0b0686f15bf0e475_4cb5e8e5_500.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Massimo Pascale and his Lemur Pro Explore Dark Matter Substructure with the Sunburst Arc]]></title>
-            <link>https://blog.system76.com/post/massimo-pascale-and-his-lemur-pro-explore-dark</link>
-            <guid>Y0iI1xIAACsA_V2V</guid>
-            <pubDate>Wed, 19 Oct 2022 21:13:19 GMT</pubDate>
-            <description><![CDATA[Unleash Your Potential Program winner Massimo Pascale is a graduate student studying astrophysics at the University of California, Berkeley. Using his Lemur Pro, he’s studying early galaxies and more]]></description>
-            <content:encoded><![CDATA[Unleash Your Potential Program winner Massimo Pascale is a graduate student studying astrophysics at the University of California, Berkeley. Using his Lemur Pro, he’s studying early galaxies and more <a href="https://blog.system76.com/post/massimo-pascale-and-his-lemur-pro-explore-dark">https://blog.system76.com/post/massimo-pascale-and-his-lemur-pro-explore-dark</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/8135b048-b495-4c60-9bf2-a5959842fa62_tumblr_29f13bfa05f4c46978b83eca22a19ad7_3e08ed64_500.png"/>
         </item>
     </channel>
 </rss>
