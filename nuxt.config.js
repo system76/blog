@@ -60,7 +60,8 @@ export default {
     ],
 
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'alternate', type: 'application/rss+xml', title: 'RSS Feed for the System76 Blog', href: '/rss.xml' }
     ],
 
     script: [
