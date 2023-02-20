@@ -27,7 +27,7 @@
     "@nuxtjs/storybook": "^4.0.4",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "@prismicio/vue": "^2.2.0",
-    "@system76/components": "^1.2.1",
+    "@system76/components": "^1.5.0",
     "@system76/design": "^5.4.1",
     "@system76/eslint-config": "^3.1.0",
     "@tailwindcss/aspect-ratio": "^0.2.1",
