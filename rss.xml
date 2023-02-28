@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 31 Jan 2023 18:04:38 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Feb 2023 14:00:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[COSMIC DE: February Discussions]]></title>
+            <link>https://blog.system76.com/post/cosmic-de-february-discussions</link>
+            <guid>Y_zgNRIAACwAnPWI</guid>
+            <pubDate>Tue, 28 Feb 2023 14:00:03 GMT</pubDate>
+            <description><![CDATA[Initial designs for COSMIC DE's text editor are here! COSMIC DE is System76's Rust-based desktop environment currently in development for Pop!_OS.]]></description>
+            <content:encoded><![CDATA[Initial designs for COSMIC DE's text editor are here! COSMIC DE is System76's Rust-based desktop environment currently in development for Pop!_OS. <a href="https://blog.system76.com/post/cosmic-de-february-discussions">https://blog.system76.com/post/cosmic-de-february-discussions</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/2c69ec43-f911-40a0-9c00-1834f56d2461_feb.png"/>
+        </item>
         <item>
             <title><![CDATA[More On COSMIC DE To Kick Off 2023!]]></title>
             <link>https://blog.system76.com/post/more-on-cosmic-de-to-kick-off-2023</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[As part of System76’s Unleash Your Potential Program, AI researcher Robert Bunn has been using the Oryx Pro to develop artificial intelligence to predict and prevent preterm births.]]></description>
             <content:encoded><![CDATA[As part of System76’s Unleash Your Potential Program, AI researcher Robert Bunn has been using the Oryx Pro to develop artificial intelligence to predict and prevent preterm births. <a href="https://blog.system76.com/post/robert-bunn-is-developing-an-ai-to-prevent-preterm">https://blog.system76.com/post/robert-bunn-is-developing-an-ai-to-prevent-preterm</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/d0082df4-27be-4288-86e6-94f645af2744_tumblr_57be8ae932e55e928c8a16ad5602b784_c8717c54_500.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Marquita Wiggins is Developing her Open Source Graphic Design Program: Designy]]></title>
-            <link>https://blog.system76.com/post/marquita-wiggins-is-developing-her-open-source</link>
-            <guid>Y0iBKhIAACsA_Tr7</guid>
-            <pubDate>Wed, 19 Oct 2022 21:13:04 GMT</pubDate>
-            <description><![CDATA[The Unleash Your Potential Program provides a System76 computer to six winners for accelerating the completion of their next project. This week, we interviewed Marquita Wiggins.]]></description>
-            <content:encoded><![CDATA[The Unleash Your Potential Program provides a System76 computer to six winners for accelerating the completion of their next project. This week, we interviewed Marquita Wiggins. <a href="https://blog.system76.com/post/marquita-wiggins-is-developing-her-open-source">https://blog.system76.com/post/marquita-wiggins-is-developing-her-open-source</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/5f6de99a-1745-4ecd-97b9-ac1f92128d30_tumblr_3c9ee42a6659806f0b0686f15bf0e475_4cb5e8e5_500.png"/>
         </item>
     </channel>
 </rss>
