@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 28 Feb 2023 14:00:03 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 23 Mar 2023 13:00:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[The Quality Assurance Process with Levi]]></title>
+            <link>https://blog.system76.com/post/the-quality-assurance-process-with-levi</link>
+            <guid>ZBnJFxYAAC8AXm0i</guid>
+            <pubDate>Thu, 23 Mar 2023 13:00:01 GMT</pubDate>
+            <description><![CDATA[Curious about our quality assurance process? Levi, our QA Lead, takes you through a general overview of how QA approaches a new product, from testing firmware to acoustics and everything in between.]]></description>
+            <content:encoded><![CDATA[Curious about our quality assurance process? Levi, our QA Lead, takes you through a general overview of how QA approaches a new product, from testing firmware to acoustics and everything in between. <a href="https://blog.system76.com/post/the-quality-assurance-process-with-levi">https://blog.system76.com/post/the-quality-assurance-process-with-levi</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/5196ef1b-acd4-495d-9bc9-5100ef3efd43_QA-w-Levi-blog-header-01.png"/>
+        </item>
         <item>
             <title><![CDATA[COSMIC DE: February Discussions]]></title>
             <link>https://blog.system76.com/post/cosmic-de-february-discussions</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Hello fellow space travelers! It’s been a while since we catalogued all of our goings on here on Starship Pop!_OS, so we thought it might be a good time to highlight what our upstream contributions have looked like over the last couple of years. We’ve been logging some major light years! Have a look.]]></description>
             <content:encoded><![CDATA[Hello fellow space travelers! It’s been a while since we catalogued all of our goings on here on Starship Pop!_OS, so we thought it might be a good time to highlight what our upstream contributions have looked like over the last couple of years. We’ve been logging some major light years! Have a look. <a href="https://blog.system76.com/post/open-up-contributions-and-collaborations">https://blog.system76.com/post/open-up-contributions-and-collaborations</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/01aca281-2ef4-47be-b368-c080573648d3_4e4dbaba47127de2fade1aff2fc37c64168dd055.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Robert Bunn is developing an AI to prevent preterm births]]></title>
-            <link>https://blog.system76.com/post/robert-bunn-is-developing-an-ai-to-prevent-preterm</link>
-            <guid>Y0h8bBIAACoA_SW7</guid>
-            <pubDate>Wed, 19 Oct 2022 22:00:26 GMT</pubDate>
-            <description><![CDATA[As part of System76’s Unleash Your Potential Program, AI researcher Robert Bunn has been using the Oryx Pro to develop artificial intelligence to predict and prevent preterm births.]]></description>
-            <content:encoded><![CDATA[As part of System76’s Unleash Your Potential Program, AI researcher Robert Bunn has been using the Oryx Pro to develop artificial intelligence to predict and prevent preterm births. <a href="https://blog.system76.com/post/robert-bunn-is-developing-an-ai-to-prevent-preterm">https://blog.system76.com/post/robert-bunn-is-developing-an-ai-to-prevent-preterm</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/d0082df4-27be-4288-86e6-94f645af2744_tumblr_57be8ae932e55e928c8a16ad5602b784_c8717c54_500.png"/>
         </item>
     </channel>
 </rss>
