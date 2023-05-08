@@ -29,6 +29,7 @@
       url-laptops="https://system76.com/laptops"
       url-desktops="https://system76.com/desktops"
       url-mini="https://system76.com/desktops/meerkat"
+      url-keyboards="https://system76.com/accessories/launch"
       url-servers="https://system76.com/servers"
       url-pop-os="https://pop.system76.com"
       url-contact="https://system76.com/contact"
