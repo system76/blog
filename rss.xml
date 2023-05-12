@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 11 May 2023 17:23:09 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 May 2023 14:43:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[May Flowers Spring COSMIC Showers]]></title>
             <link>https://blog.system76.com/post/may-flowers-spring-cosmic-showers</link>
             <guid>ZFrdOhEAAC8ArO7f</guid>
-            <pubDate>Thu, 11 May 2023 17:23:09 GMT</pubDate>
+            <pubDate>Fri, 12 May 2023 14:43:26 GMT</pubDate>
             <description><![CDATA[Hello, hello! We are back again with some more Pop!_OS COSMIC updates from the team at System76. But first, there’s been an exciting update to Pop!_OS 22.04 LTS!]]></description>
             <content:encoded><![CDATA[Hello, hello! We are back again with some more Pop!_OS COSMIC updates from the team at System76. But first, there’s been an exciting update to Pop!_OS 22.04 LTS! <a href="https://blog.system76.com/post/may-flowers-spring-cosmic-showers">https://blog.system76.com/post/may-flowers-spring-cosmic-showers</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/bdc0e41f-2cb8-4080-ba97-401022a33475_COSMIC+May+Updates.png"/>
