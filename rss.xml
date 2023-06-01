@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 12 May 2023 14:43:26 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 01 Jun 2023 04:01:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[The Galago Pro’s Latest Upgrades Make it the Highest Performing Ultraportable System76 Laptop]]></title>
+            <link>https://blog.system76.com/post/the-galago-pros-latest-upgrades-june-2023</link>
+            <guid>ZHeEkREAACoAOwna</guid>
+            <pubDate>Thu, 01 Jun 2023 04:01:36 GMT</pubDate>
+            <description><![CDATA[Now with 13th Gen Intel, H Class CPU, and a Faster 144Hz screen]]></description>
+            <content:encoded><![CDATA[Now with 13th Gen Intel, H Class CPU, and a Faster 144Hz screen <a href="https://blog.system76.com/post/the-galago-pros-latest-upgrades-june-2023">https://blog.system76.com/post/the-galago-pros-latest-upgrades-june-2023</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/54d7c4d2-f333-4565-b718-22f4454bf1fd_galp7-pr-header.png"/>
+        </item>
         <item>
             <title><![CDATA[May Flowers Spring COSMIC Showers]]></title>
             <link>https://blog.system76.com/post/may-flowers-spring-cosmic-showers</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Five years. Can you believe it? To celebrate, we’re looking back at where Pop!_OS started, how it’s grown, and where it’s going next. Thanks for joining us on this journey!]]></description>
             <content:encoded><![CDATA[Five years. Can you believe it? To celebrate, we’re looking back at where Pop!_OS started, how it’s grown, and where it’s going next. Thanks for joining us on this journey! <a href="https://blog.system76.com/post/celebrating-5-years-of-pop_os">https://blog.system76.com/post/celebrating-5-years-of-pop_os</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/7463d555-c761-41ad-a9d4-c2f824161ce8_1.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Pop!_OS 22.04 LTS has landed!]]></title>
-            <link>https://blog.system76.com/post/popos-2204-lts-has-landed</link>
-            <guid>Y0X2kBIAACgA8hA5</guid>
-            <pubDate>Wed, 19 Oct 2022 21:14:29 GMT</pubDate>
-            <description><![CDATA[Now that those bunny eggs have been painted and the afikomen has been found, it’s time to upgrade Pop!_OS! Here’s what’s new in Pop!_OS 22.04 LTS:]]></description>
-            <content:encoded><![CDATA[Now that those bunny eggs have been painted and the afikomen has been found, it’s time to upgrade Pop!_OS! Here’s what’s new in Pop!_OS 22.04 LTS: <a href="https://blog.system76.com/post/popos-2204-lts-has-landed">https://blog.system76.com/post/popos-2204-lts-has-landed</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/7e0c2cb6-21ca-44c6-8c56-6c2b7afec9d9_c23b895717aa71e4610c98ba4a31d2c2f732855a.png"/>
         </item>
     </channel>
 </rss>
