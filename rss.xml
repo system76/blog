@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 01 Jun 2023 04:01:36 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Jun 2023 12:57:01 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[Major Updates for System76 Open Firmware!]]></title>
+            <link>https://blog.system76.com/post/major-updates-for-system76-open-firmware-june-2023</link>
+            <guid>ZHajGhIAACsA3auO</guid>
+            <pubDate>Fri, 02 Jun 2023 12:57:01 GMT</pubDate>
+            <description><![CDATA[Read about the latest performance boosts, disabling Intel ME, Windows 11 support, and more!]]></description>
+            <content:encoded><![CDATA[Read about the latest performance boosts, disabling Intel ME, Windows 11 support, and more! <a href="https://blog.system76.com/post/major-updates-for-system76-open-firmware-june-2023">https://blog.system76.com/post/major-updates-for-system76-open-firmware-june-2023</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/c307b1d4-413b-4910-9f6f-aa7b2a247f83_firmware-header.png"/>
+        </item>
         <item>
             <title><![CDATA[The Galago Pro’s Latest Upgrades Make it the Highest Performing Ultraportable System76 Laptop]]></title>
             <link>https://blog.system76.com/post/the-galago-pros-latest-upgrades-june-2023</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[‘Twas a dark n stormy night. The developers were clackin’ at their keyboards, sweat oozing from their brow. Yaargh.]]></description>
             <content:encoded><![CDATA[‘Twas a dark n stormy night. The developers were clackin’ at their keyboards, sweat oozing from their brow. Yaargh. <a href="https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october">https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/41392b86-d6ff-466b-8bcc-7dcab86d07a8_October+Updates+Blog+image.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Celebrating 5 Years of Pop!_OS]]></title>
-            <link>https://blog.system76.com/post/celebrating-5-years-of-pop_os</link>
-            <guid>Y1BC9BIAACwAH4ew</guid>
-            <pubDate>Fri, 21 Oct 2022 21:35:53 GMT</pubDate>
-            <description><![CDATA[Five years. Can you believe it? To celebrate, we’re looking back at where Pop!_OS started, how it’s grown, and where it’s going next. Thanks for joining us on this journey!]]></description>
-            <content:encoded><![CDATA[Five years. Can you believe it? To celebrate, we’re looking back at where Pop!_OS started, how it’s grown, and where it’s going next. Thanks for joining us on this journey! <a href="https://blog.system76.com/post/celebrating-5-years-of-pop_os">https://blog.system76.com/post/celebrating-5-years-of-pop_os</a>]]></content:encoded>
-            <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/7463d555-c761-41ad-a9d4-c2f824161ce8_1.jpg"/>
         </item>
     </channel>
 </rss>
