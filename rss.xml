@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 02 Jun 2023 12:57:01 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jun 2023 21:01:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[COSMIC DE: Tiling redesign and libcosmic rebasing]]></title>
+            <link>https://blog.system76.com/post/cosmic-de-tiling-redesign-and-libcosmic-rebasing</link>
+            <guid>ZIsyXBIAACkAq5DT</guid>
+            <pubDate>Thu, 15 Jun 2023 21:01:02 GMT</pubDate>
+            <description><![CDATA[Initial tiling designs + rebasing the widget library = a group of happy System76 engineers.]]></description>
+            <content:encoded><![CDATA[Initial tiling designs + rebasing the widget library = a group of happy System76 engineers. <a href="https://blog.system76.com/post/cosmic-de-tiling-redesign-and-libcosmic-rebasing">https://blog.system76.com/post/cosmic-de-tiling-redesign-and-libcosmic-rebasing</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/e48e099c-8727-4035-8f17-3fd25603187f_Cosmic+Header-+June+Update.png"/>
+        </item>
         <item>
             <title><![CDATA[Major Updates for System76 Open Firmware!]]></title>
             <link>https://blog.system76.com/post/major-updates-for-system76-open-firmware-june-2023</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[After last week’s feast and many, many leftovers, we’re serving up a summary of all the juicy morsels we’ve encountered this month here at System76. Bon appétit!]]></description>
             <content:encoded><![CDATA[After last week’s feast and many, many leftovers, we’re serving up a summary of all the juicy morsels we’ve encountered this month here at System76. Bon appétit! <a href="https://blog.system76.com/post/november-at-system76-products-promos--cosmic-de">https://blog.system76.com/post/november-at-system76-products-promos--cosmic-de</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/61c8b497-7ad9-42df-ba4e-0c95abbf169e_blog+-Newsletter+-+november.png"/>
-        </item>
-        <item>
-            <title><![CDATA[SpoOoOoOky Update: Murmurin’s of a Pop!_OS October]]></title>
-            <link>https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october</link>
-            <guid>Y1_hxBIAACoAZGNJ</guid>
-            <pubDate>Mon, 31 Oct 2022 15:17:30 GMT</pubDate>
-            <description><![CDATA[‘Twas a dark n stormy night. The developers were clackin’ at their keyboards, sweat oozing from their brow. Yaargh.]]></description>
-            <content:encoded><![CDATA[‘Twas a dark n stormy night. The developers were clackin’ at their keyboards, sweat oozing from their brow. Yaargh. <a href="https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october">https://blog.system76.com/post/spooooooky-update-murmurins-of-a-pop_os-october</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/41392b86-d6ff-466b-8bcc-7dcab86d07a8_October+Updates+Blog+image.png"/>
         </item>
     </channel>
 </rss>
