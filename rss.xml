@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 15 Jun 2023 21:01:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 15 Jun 2023 21:11:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[COSMIC DE: Tiling redesign and libcosmic rebasing]]></title>
             <link>https://blog.system76.com/post/cosmic-de-tiling-redesign-and-libcosmic-rebasing</link>
             <guid>ZIsyXBIAACkAq5DT</guid>
-            <pubDate>Thu, 15 Jun 2023 21:01:02 GMT</pubDate>
+            <pubDate>Thu, 15 Jun 2023 21:11:19 GMT</pubDate>
             <description><![CDATA[Initial tiling designs + rebasing the widget library = a group of happy System76 engineers.]]></description>
             <content:encoded><![CDATA[Initial tiling designs + rebasing the widget library = a group of happy System76 engineers. <a href="https://blog.system76.com/post/cosmic-de-tiling-redesign-and-libcosmic-rebasing">https://blog.system76.com/post/cosmic-de-tiling-redesign-and-libcosmic-rebasing</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/e48e099c-8727-4035-8f17-3fd25603187f_Cosmic+Header-+June+Update.png"/>
