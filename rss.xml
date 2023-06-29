@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 22 Jun 2023 20:45:41 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 29 Jun 2023 14:26:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[System76 “Nebula”: five years of advancements in Thelio engineering packed into a new pc case.]]></title>
+            <link>https://blog.system76.com/post/nebula-presents-considerable-possibilities-for-pc-builders</link>
+            <guid>ZJxiBxEAACoAgjrh</guid>
+            <pubDate>Thu, 29 Jun 2023 14:26:22 GMT</pubDate>
+            <description><![CDATA[The Nebula PC case brings Thelio engineering to PC building. Choose from mini tower, mid tower, and full tower cases.]]></description>
+            <content:encoded><![CDATA[The Nebula PC case brings Thelio engineering to PC building. Choose from mini tower, mid tower, and full tower cases. <a href="https://blog.system76.com/post/nebula-presents-considerable-possibilities-for-pc-builders">https://blog.system76.com/post/nebula-presents-considerable-possibilities-for-pc-builders</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/1cbd81e2-ee3f-4d41-abbb-c11da29d2be8_nebula-announcment-3840x1280RR.jpg"/>
+        </item>
         <item>
             <title><![CDATA[System76 Unveils a Powerful New Oryx Pro, Making It the Favorite Flagship Laptop For Engineers.]]></title>
             <link>https://blog.system76.com/post/system76-unveils-a-powerful-new-oryx-pro-june-2023</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Initial designs for COSMIC DE's text editor are here! COSMIC DE is System76's Rust-based desktop environment currently in development for Pop!_OS.]]></description>
             <content:encoded><![CDATA[Initial designs for COSMIC DE's text editor are here! COSMIC DE is System76's Rust-based desktop environment currently in development for Pop!_OS. <a href="https://blog.system76.com/post/cosmic-de-february-discussions">https://blog.system76.com/post/cosmic-de-february-discussions</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/2c69ec43-f911-40a0-9c00-1834f56d2461_feb.png"/>
-        </item>
-        <item>
-            <title><![CDATA[More On COSMIC DE To Kick Off 2023!]]></title>
-            <link>https://blog.system76.com/post/more-on-cosmic-de-to-kick-off-2023</link>
-            <guid>Y9LwRhEAACwA98ZN</guid>
-            <pubDate>Tue, 31 Jan 2023 18:04:38 GMT</pubDate>
-            <description><![CDATA[Alex shares more progress on the work-in-progress COSMIC DE for Pop!_OS. This one’s got new mockups for you to poke around in!]]></description>
-            <content:encoded><![CDATA[Alex shares more progress on the work-in-progress COSMIC DE for Pop!_OS. This one’s got new mockups for you to poke around in! <a href="https://blog.system76.com/post/more-on-cosmic-de-to-kick-off-2023">https://blog.system76.com/post/more-on-cosmic-de-to-kick-off-2023</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/45e47bac-096b-4f89-9ac5-ee9550d7b2e1_COSMIC-header.png"/>
         </item>
     </channel>
 </rss>
