@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 14 Jul 2023 13:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 11 Aug 2023 21:26:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[Customizing COSMIC: Theming and Applications]]></title>
+            <link>https://blog.system76.com/post/customizing-cosmic-theming-and-applications</link>
+            <guid>ZNaWixIAACgARefE</guid>
+            <pubDate>Fri, 11 Aug 2023 21:26:22 GMT</pubDate>
+            <description><![CDATA[August updates on COSMIC DE include new systems for theming, third-party apps, tiling, and more!]]></description>
+            <content:encoded><![CDATA[August updates on COSMIC DE include new systems for theming, third-party apps, tiling, and more! <a href="https://blog.system76.com/post/customizing-cosmic-theming-and-applications">https://blog.system76.com/post/customizing-cosmic-theming-and-applications</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/216398ce-7b8d-4fbc-b60f-da6f76f62e54_image6.png"/>
+        </item>
         <item>
             <title><![CDATA[COSMIC Skies of a Colorado July]]></title>
             <link>https://blog.system76.com/post/cosmic-skies-of-a-colorado-july-2023</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Learn about COSMIC DE, the new desktop environment for Pop!_OS written in Rust! New in March: The launcher, performance improvements, cosmic-time and more!]]></description>
             <content:encoded><![CDATA[Learn about COSMIC DE, the new desktop environment for Pop!_OS written in Rust! New in March: The launcher, performance improvements, cosmic-time and more! <a href="https://blog.system76.com/post/cosmic-de-first-spring-update">https://blog.system76.com/post/cosmic-de-first-spring-update</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/c8e18a75-afe4-419c-b6f9-d06ab94b7b31_COSMIC+March+Updates.png"/>
-        </item>
-        <item>
-            <title><![CDATA[The Quality Assurance Process with Levi]]></title>
-            <link>https://blog.system76.com/post/the-quality-assurance-process-with-levi</link>
-            <guid>ZBnJFxYAAC8AXm0i</guid>
-            <pubDate>Tue, 28 Mar 2023 18:34:48 GMT</pubDate>
-            <description><![CDATA[Curious about our quality assurance process? Levi, our QA Lead, takes you through a general overview of how QA approaches a new product, from testing firmware to acoustics and everything in between.]]></description>
-            <content:encoded><![CDATA[Curious about our quality assurance process? Levi, our QA Lead, takes you through a general overview of how QA approaches a new product, from testing firmware to acoustics and everything in between. <a href="https://blog.system76.com/post/the-quality-assurance-process-with-levi">https://blog.system76.com/post/the-quality-assurance-process-with-levi</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/5196ef1b-acd4-495d-9bc9-5100ef3efd43_QA-w-Levi-blog-header-01.png"/>
         </item>
     </channel>
 </rss>
