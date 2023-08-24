@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 24 Aug 2023 13:34:28 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Aug 2023 13:30:17 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,15 +15,6 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
-        <item>
-            <title><![CDATA[Costly Myths About Cloud Computing]]></title>
-            <link>https://blog.system76.com/post/costly-myths-about-cloud-computing</link>
-            <guid>ZOPLvxEAACsA8_fc</guid>
-            <pubDate>Thu, 24 Aug 2023 13:34:28 GMT</pubDate>
-            <description><![CDATA[When trying to decide on a cloud vs local solution for your lab, it’s important to keep long-term benefits in mind.]]></description>
-            <content:encoded><![CDATA[When trying to decide on a cloud vs local solution for your lab, it’s important to keep long-term benefits in mind. <a href="https://blog.system76.com/post/costly-myths-about-cloud-computing">https://blog.system76.com/post/costly-myths-about-cloud-computing</a>]]></content:encoded>
-            <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/23bfaf59-b3b2-4053-92f8-8ad207d94a7c_costlymythsaboutcloud-blog.jpg"/>
-        </item>
         <item>
             <title><![CDATA[AI Proteins: Creating Groundbreaking Treatments on System76 Hardware]]></title>
             <link>https://blog.system76.com/post/ai-proteins-creating-groundbreaking-treatments</link>
@@ -104,6 +95,15 @@
             <description><![CDATA[Now with 13th Gen Intel, H Class CPU, and a Faster 144Hz screen]]></description>
             <content:encoded><![CDATA[Now with 13th Gen Intel, H Class CPU, and a Faster 144Hz screen <a href="https://blog.system76.com/post/the-galago-pros-latest-upgrades-june-2023">https://blog.system76.com/post/the-galago-pros-latest-upgrades-june-2023</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/54d7c4d2-f333-4565-b718-22f4454bf1fd_galp7-pr-header.png"/>
+        </item>
+        <item>
+            <title><![CDATA[May Flowers Spring COSMIC Showers]]></title>
+            <link>https://blog.system76.com/post/may-flowers-spring-cosmic-showers</link>
+            <guid>ZFrdOhEAAC8ArO7f</guid>
+            <pubDate>Fri, 12 May 2023 14:43:26 GMT</pubDate>
+            <description><![CDATA[Hello, hello! We are back again with some more Pop!_OS COSMIC updates from the team at System76. But first, there’s been an exciting update to Pop!_OS 22.04 LTS!]]></description>
+            <content:encoded><![CDATA[Hello, hello! We are back again with some more Pop!_OS COSMIC updates from the team at System76. But first, there’s been an exciting update to Pop!_OS 22.04 LTS! <a href="https://blog.system76.com/post/may-flowers-spring-cosmic-showers">https://blog.system76.com/post/may-flowers-spring-cosmic-showers</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/bdc0e41f-2cb8-4080-ba97-401022a33475_COSMIC+May+Updates.png"/>
         </item>
     </channel>
 </rss>
