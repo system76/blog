@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 16 Aug 2023 13:30:17 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Sep 2023 16:17:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[Exploring Astrophysics and Gravitational Lensing with the Lemur Pro]]></title>
+            <link>https://blog.system76.com/post/lemur-pro-exploring-astrophysics-and-gravitational-lensing</link>
+            <guid>ZRRG8BIAACkA9KvG</guid>
+            <pubDate>Wed, 27 Sep 2023 16:17:05 GMT</pubDate>
+            <description><![CDATA[Interview with Massimo Pascale, an astrophysicist armed with the System76 Lemur Pro. Discover how gravitational lensing, the Sunburst Arc, and open-source tech converge to unravel the universe's mysteries.]]></description>
+            <content:encoded><![CDATA[Interview with Massimo Pascale, an astrophysicist armed with the System76 Lemur Pro. Discover how gravitational lensing, the Sunburst Arc, and open-source tech converge to unravel the universe's mysteries. <a href="https://blog.system76.com/post/lemur-pro-exploring-astrophysics-and-gravitational-lensing">https://blog.system76.com/post/lemur-pro-exploring-astrophysics-and-gravitational-lensing</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/d0e41f7a-6e17-4746-ad91-8b5ab06829b7_Gravitational+Lensing+%281%29.png"/>
+        </item>
         <item>
             <title><![CDATA[AI Proteins: Creating Groundbreaking Treatments on System76 Hardware]]></title>
             <link>https://blog.system76.com/post/ai-proteins-creating-groundbreaking-treatments</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Now with 13th Gen Intel, H Class CPU, and a Faster 144Hz screen]]></description>
             <content:encoded><![CDATA[Now with 13th Gen Intel, H Class CPU, and a Faster 144Hz screen <a href="https://blog.system76.com/post/the-galago-pros-latest-upgrades-june-2023">https://blog.system76.com/post/the-galago-pros-latest-upgrades-june-2023</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/54d7c4d2-f333-4565-b718-22f4454bf1fd_galp7-pr-header.png"/>
-        </item>
-        <item>
-            <title><![CDATA[May Flowers Spring COSMIC Showers]]></title>
-            <link>https://blog.system76.com/post/may-flowers-spring-cosmic-showers</link>
-            <guid>ZFrdOhEAAC8ArO7f</guid>
-            <pubDate>Fri, 12 May 2023 14:43:26 GMT</pubDate>
-            <description><![CDATA[Hello, hello! We are back again with some more Pop!_OS COSMIC updates from the team at System76. But first, there’s been an exciting update to Pop!_OS 22.04 LTS!]]></description>
-            <content:encoded><![CDATA[Hello, hello! We are back again with some more Pop!_OS COSMIC updates from the team at System76. But first, there’s been an exciting update to Pop!_OS 22.04 LTS! <a href="https://blog.system76.com/post/may-flowers-spring-cosmic-showers">https://blog.system76.com/post/may-flowers-spring-cosmic-showers</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/bdc0e41f-2cb8-4080-ba97-401022a33475_COSMIC+May+Updates.png"/>
         </item>
     </channel>
 </rss>
