@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 13 Oct 2023 16:20:22 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Oct 2023 12:52:56 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[Engineering an Improved Thelio Desktop Line with Carl Richell]]></title>
+            <link>https://blog.system76.com/post/engineering-an-improved-thelio-desktop-line-with-carl-richell</link>
+            <guid>ZS8MKhIAACkA_i_0</guid>
+            <pubDate>Thu, 19 Oct 2023 12:52:56 GMT</pubDate>
+            <description><![CDATA[Carl Richell discusses the Thelio desktop line overhaul and what's coming next for the open hardware desktops.]]></description>
+            <content:encoded><![CDATA[Carl Richell discusses the Thelio desktop line overhaul and what's coming next for the open hardware desktops. <a href="https://blog.system76.com/post/engineering-an-improved-thelio-desktop-line-with-carl-richell">https://blog.system76.com/post/engineering-an-improved-thelio-desktop-line-with-carl-richell</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/a482a3db-d103-4662-9c01-6f50665d4814_Carl+Richell+Interview+Blog+Header.png"/>
+        </item>
         <item>
             <title><![CDATA[Overhaul of Thelio internals and new band Theliohead]]></title>
             <link>https://blog.system76.com/post/overhaul-of-thelio-internals-and-new-band-theliohead</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Now with NVIDIA RTX 4090 and 4K display]]></description>
             <content:encoded><![CDATA[Now with NVIDIA RTX 4090 and 4K display <a href="https://blog.system76.com/post/bonobo-ws-laptop-returns-the-ultimate-june-2023">https://blog.system76.com/post/bonobo-ws-laptop-returns-the-ultimate-june-2023</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/347bb550-cc40-4859-84e4-c10d89494c79_Bonobo+WS+2023+Press+release.png"/>
-        </item>
-        <item>
-            <title><![CDATA[COSMIC DE: Tiling redesign and libcosmic rebasing]]></title>
-            <link>https://blog.system76.com/post/cosmic-de-tiling-redesign-and-libcosmic-rebasing</link>
-            <guid>ZIsyXBIAACkAq5DT</guid>
-            <pubDate>Thu, 15 Jun 2023 21:11:19 GMT</pubDate>
-            <description><![CDATA[Initial tiling designs + rebasing the widget library = a group of happy System76 engineers.]]></description>
-            <content:encoded><![CDATA[Initial tiling designs + rebasing the widget library = a group of happy System76 engineers. <a href="https://blog.system76.com/post/cosmic-de-tiling-redesign-and-libcosmic-rebasing">https://blog.system76.com/post/cosmic-de-tiling-redesign-and-libcosmic-rebasing</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/e48e099c-8727-4035-8f17-3fd25603187f_Cosmic+Header-+June+Update.png"/>
         </item>
     </channel>
 </rss>
