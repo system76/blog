@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 19 Oct 2023 12:52:56 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 19 Oct 2023 17:13:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[Locked and Loaded with new COSMIC DE Updates!]]></title>
+            <link>https://blog.system76.com/post/locked-and-loaded-with-new-cosmic-de-updates</link>
+            <guid>ZTFJuxIAAC4AVope</guid>
+            <pubDate>Thu, 19 Oct 2023 17:13:09 GMT</pubDate>
+            <description><![CDATA[System76’s COSMIC desktop environment gets a new lock screen, login screen, tiling applet, and important UI additions.]]></description>
+            <content:encoded><![CDATA[System76’s COSMIC desktop environment gets a new lock screen, login screen, tiling applet, and important UI additions. <a href="https://blog.system76.com/post/locked-and-loaded-with-new-cosmic-de-updates">https://blog.system76.com/post/locked-and-loaded-with-new-cosmic-de-updates</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/7f600b89-54dc-4f8e-98a3-95b5c7f68a61_Cosmic+Header-+October+Update.png"/>
+        </item>
         <item>
             <title><![CDATA[Engineering an Improved Thelio Desktop Line with Carl Richell]]></title>
             <link>https://blog.system76.com/post/engineering-an-improved-thelio-desktop-line-with-carl-richell</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Now with a 16:10 screen ratio and 40 Series graphics]]></description>
             <content:encoded><![CDATA[Now with a 16:10 screen ratio and 40 Series graphics <a href="https://blog.system76.com/post/system76-unveils-a-powerful-new-oryx-pro-june-2023">https://blog.system76.com/post/system76-unveils-a-powerful-new-oryx-pro-june-2023</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/6fc725b1-af57-4c1f-b73b-441015019b3b_Oryx+Pro+2023+Press+Release.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Bonobo WS Laptop Returns: The Ultimate Powerhouse for Demanding Workloads]]></title>
-            <link>https://blog.system76.com/post/bonobo-ws-laptop-returns-the-ultimate-june-2023</link>
-            <guid>ZJSoCxEAAC4AY5vu</guid>
-            <pubDate>Thu, 22 Jun 2023 20:45:41 GMT</pubDate>
-            <description><![CDATA[Now with NVIDIA RTX 4090 and 4K display]]></description>
-            <content:encoded><![CDATA[Now with NVIDIA RTX 4090 and 4K display <a href="https://blog.system76.com/post/bonobo-ws-laptop-returns-the-ultimate-june-2023">https://blog.system76.com/post/bonobo-ws-laptop-returns-the-ultimate-june-2023</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/347bb550-cc40-4859-84e4-c10d89494c79_Bonobo+WS+2023+Press+release.png"/>
         </item>
     </channel>
 </rss>
