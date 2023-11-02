@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 19 Oct 2023 17:13:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 Nov 2023 15:38:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[Gaming on Linux with Aaron Honeycutt]]></title>
+            <link>https://blog.system76.com/post/gaming-on-linux-with-aaron-honeycutt</link>
+            <guid>ZUFYVBIAACoAqQ00</guid>
+            <pubDate>Thu, 02 Nov 2023 15:38:36 GMT</pubDate>
+            <description><![CDATA[Getting to know System76' resident game guru.]]></description>
+            <content:encoded><![CDATA[Getting to know System76' resident game guru. <a href="https://blog.system76.com/post/gaming-on-linux-with-aaron-honeycutt">https://blog.system76.com/post/gaming-on-linux-with-aaron-honeycutt</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/6a935b9b-16bd-4be4-b5cc-2b2faaf2f8b3_aaron-article.png"/>
+        </item>
         <item>
             <title><![CDATA[Locked and Loaded with new COSMIC DE Updates!]]></title>
             <link>https://blog.system76.com/post/locked-and-loaded-with-new-cosmic-de-updates</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[The Nebula PC case brings Thelio engineering to PC building. Choose from mini tower, mid tower, and full tower cases.]]></description>
             <content:encoded><![CDATA[The Nebula PC case brings Thelio engineering to PC building. Choose from mini tower, mid tower, and full tower cases. <a href="https://blog.system76.com/post/nebula-presents-considerable-possibilities-for-pc-builders">https://blog.system76.com/post/nebula-presents-considerable-possibilities-for-pc-builders</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/1cbd81e2-ee3f-4d41-abbb-c11da29d2be8_nebula-announcment-3840x1280RR.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[System76 Unveils a Powerful New Oryx Pro, Making It the Favorite Flagship Laptop For Engineers.]]></title>
-            <link>https://blog.system76.com/post/system76-unveils-a-powerful-new-oryx-pro-june-2023</link>
-            <guid>ZJSlDREAAC0AY451</guid>
-            <pubDate>Thu, 22 Jun 2023 20:45:41 GMT</pubDate>
-            <description><![CDATA[Now with a 16:10 screen ratio and 40 Series graphics]]></description>
-            <content:encoded><![CDATA[Now with a 16:10 screen ratio and 40 Series graphics <a href="https://blog.system76.com/post/system76-unveils-a-powerful-new-oryx-pro-june-2023">https://blog.system76.com/post/system76-unveils-a-powerful-new-oryx-pro-june-2023</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/6fc725b1-af57-4c1f-b73b-441015019b3b_Oryx+Pro+2023+Press+Release.png"/>
         </item>
     </channel>
 </rss>
