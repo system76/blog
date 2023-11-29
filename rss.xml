@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 23 Nov 2023 06:25:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Nov 2023 21:28:28 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[Get a free 2024 Tux Calendar during our big Holiday sale!]]></title>
+            <link>https://blog.system76.com/post/get-a-free-2024-tux-calendar-during-our-big-holiday-sale</link>
+            <guid>ZWY5ohIAACsAdLzk</guid>
+            <pubDate>Tue, 28 Nov 2023 21:28:28 GMT</pubDate>
+            <description><![CDATA[An entertaining Linux Calendar! Plus, impressive deals on computers thru Dec. 26th.]]></description>
+            <content:encoded><![CDATA[An entertaining Linux Calendar! Plus, impressive deals on computers thru Dec. 26th. <a href="https://blog.system76.com/post/get-a-free-2024-tux-calendar-during-our-big-holiday-sale">https://blog.system76.com/post/get-a-free-2024-tux-calendar-during-our-big-holiday-sale</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/61ce83b0-640c-41d8-928e-73c6e0c301ce_2024-calendar-photo.png"/>
+        </item>
         <item>
             <title><![CDATA[A COSMIC Thanksgiving]]></title>
             <link>https://blog.system76.com/post/a-cosmic-thanksgiving-2023</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[August updates on COSMIC DE include new systems for theming, third-party apps, tiling, and more!]]></description>
             <content:encoded><![CDATA[August updates on COSMIC DE include new systems for theming, third-party apps, tiling, and more! <a href="https://blog.system76.com/post/customizing-cosmic-theming-and-applications">https://blog.system76.com/post/customizing-cosmic-theming-and-applications</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/216398ce-7b8d-4fbc-b60f-da6f76f62e54_image6.png"/>
-        </item>
-        <item>
-            <title><![CDATA[COSMIC Skies of a Colorado July]]></title>
-            <link>https://blog.system76.com/post/cosmic-skies-of-a-colorado-july-2023</link>
-            <guid>ZLA3ZxMAACkAMxhc</guid>
-            <pubDate>Fri, 14 Jul 2023 13:00:00 GMT</pubDate>
-            <description><![CDATA[Updates on wallpapers, windows, scaling, and text handling from System76’s new desktop environment, COSMIC DE.]]></description>
-            <content:encoded><![CDATA[Updates on wallpapers, windows, scaling, and text handling from System76’s new desktop environment, COSMIC DE. <a href="https://blog.system76.com/post/cosmic-skies-of-a-colorado-july-2023">https://blog.system76.com/post/cosmic-skies-of-a-colorado-july-2023</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/12067dc8-e298-4b16-8637-ec1a5f52f6dc_Cosmic+Header-+July+Update.png"/>
         </item>
     </channel>
 </rss>
