@@ -8,7 +8,7 @@ on:
       - master
   workflow_dispatch: {}
   repository_dispatch:
-    types: [deploy_production]
+    types: [api-update]
 
 jobs:
   Deploy:
