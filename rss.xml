@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 12 Dec 2023 15:22:09 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Dec 2023 21:27:55 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[asdf]]></title>
+            <link>https://blog.system76.com/post/the-spirit-of-cosmic-december-updates</link>
+            <guid>ZXtouBEAADkBcAb4</guid>
+            <pubDate>Thu, 14 Dec 2023 21:27:55 GMT</pubDate>
+            <description><![CDATA[asdf]]></description>
+            <content:encoded><![CDATA[asdf <a href="https://blog.system76.com/post/the-spirit-of-cosmic-december-updates">https://blog.system76.com/post/the-spirit-of-cosmic-december-updates</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/657b47e0531ac2845a267573_CosmicHeader-DecemberUpdate.png"/>
+        </item>
         <item>
             <title><![CDATA[Inspiring the Next Generation of STEM Enthusiasts]]></title>
             <link>https://blog.system76.com/post/inspiring-the-next-generation-of-stem-enthusiasts</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Interview with Massimo Pascale, an astrophysicist armed with the System76 Lemur Pro. Discover how gravitational lensing, the Sunburst Arc, and open-source tech converge to unravel the universe's mysteries.]]></description>
             <content:encoded><![CDATA[Interview with Massimo Pascale, an astrophysicist armed with the System76 Lemur Pro. Discover how gravitational lensing, the Sunburst Arc, and open-source tech converge to unravel the universe's mysteries. <a href="https://blog.system76.com/post/lemur-pro-exploring-astrophysics-and-gravitational-lensing">https://blog.system76.com/post/lemur-pro-exploring-astrophysics-and-gravitational-lensing</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/d0e41f7a-6e17-4746-ad91-8b5ab06829b7_Gravitational+Lensing+%281%29.png"/>
-        </item>
-        <item>
-            <title><![CDATA[AI Proteins: Creating Groundbreaking Treatments on System76 Hardware]]></title>
-            <link>https://blog.system76.com/post/ai-proteins-creating-groundbreaking-treatments</link>
-            <guid>ZNaO-BIAACgARcX6</guid>
-            <pubDate>Wed, 16 Aug 2023 13:30:17 GMT</pubDate>
-            <description><![CDATA[Discover how biotech company AI Proteins leverages AI, synthetic biology & automation for innovative protein medicines. Revolutionizing drug discovery with scalable, effective, & affordable treatments using Linux and System76 computers.]]></description>
-            <content:encoded><![CDATA[Discover how biotech company AI Proteins leverages AI, synthetic biology & automation for innovative protein medicines. Revolutionizing drug discovery with scalable, effective, & affordable treatments using Linux and System76 computers. <a href="https://blog.system76.com/post/ai-proteins-creating-groundbreaking-treatments">https://blog.system76.com/post/ai-proteins-creating-groundbreaking-treatments</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/b2c5d278-3ed3-4c7b-82b6-576c97b82785_blog-header-aiproteinsRR.png"/>
         </item>
     </channel>
 </rss>
