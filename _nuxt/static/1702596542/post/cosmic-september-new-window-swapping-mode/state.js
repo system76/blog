@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1702596542",layout:"default",error:a,serverRendered:true,routePath:"\u002Fpost\u002Fcosmic-september-new-window-swapping-mode",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}}}}(null));
