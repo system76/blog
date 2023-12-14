@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 28 Nov 2023 21:28:28 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Dec 2023 15:22:09 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[Inspiring the Next Generation of STEM Enthusiasts]]></title>
+            <link>https://blog.system76.com/post/inspiring-the-next-generation-of-stem-enthusiasts</link>
+            <guid>ZXNfjBIAACoAXMGY</guid>
+            <pubDate>Tue, 12 Dec 2023 15:22:09 GMT</pubDate>
+            <description><![CDATA[A recap of our high school factory tour]]></description>
+            <content:encoded><![CDATA[A recap of our high school factory tour <a href="https://blog.system76.com/post/inspiring-the-next-generation-of-stem-enthusiasts">https://blog.system76.com/post/inspiring-the-next-generation-of-stem-enthusiasts</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/7ce1ea07-2656-4372-908b-66d071066b82_Inspiring+the+Next+Generation+of+STEM+Enthusiasts+%281%29.png"/>
+        </item>
         <item>
             <title><![CDATA[Get a free 2024 Tux Calendar during our big Holiday sale!]]></title>
             <link>https://blog.system76.com/post/get-a-free-2024-tux-calendar-during-our-big-holiday-sale</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Discover how biotech company AI Proteins leverages AI, synthetic biology & automation for innovative protein medicines. Revolutionizing drug discovery with scalable, effective, & affordable treatments using Linux and System76 computers.]]></description>
             <content:encoded><![CDATA[Discover how biotech company AI Proteins leverages AI, synthetic biology & automation for innovative protein medicines. Revolutionizing drug discovery with scalable, effective, & affordable treatments using Linux and System76 computers. <a href="https://blog.system76.com/post/ai-proteins-creating-groundbreaking-treatments">https://blog.system76.com/post/ai-proteins-creating-groundbreaking-treatments</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/b2c5d278-3ed3-4c7b-82b6-576c97b82785_blog-header-aiproteinsRR.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Customizing COSMIC: Theming and Applications]]></title>
-            <link>https://blog.system76.com/post/customizing-cosmic-theming-and-applications</link>
-            <guid>ZNaWixIAACgARefE</guid>
-            <pubDate>Fri, 11 Aug 2023 21:35:17 GMT</pubDate>
-            <description><![CDATA[August updates on COSMIC DE include new systems for theming, third-party apps, tiling, and more!]]></description>
-            <content:encoded><![CDATA[August updates on COSMIC DE include new systems for theming, third-party apps, tiling, and more! <a href="https://blog.system76.com/post/customizing-cosmic-theming-and-applications">https://blog.system76.com/post/customizing-cosmic-theming-and-applications</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/216398ce-7b8d-4fbc-b60f-da6f76f62e54_image6.png"/>
         </item>
     </channel>
 </rss>
