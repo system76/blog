@@ -8,7 +8,7 @@ on:
       - master
   workflow_dispatch: {}
   repository_dispatch:
-    types: [api-update]
+    types: [api-update, test-trigger]
 
 jobs:
   Deploy:
