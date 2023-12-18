@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 14 Dec 2023 21:27:55 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 18 Dec 2023 15:39:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[The power of Linux Scripts with Garrett Wilke]]></title>
+            <link>https://blog.system76.com/post/the-power-of-linux-scripts-with-garrett-wilke</link>
+            <guid>ZWZh1xIAAC4AdW7x</guid>
+            <pubDate>Mon, 18 Dec 2023 15:39:18 GMT</pubDate>
+            <description><![CDATA[Learn the benefits to scripting, how to get started and some cool use cases.]]></description>
+            <content:encoded><![CDATA[Learn the benefits to scripting, how to get started and some cool use cases. <a href="https://blog.system76.com/post/the-power-of-linux-scripts-with-garrett-wilke">https://blog.system76.com/post/the-power-of-linux-scripts-with-garrett-wilke</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ce40b0d5-6192-445f-a831-32428b56f41b_scripting-with-linux-two.png"/>
+        </item>
         <item>
             <title><![CDATA[asdf]]></title>
             <link>https://blog.system76.com/post/the-spirit-of-cosmic-december-updates</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Pieces are coming together for Pop!_OS’s new COSMIC desktop environment.]]></description>
             <content:encoded><![CDATA[Pieces are coming together for Pop!_OS’s new COSMIC desktop environment. <a href="https://blog.system76.com/post/cosmic-september-new-window-swapping-mode">https://blog.system76.com/post/cosmic-september-new-window-swapping-mode</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/a6112fec-bbf1-4a06-ac97-888c1728f176_Cosmic+Header-+August+Update.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Exploring Astrophysics and Gravitational Lensing with the Lemur Pro]]></title>
-            <link>https://blog.system76.com/post/lemur-pro-exploring-astrophysics-and-gravitational-lensing</link>
-            <guid>ZRRG8BIAACkA9KvG</guid>
-            <pubDate>Wed, 27 Sep 2023 16:17:05 GMT</pubDate>
-            <description><![CDATA[Interview with Massimo Pascale, an astrophysicist armed with the System76 Lemur Pro. Discover how gravitational lensing, the Sunburst Arc, and open-source tech converge to unravel the universe's mysteries.]]></description>
-            <content:encoded><![CDATA[Interview with Massimo Pascale, an astrophysicist armed with the System76 Lemur Pro. Discover how gravitational lensing, the Sunburst Arc, and open-source tech converge to unravel the universe's mysteries. <a href="https://blog.system76.com/post/lemur-pro-exploring-astrophysics-and-gravitational-lensing">https://blog.system76.com/post/lemur-pro-exploring-astrophysics-and-gravitational-lensing</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/d0e41f7a-6e17-4746-ad91-8b5ab06829b7_Gravitational+Lensing+%281%29.png"/>
         </item>
     </channel>
 </rss>
