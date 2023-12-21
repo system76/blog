@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Mon, 18 Dec 2023 15:39:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Dec 2023 23:00:46 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[Gaming on Pop!_OS: Aaron's Picks]]></title>
+            <link>https://blog.system76.com/post/game-picks-with-aaron-honeycutt</link>
+            <guid>ZXou9hEAABAkLONq</guid>
+            <pubDate>Thu, 21 Dec 2023 23:00:46 GMT</pubDate>
+            <description><![CDATA[Discover new games to play on Pop!_OS]]></description>
+            <content:encoded><![CDATA[Discover new games to play on Pop!_OS <a href="https://blog.system76.com/post/game-picks-with-aaron-honeycutt">https://blog.system76.com/post/game-picks-with-aaron-honeycutt</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/65820b62531ac2845a26c9fa_InspiringtheNextGenerationofSTEMEnthusiasts-2-.png"/>
+        </item>
         <item>
             <title><![CDATA[The power of Linux Scripts with Garrett Wilke]]></title>
             <link>https://blog.system76.com/post/the-power-of-linux-scripts-with-garrett-wilke</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[System76's Desktop Airflow Improvements Inspires New Band THELIOHEAD]]></description>
             <content:encoded><![CDATA[System76's Desktop Airflow Improvements Inspires New Band THELIOHEAD <a href="https://blog.system76.com/post/overhaul-of-thelio-internals-and-new-band-theliohead">https://blog.system76.com/post/overhaul-of-thelio-internals-and-new-band-theliohead</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ff204b23-1678-41ae-8149-aafce59e8ff0_blog-header-thelio-redesign.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[COSMIC September: New Window-Swapping Mode!]]></title>
-            <link>https://blog.system76.com/post/cosmic-september-new-window-swapping-mode</link>
-            <guid>ZRHUmRIAACwA-P1E</guid>
-            <pubDate>Wed, 27 Sep 2023 21:25:50 GMT</pubDate>
-            <description><![CDATA[Pieces are coming together for Pop!_OS’s new COSMIC desktop environment.]]></description>
-            <content:encoded><![CDATA[Pieces are coming together for Pop!_OS’s new COSMIC desktop environment. <a href="https://blog.system76.com/post/cosmic-september-new-window-swapping-mode">https://blog.system76.com/post/cosmic-september-new-window-swapping-mode</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/a6112fec-bbf1-4a06-ac97-888c1728f176_Cosmic+Header-+August+Update.png"/>
         </item>
     </channel>
 </rss>
