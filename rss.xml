@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 22 Dec 2023 18:06:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Dec 2023 15:46:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[The System76 Guide to Gaming on Pop!_OS]]></title>
+            <link>https://blog.system76.com/post/guide-to-gaming</link>
+            <guid>ZYDCJBEAANgHes8d</guid>
+            <pubDate>Wed, 27 Dec 2023 15:46:03 GMT</pubDate>
+            <description><![CDATA[How does one game on Linux?]]></description>
+            <content:encoded><![CDATA[How does one game on Linux? <a href="https://blog.system76.com/post/guide-to-gaming">https://blog.system76.com/post/guide-to-gaming</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/6580c0c4531ac2845a26c00e_GamingonPop!_OS.png"/>
+        </item>
         <item>
             <title><![CDATA[Gaming on Pop!_OS: Aaron's Picks]]></title>
             <link>https://blog.system76.com/post/game-picks-with-aaron-honeycutt</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Carl Richell discusses the Thelio desktop line overhaul and what's coming next for the open hardware desktops.]]></description>
             <content:encoded><![CDATA[Carl Richell discusses the Thelio desktop line overhaul and what's coming next for the open hardware desktops. <a href="https://blog.system76.com/post/engineering-an-improved-thelio-desktop-line-with-carl-richell">https://blog.system76.com/post/engineering-an-improved-thelio-desktop-line-with-carl-richell</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/a482a3db-d103-4662-9c01-6f50665d4814_Carl+Richell+Interview+Blog+Header.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Overhaul of Thelio internals and new band Theliohead]]></title>
-            <link>https://blog.system76.com/post/overhaul-of-thelio-internals-and-new-band-theliohead</link>
-            <guid>ZSWCVBIAAC0AGG7U</guid>
-            <pubDate>Fri, 13 Oct 2023 16:20:22 GMT</pubDate>
-            <description><![CDATA[System76's Desktop Airflow Improvements Inspires New Band THELIOHEAD]]></description>
-            <content:encoded><![CDATA[System76's Desktop Airflow Improvements Inspires New Band THELIOHEAD <a href="https://blog.system76.com/post/overhaul-of-thelio-internals-and-new-band-theliohead">https://blog.system76.com/post/overhaul-of-thelio-internals-and-new-band-theliohead</a>]]></content:encoded>
-            <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ff204b23-1678-41ae-8149-aafce59e8ff0_blog-header-thelio-redesign.jpg"/>
         </item>
     </channel>
 </rss>
