@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 27 Dec 2023 15:46:03 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Dec 2023 15:48:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[The System76 Guide to Gaming on Pop!_OS]]></title>
             <link>https://blog.system76.com/post/guide-to-gaming</link>
             <guid>ZYDCJBEAANgHes8d</guid>
-            <pubDate>Wed, 27 Dec 2023 15:46:03 GMT</pubDate>
+            <pubDate>Wed, 27 Dec 2023 15:48:10 GMT</pubDate>
             <description><![CDATA[How does one game on Linux?]]></description>
             <content:encoded><![CDATA[How does one game on Linux? <a href="https://blog.system76.com/post/guide-to-gaming">https://blog.system76.com/post/guide-to-gaming</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/6580c0c4531ac2845a26c00e_GamingonPop!_OS.png"/>
