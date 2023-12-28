@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 28 Dec 2023 23:44:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Dec 2023 23:45:48 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[The Buyer's Guide to PC Gaming]]></title>
             <link>https://blog.system76.com/post/buyers-guide-pc-gaming</link>
             <guid>ZYuIUxEAAK-KqmGz</guid>
-            <pubDate>Thu, 28 Dec 2023 23:44:31 GMT</pubDate>
+            <pubDate>Thu, 28 Dec 2023 23:45:48 GMT</pubDate>
             <description><![CDATA[How much graphics power is enough? Here's what you need to know for your next gaming PC.]]></description>
             <content:encoded><![CDATA[How much graphics power is enough? Here's what you need to know for your next gaming PC. <a href="https://blog.system76.com/post/buyers-guide-pc-gaming">https://blog.system76.com/post/buyers-guide-pc-gaming</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/f3bf61ed-0431-4c8c-bd14-d5c8f0bb0e43_buyer_s_guide_5imon.png"/>

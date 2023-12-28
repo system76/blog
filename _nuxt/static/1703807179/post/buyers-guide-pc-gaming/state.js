@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1703807179",layout:"default",error:a,serverRendered:true,routePath:"\u002Fpost\u002Fbuyers-guide-pc-gaming",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}}}}(null));
