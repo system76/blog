@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 27 Dec 2023 16:28:34 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 28 Dec 2023 23:44:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2023, System76</copyright>
+        <item>
+            <title><![CDATA[The Buyer's Guide to PC Gaming]]></title>
+            <link>https://blog.system76.com/post/buyers-guide-pc-gaming</link>
+            <guid>ZYuIUxEAAK-KqmGz</guid>
+            <pubDate>Thu, 28 Dec 2023 23:44:31 GMT</pubDate>
+            <description><![CDATA[How much graphics power is enough? Here's what you need to know for your next gaming PC.]]></description>
+            <content:encoded><![CDATA[How much graphics power is enough? Here's what you need to know for your next gaming PC. <a href="https://blog.system76.com/post/buyers-guide-pc-gaming">https://blog.system76.com/post/buyers-guide-pc-gaming</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/f3bf61ed-0431-4c8c-bd14-d5c8f0bb0e43_buyer_s_guide_5imon.png"/>
+        </item>
         <item>
             <title><![CDATA[The System76 Guide to Gaming on Pop!_OS]]></title>
             <link>https://blog.system76.com/post/guide-to-gaming</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[System76’s COSMIC desktop environment gets a new lock screen, login screen, tiling applet, and important UI additions.]]></description>
             <content:encoded><![CDATA[System76’s COSMIC desktop environment gets a new lock screen, login screen, tiling applet, and important UI additions. <a href="https://blog.system76.com/post/locked-and-loaded-with-new-cosmic-de-updates">https://blog.system76.com/post/locked-and-loaded-with-new-cosmic-de-updates</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/7f600b89-54dc-4f8e-98a3-95b5c7f68a61_Cosmic+Header-+October+Update.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Engineering an Improved Thelio Desktop Line with Carl Richell]]></title>
-            <link>https://blog.system76.com/post/engineering-an-improved-thelio-desktop-line-with-carl-richell</link>
-            <guid>ZS8MKhIAACkA_i_0</guid>
-            <pubDate>Thu, 19 Oct 2023 12:52:56 GMT</pubDate>
-            <description><![CDATA[Carl Richell discusses the Thelio desktop line overhaul and what's coming next for the open hardware desktops.]]></description>
-            <content:encoded><![CDATA[Carl Richell discusses the Thelio desktop line overhaul and what's coming next for the open hardware desktops. <a href="https://blog.system76.com/post/engineering-an-improved-thelio-desktop-line-with-carl-richell">https://blog.system76.com/post/engineering-an-improved-thelio-desktop-line-with-carl-richell</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/a482a3db-d103-4662-9c01-6f50665d4814_Carl+Richell+Interview+Blog+Header.png"/>
         </item>
     </channel>
 </rss>
