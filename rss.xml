@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 28 Dec 2023 23:45:48 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 10 Jan 2024 15:55:15 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[New Thelio Major with Zen 4 Threadripper CPUs]]></title>
+            <link>https://blog.system76.com/post/ai-hardware-showcase-ces</link>
+            <guid>ZZRzjxEAALBOxy4z</guid>
+            <pubDate>Wed, 10 Jan 2024 15:55:15 GMT</pubDate>
+            <description><![CDATA[The Thelio Major desktop was chosen to showcase both AMD and Gigabyte’s latest workstation-class AI hardware.]]></description>
+            <content:encoded><![CDATA[The Thelio Major desktop was chosen to showcase both AMD and Gigabyte’s latest workstation-class AI hardware. <a href="https://blog.system76.com/post/ai-hardware-showcase-ces">https://blog.system76.com/post/ai-hardware-showcase-ces</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/659c63fa531ac2845a27397a_CES.png"/>
+        </item>
         <item>
             <title><![CDATA[The Buyer's Guide to PC Gaming]]></title>
             <link>https://blog.system76.com/post/buyers-guide-pc-gaming</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Getting to know System76' resident game guru.]]></description>
             <content:encoded><![CDATA[Getting to know System76' resident game guru. <a href="https://blog.system76.com/post/gaming-on-linux-with-aaron-honeycutt">https://blog.system76.com/post/gaming-on-linux-with-aaron-honeycutt</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/6a935b9b-16bd-4be4-b5cc-2b2faaf2f8b3_aaron-article.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Locked and Loaded with new COSMIC DE Updates!]]></title>
-            <link>https://blog.system76.com/post/locked-and-loaded-with-new-cosmic-de-updates</link>
-            <guid>ZTFJuxIAAC4AVope</guid>
-            <pubDate>Thu, 19 Oct 2023 17:13:09 GMT</pubDate>
-            <description><![CDATA[System76’s COSMIC desktop environment gets a new lock screen, login screen, tiling applet, and important UI additions.]]></description>
-            <content:encoded><![CDATA[System76’s COSMIC desktop environment gets a new lock screen, login screen, tiling applet, and important UI additions. <a href="https://blog.system76.com/post/locked-and-loaded-with-new-cosmic-de-updates">https://blog.system76.com/post/locked-and-loaded-with-new-cosmic-de-updates</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/7f600b89-54dc-4f8e-98a3-95b5c7f68a61_Cosmic+Header-+October+Update.png"/>
         </item>
     </channel>
 </rss>
