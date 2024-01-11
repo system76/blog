@@ -25,6 +25,15 @@
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/659c63fa531ac2845a27397a_CES.png"/>
         </item>
         <item>
+            <title><![CDATA[COSMIC: The Road to Alpha]]></title>
+            <link>https://blog.system76.com/post/cosmic-the-road-to-alpha</link>
+            <guid>ZZyi5xIAAHEIMuau</guid>
+            <pubDate>Thu, 11 Jan 2024 19:33:19 GMT</pubDate>
+            <description><![CDATA[Introducing COSMIC Terminal, and what’s left on the roadmap for COSMIC DE?]]></description>
+            <content:encoded><![CDATA[Introducing COSMIC Terminal, and what’s left on the roadmap for COSMIC DE? <a href="https://blog.system76.com/post/cosmic-the-road-to-alpha">https://blog.system76.com/post/cosmic-the-road-to-alpha</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/659ca173531ac2845a273b30_COSMICAlphaRoadmapHeader.png"/>
+        </item>
+        <item>
             <title><![CDATA[The Buyer's Guide to PC Gaming]]></title>
             <link>https://blog.system76.com/post/buyers-guide-pc-gaming</link>
             <guid>ZYuIUxEAAK-KqmGz</guid>
@@ -95,15 +104,6 @@
             <description><![CDATA[Floating windows, UI implementation, and compositor improvements for the new COSMIC desktop environment.]]></description>
             <content:encoded><![CDATA[Floating windows, UI implementation, and compositor improvements for the new COSMIC desktop environment. <a href="https://blog.system76.com/post/a-cosmic-thanksgiving-2023">https://blog.system76.com/post/a-cosmic-thanksgiving-2023</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/b177a23a-7c24-4d51-9ad7-238301c4392f_Cosmic+Header-+November+Updates.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Gaming on Linux with Aaron Honeycutt]]></title>
-            <link>https://blog.system76.com/post/gaming-on-linux-with-aaron-honeycutt</link>
-            <guid>ZUFYVBIAACoAqQ00</guid>
-            <pubDate>Thu, 02 Nov 2023 15:38:36 GMT</pubDate>
-            <description><![CDATA[Getting to know System76' resident game guru.]]></description>
-            <content:encoded><![CDATA[Getting to know System76' resident game guru. <a href="https://blog.system76.com/post/gaming-on-linux-with-aaron-honeycutt">https://blog.system76.com/post/gaming-on-linux-with-aaron-honeycutt</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/6a935b9b-16bd-4be4-b5cc-2b2faaf2f8b3_aaron-article.png"/>
         </item>
     </channel>
 </rss>
