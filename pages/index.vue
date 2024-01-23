@@ -36,7 +36,7 @@
     asyncData: async ({ $prismic }) => ({
       posts: await $prismic.api.query(
         $prismic.predicates.at('document.type', 'post'),
-        { orderings: '[my.post.date desc]' }
+        { orderings: '[my.post.date desc]', pageSize: 100 }
       )
     })
   }
