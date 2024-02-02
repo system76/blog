@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 16 Jan 2024 20:59:29 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 02 Feb 2024 16:59:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,13 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <link>https://blog.system76.com/post/system76-releases-powerful-serval-ws-laptop</link>
+            <guid>ZbqSkRIAANUGV6lu</guid>
+            <pubDate>Fri, 02 Feb 2024 16:59:22 GMT</pubDate>
+            <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/system76-releases-powerful-serval-ws-laptop">https://blog.system76.com/post/system76-releases-powerful-serval-ws-laptop</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/65ba9438615e73009ec42a2b_Serval13-blog.jpg"/>
+        </item>
         <item>
             <title><![CDATA[System76 sits down with Defense Unicorns to discuss open source.]]></title>
             <link>https://blog.system76.com/post/defense-unicorns-interview</link>
@@ -95,15 +102,6 @@
             <description><![CDATA[A recap of our high school factory tour]]></description>
             <content:encoded><![CDATA[A recap of our high school factory tour <a href="https://blog.system76.com/post/inspiring-the-next-generation-of-stem-enthusiasts">https://blog.system76.com/post/inspiring-the-next-generation-of-stem-enthusiasts</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/7ce1ea07-2656-4372-908b-66d071066b82_Inspiring+the+Next+Generation+of+STEM+Enthusiasts+%281%29.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Get a free 2024 Tux Calendar during our big Holiday sale!]]></title>
-            <link>https://blog.system76.com/post/get-a-free-2024-tux-calendar-during-our-big-holiday-sale</link>
-            <guid>ZWY5ohIAACsAdLzk</guid>
-            <pubDate>Tue, 28 Nov 2023 21:28:28 GMT</pubDate>
-            <description><![CDATA[An entertaining Linux Calendar! Plus, impressive deals on computers thru Dec. 26th.]]></description>
-            <content:encoded><![CDATA[An entertaining Linux Calendar! Plus, impressive deals on computers thru Dec. 26th. <a href="https://blog.system76.com/post/get-a-free-2024-tux-calendar-during-our-big-holiday-sale">https://blog.system76.com/post/get-a-free-2024-tux-calendar-during-our-big-holiday-sale</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/61ce83b0-640c-41d8-928e-73c6e0c301ce_2024-calendar-photo.png"/>
         </item>
     </channel>
 </rss>
