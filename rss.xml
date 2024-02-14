@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 02 Feb 2024 16:59:22 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 14 Feb 2024 17:02:39 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,13 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <link>https://blog.system76.com/post/closing-in-on-a-cosmic-alpha</link>
+            <guid>ZcvJixEAAH9M98bI</guid>
+            <pubDate>Wed, 14 Feb 2024 17:02:39 GMT</pubDate>
+            <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/closing-in-on-a-cosmic-alpha">https://blog.system76.com/post/closing-in-on-a-cosmic-alpha</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/65cbc5b49be9a5b998b5c5c1_CosmicHeader-AlphaCountdown.png"/>
+        </item>
         <item>
             <link>https://blog.system76.com/post/system76-releases-powerful-serval-ws-laptop</link>
             <guid>ZbqSkRIAANUGV6lu</guid>
@@ -93,15 +100,6 @@
             <description><![CDATA[A festival of updates for COSMIC DE including text editor features, multi-monitor support, and window management.]]></description>
             <content:encoded><![CDATA[A festival of updates for COSMIC DE including text editor features, multi-monitor support, and window management. <a href="https://blog.system76.com/post/the-spirit-of-cosmic-december-updates">https://blog.system76.com/post/the-spirit-of-cosmic-december-updates</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/657b47e0531ac2845a267573_CosmicHeader-DecemberUpdate.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Inspiring the Next Generation of STEM Enthusiasts]]></title>
-            <link>https://blog.system76.com/post/inspiring-the-next-generation-of-stem-enthusiasts</link>
-            <guid>ZXNfjBIAACoAXMGY</guid>
-            <pubDate>Tue, 12 Dec 2023 15:22:09 GMT</pubDate>
-            <description><![CDATA[A recap of our high school factory tour]]></description>
-            <content:encoded><![CDATA[A recap of our high school factory tour <a href="https://blog.system76.com/post/inspiring-the-next-generation-of-stem-enthusiasts">https://blog.system76.com/post/inspiring-the-next-generation-of-stem-enthusiasts</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/7ce1ea07-2656-4372-908b-66d071066b82_Inspiring+the+Next+Generation+of+STEM+Enthusiasts+%281%29.png"/>
         </item>
     </channel>
 </rss>
