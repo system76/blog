@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 14 Feb 2024 17:02:39 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Mar 2024 14:30:03 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,13 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <link>https://blog.system76.com/post/cosmic-more-alpha-more-fun</link>
+            <guid>ZfDSWhEAAOwpaFHK</guid>
+            <pubDate>Wed, 13 Mar 2024 14:30:03 GMT</pubDate>
+            <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/cosmic-more-alpha-more-fun">https://blog.system76.com/post/cosmic-more-alpha-more-fun</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/65cbc5b49be9a5b998b5c5c1_CosmicHeader-AlphaCountdown.png"/>
+        </item>
         <item>
             <link>https://blog.system76.com/post/closing-in-on-a-cosmic-alpha</link>
             <guid>ZcvJixEAAH9M98bI</guid>
@@ -91,15 +98,6 @@
             <description><![CDATA[Learn the benefits to scripting, how to get started and some cool use cases.]]></description>
             <content:encoded><![CDATA[Learn the benefits to scripting, how to get started and some cool use cases. <a href="https://blog.system76.com/post/the-power-of-linux-scripts-with-garrett-wilke">https://blog.system76.com/post/the-power-of-linux-scripts-with-garrett-wilke</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ce40b0d5-6192-445f-a831-32428b56f41b_scripting-with-linux-two.png"/>
-        </item>
-        <item>
-            <title><![CDATA[The Spirit of COSMIC! (December Updates)]]></title>
-            <link>https://blog.system76.com/post/the-spirit-of-cosmic-december-updates</link>
-            <guid>ZXtouBEAADkBcAb4</guid>
-            <pubDate>Mon, 18 Dec 2023 19:16:25 GMT</pubDate>
-            <description><![CDATA[A festival of updates for COSMIC DE including text editor features, multi-monitor support, and window management.]]></description>
-            <content:encoded><![CDATA[A festival of updates for COSMIC DE including text editor features, multi-monitor support, and window management. <a href="https://blog.system76.com/post/the-spirit-of-cosmic-december-updates">https://blog.system76.com/post/the-spirit-of-cosmic-december-updates</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/657b47e0531ac2845a267573_CosmicHeader-DecemberUpdate.png"/>
         </item>
     </channel>
 </rss>
