@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 14 Mar 2024 18:19:24 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Mar 2024 18:22:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[System76 Releases New Adder WS Laptop]]></title>
             <link>https://blog.system76.com/post/system76-releases-new-adder-ws-laptop</link>
             <guid>ZfMSlxIAAM0AW9dS</guid>
-            <pubDate>Thu, 14 Mar 2024 18:19:24 GMT</pubDate>
+            <pubDate>Thu, 14 Mar 2024 18:22:10 GMT</pubDate>
             <description><![CDATA[New Adder WS featuring 14th Gen Intel and high storage]]></description>
             <content:encoded><![CDATA[New Adder WS featuring 14th Gen Intel and high storage <a href="https://blog.system76.com/post/system76-releases-new-adder-ws-laptop">https://blog.system76.com/post/system76-releases-new-adder-ws-laptop</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ZfMTr7TwE6aM1J1d_addw4-product.png"/>
