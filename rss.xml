@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 14 Mar 2024 16:51:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Mar 2024 18:19:24 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[System76 Releases New Adder WS Laptop]]></title>
+            <link>https://blog.system76.com/post/system76-releases-new-adder-ws-laptop</link>
+            <guid>ZfMSlxIAAM0AW9dS</guid>
+            <pubDate>Thu, 14 Mar 2024 18:19:24 GMT</pubDate>
+            <description><![CDATA[New Adder WS featuring 14th Gen Intel and high storage]]></description>
+            <content:encoded><![CDATA[New Adder WS featuring 14th Gen Intel and high storage <a href="https://blog.system76.com/post/system76-releases-new-adder-ws-laptop">https://blog.system76.com/post/system76-releases-new-adder-ws-laptop</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ZfMTr7TwE6aM1J1d_addw4-product.png"/>
+        </item>
         <item>
             <link>https://blog.system76.com/post/cosmic-more-alpha-more-fun</link>
             <guid>ZfDSWhEAAOwpaFHK</guid>
@@ -89,15 +98,6 @@
             <description><![CDATA[Discover new games to play on Pop!_OS]]></description>
             <content:encoded><![CDATA[Discover new games to play on Pop!_OS <a href="https://blog.system76.com/post/game-picks-with-aaron-honeycutt">https://blog.system76.com/post/game-picks-with-aaron-honeycutt</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/65820b62531ac2845a26c9fa_InspiringtheNextGenerationofSTEMEnthusiasts-2-.png"/>
-        </item>
-        <item>
-            <title><![CDATA[The power of Linux Scripts with Garrett Wilke]]></title>
-            <link>https://blog.system76.com/post/the-power-of-linux-scripts-with-garrett-wilke</link>
-            <guid>ZWZh1xIAAC4AdW7x</guid>
-            <pubDate>Fri, 22 Dec 2023 18:07:02 GMT</pubDate>
-            <description><![CDATA[Learn the benefits to scripting, how to get started and some cool use cases.]]></description>
-            <content:encoded><![CDATA[Learn the benefits to scripting, how to get started and some cool use cases. <a href="https://blog.system76.com/post/the-power-of-linux-scripts-with-garrett-wilke">https://blog.system76.com/post/the-power-of-linux-scripts-with-garrett-wilke</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ce40b0d5-6192-445f-a831-32428b56f41b_scripting-with-linux-two.png"/>
         </item>
     </channel>
 </rss>
