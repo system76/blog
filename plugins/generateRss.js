@@ -27,11 +27,13 @@ const createFeed = async (feed, HOST) => {
     }
 
     posts.forEach((post) => {
+      const title = post.data.seoTitle ?? post.data.title[0]?.text
+      const description = post.data.seoDescription ?? post.data.description[0]?.text
       feed.addItem({
-        title: post.data.seoTitle,
+        title: title,
         id: post.id,
         link: `${HOST}/post/${post.uid}`,
-        description: post.data.seoDescription,
+        description: description,
         category: post.tags.join(', '),
         published: new Date(post.last_publication_date),
         image: {
@@ -43,7 +45,7 @@ const createFeed = async (feed, HOST) => {
         },
         date: new Date(post.last_publication_date),
         content:
-          post.data.seoDescription + ` <a href="${HOST}/post/${post.uid}">${HOST}/post/${post.uid}</a>`
+          description + ` <a href="${HOST}/post/${post.uid}">${HOST}/post/${post.uid}</a>`
       })
     })
   } catch (error) {
