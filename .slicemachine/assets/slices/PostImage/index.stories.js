@@ -1,4 +1,4 @@
-import MyComponent from './../../../../slices/PostImage';
+import MyComponent from '../../../../slices/PostImage';
 import SliceZone from 'vue-slicezone'
 
 export default {

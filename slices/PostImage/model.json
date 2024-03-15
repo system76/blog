@@ -33,12 +33,13 @@
             "label": "Show Caption",
             "placeholder_false": "hidden",
             "placeholder_true": "visible",
-            "default_value": true
+            "default_value": false
           },
           "type": "Boolean"
         }
       },
-      "items": {}
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
       "id": "article-width",
@@ -59,7 +60,8 @@
           "type": "Image"
         }
       },
-      "items": {}
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     },
     {
       "id": "free-width",
@@ -80,7 +82,8 @@
           "type": "Image"
         }
       },
-      "items": {}
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
     }
   ]
 }
