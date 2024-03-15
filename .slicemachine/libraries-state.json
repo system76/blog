@@ -113,7 +113,7 @@
                     "label": "Show Caption",
                     "placeholder_false": "hidden",
                     "placeholder_true": "visible",
-                    "default_value": true
+                    "default_value": false
                   },
                   "type": "Boolean"
                 }
