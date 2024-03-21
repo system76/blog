@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 20 Mar 2024 19:35:12 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Mar 2024 15:22:23 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[System76 Introduces Ultraportable Laptops with Intel Core Ultra Processors]]></title>
+            <link>https://blog.system76.com/post/lemur-pro-ultraportable-laptops</link>
+            <guid>ZfoBLxEAADkKfe0h</guid>
+            <pubDate>Thu, 21 Mar 2024 15:22:23 GMT</pubDate>
+            <description><![CDATA[And, Lemur Pro releases today with a series of impressive upgrades!]]></description>
+            <content:encoded><![CDATA[And, Lemur Pro releases today with a series of impressive upgrades! <a href="https://blog.system76.com/post/lemur-pro-ultraportable-laptops">https://blog.system76.com/post/lemur-pro-ultraportable-laptops</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ZfoBrQ4qyfNhFy_j_s76-blog.png"/>
+        </item>
         <item>
             <title><![CDATA[Delivering Immersive Experiences with Streaming Global]]></title>
             <link>https://blog.system76.com/post/system76-interview-with-streaming-global</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[How much graphics power is enough? Here's what you need to know for your next gaming PC.]]></description>
             <content:encoded><![CDATA[How much graphics power is enough? Here's what you need to know for your next gaming PC. <a href="https://blog.system76.com/post/buyers-guide-pc-gaming">https://blog.system76.com/post/buyers-guide-pc-gaming</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/f3bf61ed-0431-4c8c-bd14-d5c8f0bb0e43_buyer_s_guide_5imon.png"/>
-        </item>
-        <item>
-            <title><![CDATA[The System76 Guide to Gaming on Pop!_OS]]></title>
-            <link>https://blog.system76.com/post/guide-to-gaming</link>
-            <guid>ZYDCJBEAANgHes8d</guid>
-            <pubDate>Wed, 27 Dec 2023 16:28:34 GMT</pubDate>
-            <description><![CDATA[How does one game on Linux?]]></description>
-            <content:encoded><![CDATA[How does one game on Linux? <a href="https://blog.system76.com/post/guide-to-gaming">https://blog.system76.com/post/guide-to-gaming</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/658c496a531ac2845a26f792_Pop-Gaming_tumblr-header_1.png"/>
         </item>
     </channel>
 </rss>
