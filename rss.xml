@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 26 Mar 2024 14:52:10 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 27 Mar 2024 18:14:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA["Powering On" Explained]]></title>
+            <link>https://blog.system76.com/post/linux-boot-process</link>
+            <guid>ZgGQvxIAAGFJ1TlY</guid>
+            <pubDate>Wed, 27 Mar 2024 18:14:19 GMT</pubDate>
+            <description><![CDATA[Demystifying the Linux boot process.]]></description>
+            <content:encoded><![CDATA[Demystifying the Linux boot process. <a href="https://blog.system76.com/post/linux-boot-process">https://blog.system76.com/post/linux-boot-process</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ZgMkbscYqOFdyGUK_image-13-.png"/>
+        </item>
         <item>
             <title><![CDATA[New Oryx Pro Laptop gets HX-class CPU Upgrade, Available via Preorder]]></title>
             <link>https://blog.system76.com/post/new-oryx-pro-laptop-press-release</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Introducing COSMIC Terminal, and what’s left on the roadmap for COSMIC DE?]]></description>
             <content:encoded><![CDATA[Introducing COSMIC Terminal, and what’s left on the roadmap for COSMIC DE? <a href="https://blog.system76.com/post/cosmic-the-road-to-alpha">https://blog.system76.com/post/cosmic-the-road-to-alpha</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/659ca173531ac2845a273b30_COSMICAlphaRoadmapHeader.png"/>
-        </item>
-        <item>
-            <title><![CDATA[New Thelio Major with Zen 4 Threadripper CPUs]]></title>
-            <link>https://blog.system76.com/post/ai-hardware-showcase-ces</link>
-            <guid>ZZRzjxEAALBOxy4z</guid>
-            <pubDate>Thu, 18 Jan 2024 00:00:13 GMT</pubDate>
-            <description><![CDATA[The Thelio Major desktop was chosen to showcase both AMD and Gigabyte’s latest workstation-class AI hardware.]]></description>
-            <content:encoded><![CDATA[The Thelio Major desktop was chosen to showcase both AMD and Gigabyte’s latest workstation-class AI hardware. <a href="https://blog.system76.com/post/ai-hardware-showcase-ces">https://blog.system76.com/post/ai-hardware-showcase-ces</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/659c63fa531ac2845a27397a_CES.png"/>
         </item>
     </channel>
 </rss>
