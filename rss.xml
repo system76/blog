@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 17 Apr 2024 20:55:35 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 May 2024 17:19:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[LinuxFest Northwest Wrap-up]]></title>
+            <link>https://blog.system76.com/post/linuxfest-northwest-2024-wrapup</link>
+            <guid>ZjJ5WBEAAO8ZkUK2</guid>
+            <pubDate>Thu, 02 May 2024 17:19:29 GMT</pubDate>
+            <description><![CDATA[Discover the highlights of the conference in our latest blog post.]]></description>
+            <content:encoded><![CDATA[Discover the highlights of the conference in our latest blog post. <a href="https://blog.system76.com/post/linuxfest-northwest-2024-wrapup">https://blog.system76.com/post/linuxfest-northwest-2024-wrapup</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ZjO_70MTzAJOCf8P_lfnw2024wrapupfinal.png"/>
+        </item>
         <item>
             <link>https://blog.system76.com/post/hammering-out-cosmic-features</link>
             <guid>ZiAcXhEAAHYOJ29j</guid>
@@ -93,15 +102,6 @@
             <description><![CDATA[Great all-rounder for fast, fluid visualization.]]></description>
             <content:encoded><![CDATA[Great all-rounder for fast, fluid visualization. <a href="https://blog.system76.com/post/system76-releases-powerful-serval-ws-laptop">https://blog.system76.com/post/system76-releases-powerful-serval-ws-laptop</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/65ba9438615e73009ec42a2b_Serval13-blog.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[System76 sits down with Defense Unicorns to discuss open source.]]></title>
-            <link>https://blog.system76.com/post/defense-unicorns-interview</link>
-            <guid>ZZ2NWxIAAFkECnET</guid>
-            <pubDate>Tue, 16 Jan 2024 20:59:29 GMT</pubDate>
-            <description><![CDATA[Find out how they are bridging the gap between open source and national security.]]></description>
-            <content:encoded><![CDATA[Find out how they are bridging the gap between open source and national security. <a href="https://blog.system76.com/post/defense-unicorns-interview">https://blog.system76.com/post/defense-unicorns-interview</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/65a04b497a5e8b1120d575d7_defenseunicorns.png"/>
         </item>
     </channel>
 </rss>
