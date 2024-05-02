@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 02 May 2024 20:32:53 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 02 May 2024 20:50:49 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[LinuxFest Northwest Wrap-up]]></title>
             <link>https://blog.system76.com/post/linuxfest-northwest-2024-wrapup</link>
             <guid>ZjJ5WBEAAO8ZkUK2</guid>
-            <pubDate>Thu, 02 May 2024 20:32:53 GMT</pubDate>
+            <pubDate>Thu, 02 May 2024 20:50:49 GMT</pubDate>
             <description><![CDATA[Discover the highlights of the conference in our latest blog post.]]></description>
             <content:encoded><![CDATA[Discover the highlights of the conference in our latest blog post. <a href="https://blog.system76.com/post/linuxfest-northwest-2024-wrapup">https://blog.system76.com/post/linuxfest-northwest-2024-wrapup</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ZjO_70MTzAJOCf8P_lfnw2024wrapupfinal.png"/>
