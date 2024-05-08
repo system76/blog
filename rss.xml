@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 02 May 2024 20:51:32 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 May 2024 22:27:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[A Blog to Satisfy Your Monthly COSMIC Fix(es)]]></title>
+            <link>https://blog.system76.com/post/your-monthly-cosmic-fix</link>
+            <guid>Zjv3lhEAAHzKnzID</guid>
+            <pubDate>Wed, 08 May 2024 22:27:27 GMT</pubDate>
+            <description><![CDATA[Display mirroring, ARM support, and a long list of repairs for the new COSMIC desktop environment.]]></description>
+            <content:encoded><![CDATA[Display mirroring, ARM support, and a long list of repairs for the new COSMIC desktop environment. <a href="https://blog.system76.com/post/your-monthly-cosmic-fix">https://blog.system76.com/post/your-monthly-cosmic-fix</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/65cbc5b49be9a5b998b5c5c1_CosmicHeader-AlphaCountdown.png"/>
+        </item>
         <item>
             <title><![CDATA[LinuxFest Northwest Wrap-up]]></title>
             <link>https://blog.system76.com/post/linuxfest-northwest-2024-wrapup</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[COSMIC at LFNW, and updates from January’s alpha checklist.]]></description>
             <content:encoded><![CDATA[COSMIC at LFNW, and updates from January’s alpha checklist. <a href="https://blog.system76.com/post/closing-in-on-a-cosmic-alpha">https://blog.system76.com/post/closing-in-on-a-cosmic-alpha</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/65cbc5b49be9a5b998b5c5c1_CosmicHeader-AlphaCountdown.png"/>
-        </item>
-        <item>
-            <title><![CDATA[System76 releases powerful Serval WS laptop]]></title>
-            <link>https://blog.system76.com/post/system76-releases-powerful-serval-ws-laptop</link>
-            <guid>ZbqSkRIAANUGV6lu</guid>
-            <pubDate>Fri, 15 Mar 2024 16:49:09 GMT</pubDate>
-            <description><![CDATA[Great all-rounder for fast, fluid visualization.]]></description>
-            <content:encoded><![CDATA[Great all-rounder for fast, fluid visualization. <a href="https://blog.system76.com/post/system76-releases-powerful-serval-ws-laptop">https://blog.system76.com/post/system76-releases-powerful-serval-ws-laptop</a>]]></content:encoded>
-            <enclosure length="0" type="image/jpg" dimensions="1600x800" url="https://images.prismic.io/blog-system76/65ba9438615e73009ec42a2b_Serval13-blog.jpg"/>
         </item>
     </channel>
 </rss>
