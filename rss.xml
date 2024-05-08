@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 08 May 2024 22:48:04 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 May 2024 22:48:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[A Blog to Satisfy Your Monthly COSMIC Fix(es)]]></title>
             <link>https://blog.system76.com/post/your-monthly-cosmic-fix</link>
             <guid>Zjv3lhEAAHzKnzID</guid>
-            <pubDate>Wed, 08 May 2024 22:48:04 GMT</pubDate>
+            <pubDate>Wed, 08 May 2024 22:48:50 GMT</pubDate>
             <description><![CDATA[Display mirroring, ARM support, and a long list of repairs for the new COSMIC desktop environment.]]></description>
             <content:encoded><![CDATA[Display mirroring, ARM support, and a long list of repairs for the new COSMIC desktop environment. <a href="https://blog.system76.com/post/your-monthly-cosmic-fix">https://blog.system76.com/post/your-monthly-cosmic-fix</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/65cbc5b49be9a5b998b5c5c1_CosmicHeader-AlphaCountdown.png"/>
