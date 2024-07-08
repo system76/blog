@@ -30,15 +30,12 @@ const createFeed = async (feed, HOST) => {
       feed.addItem({
         title: post.data.seoTitle,
         id: post.id,
+        guid: `${HOST}/post/${post.uid}`,
         link: `${HOST}/post/${post.uid}`,
         description: post.data.seoDescription,
         category: post.tags.join(', '),
         published: new Date(post.last_publication_date),
         image: {
-          dimensions:
-            post.data.image.dimensions.width +
-            'x' +
-            post.data.image.dimensions.height,
           url: post.data.image.url.split('?')[0]
         },
         date: new Date(post.last_publication_date),
