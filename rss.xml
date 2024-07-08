@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 26 Jun 2024 14:37:55 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 08 Jul 2024 18:40:33 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -16,17 +16,21 @@
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
         <item>
+            <title><![CDATA[Announcing COSMIC Branding...in a Sale!]]></title>
             <link>https://blog.system76.com/post/cosmic-branding</link>
             <guid>Zns2VBIAACgAG9Ud</guid>
-            <pubDate>Wed, 26 Jun 2024 14:37:55 GMT</pubDate>
-            <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/cosmic-branding">https://blog.system76.com/post/cosmic-branding</a>]]></content:encoded>
+            <pubDate>Mon, 08 Jul 2024 18:40:33 GMT</pubDate>
+            <description><![CDATA[COSMIC logos, tagline, shirt, stickers, and sweet discounts.]]></description>
+            <content:encoded><![CDATA[COSMIC logos, tagline, shirt, stickers, and sweet discounts. <a href="https://blog.system76.com/post/cosmic-branding">https://blog.system76.com/post/cosmic-branding</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ZnszuJbWFbowe2nk_COSMICBrandReveal.png"/>
         </item>
         <item>
+            <title><![CDATA[Scale quickly with new Starling Arm-Based Ampere Servers]]></title>
             <link>https://blog.system76.com/post/scale-quickly-with-new-starling-arm-based-ampere-s</link>
             <guid>ZnR6nREAAC4A4SQj</guid>
-            <pubDate>Thu, 20 Jun 2024 18:56:44 GMT</pubDate>
-            <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/scale-quickly-with-new-starling-arm-based-ampere-s">https://blog.system76.com/post/scale-quickly-with-new-starling-arm-based-ampere-s</a>]]></content:encoded>
+            <pubDate>Mon, 08 Jul 2024 18:41:29 GMT</pubDate>
+            <description><![CDATA[Ampere® Altra® family of processors offers faster arm64 builds, high affordability]]></description>
+            <content:encoded><![CDATA[Ampere® Altra® family of processors offers faster arm64 builds, high affordability <a href="https://blog.system76.com/post/scale-quickly-with-new-starling-arm-based-ampere-s">https://blog.system76.com/post/scale-quickly-with-new-starling-arm-based-ampere-s</a>]]></content:encoded>
             <enclosure length="0" type="image/png" dimensions="1600x800" url="https://images.prismic.io/blog-system76/ZnR6E5m069VX17nq_StarlingArm-BasedAmpereServers.png"/>
         </item>
         <item>
