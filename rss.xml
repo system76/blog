@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Mon, 08 Jul 2024 18:40:33 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 12 Jul 2024 15:28:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[COSMIC Updates (feat. Community)]]></title>
+            <link>https://blog.system76.com/post/cosmic-july-2024</link>
+            <guid>https://blog.system76.com/post/cosmic-july-2024</guid>
+            <pubDate>Fri, 12 Jul 2024 15:28:54 GMT</pubDate>
+            <description><![CDATA[Super+Tab, configurable keyboard shortcuts, and more before the Alpha storm.]]></description>
+            <content:encoded><![CDATA[Super+Tab, configurable keyboard shortcuts, and more before the Alpha storm. <a href="https://blog.system76.com/post/cosmic-july-2024">https://blog.system76.com/post/cosmic-july-2024</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZpE_eB5LeNNTxHGl_CosmicHeaderNewBranding.png"/>
+        </item>
         <item>
             <title><![CDATA[Announcing COSMIC Branding...in a Sale!]]></title>
             <link>https://blog.system76.com/post/cosmic-branding</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Streaming Global discusses their streaming and data delivery systems and explain how System76 GPU Servers have an impact on their scalability.]]></description>
             <content:encoded><![CDATA[Streaming Global discusses their streaming and data delivery systems and explain how System76 GPU Servers have an impact on their scalability. <a href="https://blog.system76.com/post/system76-interview-with-streaming-global">https://blog.system76.com/post/system76-interview-with-streaming-global</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zfn9GA4qyfNhFy-D_Streamingglobalfinal.png"/>
-        </item>
-        <item>
-            <title><![CDATA[System76 Releases New Adder WS Laptop]]></title>
-            <link>https://blog.system76.com/post/system76-releases-new-adder-ws-laptop</link>
-            <guid>https://blog.system76.com/post/system76-releases-new-adder-ws-laptop</guid>
-            <pubDate>Fri, 15 Mar 2024 16:50:09 GMT</pubDate>
-            <description><![CDATA[New Adder WS featuring 14th Gen Intel and high storage]]></description>
-            <content:encoded><![CDATA[New Adder WS featuring 14th Gen Intel and high storage <a href="https://blog.system76.com/post/system76-releases-new-adder-ws-laptop">https://blog.system76.com/post/system76-releases-new-adder-ws-laptop</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZfMTr7TwE6aM1J1d_addw4-product.png"/>
         </item>
     </channel>
 </rss>
