@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 12 Jul 2024 15:28:54 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 18 Jul 2024 14:32:37 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[System76 Press Release: Software Freedom Day]]></title>
+            <link>https://blog.system76.com/post/system76-partners-with-digital-freedom-foundation-to-promote-software-freedom-day</link>
+            <guid>https://blog.system76.com/post/system76-partners-with-digital-freedom-foundation-to-promote-software-freedom-day</guid>
+            <pubDate>Thu, 18 Jul 2024 14:32:37 GMT</pubDate>
+            <description><![CDATA[System76 Partners with Digital Freedom Foundation to Promote Software Freedom Day]]></description>
+            <content:encoded><![CDATA[System76 Partners with Digital Freedom Foundation to Promote Software Freedom Day <a href="https://blog.system76.com/post/system76-partners-with-digital-freedom-foundation-to-promote-software-freedom-day">https://blog.system76.com/post/system76-partners-with-digital-freedom-foundation-to-promote-software-freedom-day</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZpknBx5LeNNTxRmV_softwarefreedomday.png"/>
+        </item>
         <item>
             <title><![CDATA[COSMIC Updates (feat. Community)]]></title>
             <link>https://blog.system76.com/post/cosmic-july-2024</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[And, Lemur Pro releases today with a series of impressive upgrades!]]></description>
             <content:encoded><![CDATA[And, Lemur Pro releases today with a series of impressive upgrades! <a href="https://blog.system76.com/post/lemur-pro-ultraportable-laptops">https://blog.system76.com/post/lemur-pro-ultraportable-laptops</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZfoBrQ4qyfNhFy_j_s76-blog.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Delivering Immersive Experiences with Streaming Global]]></title>
-            <link>https://blog.system76.com/post/system76-interview-with-streaming-global</link>
-            <guid>https://blog.system76.com/post/system76-interview-with-streaming-global</guid>
-            <pubDate>Mon, 25 Mar 2024 16:44:03 GMT</pubDate>
-            <description><![CDATA[Streaming Global discusses their streaming and data delivery systems and explain how System76 GPU Servers have an impact on their scalability.]]></description>
-            <content:encoded><![CDATA[Streaming Global discusses their streaming and data delivery systems and explain how System76 GPU Servers have an impact on their scalability. <a href="https://blog.system76.com/post/system76-interview-with-streaming-global">https://blog.system76.com/post/system76-interview-with-streaming-global</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zfn9GA4qyfNhFy-D_Streamingglobalfinal.png"/>
         </item>
     </channel>
 </rss>
