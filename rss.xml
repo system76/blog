@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 19 Jul 2024 14:19:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Jul 2024 23:16:22 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[COSMIC Team Interview: Building Your Own User Experience]]></title>
+            <link>https://blog.system76.com/post/cosmic-team-interview-byoux</link>
+            <guid>https://blog.system76.com/post/cosmic-team-interview-byoux</guid>
+            <pubDate>Tue, 30 Jul 2024 23:16:22 GMT</pubDate>
+            <description><![CDATA[COSMIC's beginnings, foundation, and lots of custom themes.]]></description>
+            <content:encoded><![CDATA[COSMIC's beginnings, foundation, and lots of custom themes. <a href="https://blog.system76.com/post/cosmic-team-interview-byoux">https://blog.system76.com/post/cosmic-team-interview-byoux</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zqkn8B5LeNNTxmz7_COSMICTeamInterviewBlogHeader.png"/>
+        </item>
         <item>
             <title><![CDATA[System76 Press Release: Software Freedom Day]]></title>
             <link>https://blog.system76.com/post/system76-partners-with-digital-freedom-foundation-to-promote-software-freedom-day</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Engineers & gamers unfold ambition in 16:10 on powerful processing and graphics.]]></description>
             <content:encoded><![CDATA[Engineers & gamers unfold ambition in 16:10 on powerful processing and graphics. <a href="https://blog.system76.com/post/new-oryx-pro-laptop-press-release">https://blog.system76.com/post/new-oryx-pro-laptop-press-release</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZgHQRscYqOFdyEjY_social_blog.png"/>
-        </item>
-        <item>
-            <title><![CDATA[System76 Introduces Ultraportable Laptops with Intel Core Ultra Processors]]></title>
-            <link>https://blog.system76.com/post/lemur-pro-ultraportable-laptops</link>
-            <guid>https://blog.system76.com/post/lemur-pro-ultraportable-laptops</guid>
-            <pubDate>Thu, 21 Mar 2024 15:23:06 GMT</pubDate>
-            <description><![CDATA[And, Lemur Pro releases today with a series of impressive upgrades!]]></description>
-            <content:encoded><![CDATA[And, Lemur Pro releases today with a series of impressive upgrades! <a href="https://blog.system76.com/post/lemur-pro-ultraportable-laptops">https://blog.system76.com/post/lemur-pro-ultraportable-laptops</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZfoBrQ4qyfNhFy_j_s76-blog.png"/>
         </item>
     </channel>
 </rss>
