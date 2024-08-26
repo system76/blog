@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 30 Jul 2024 23:18:03 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 26 Aug 2024 20:22:26 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[COSMIC Alpha Released! Here’s what people are saying.]]></title>
+            <link>https://blog.system76.com/post/cosmic-alpha-released-heres-what-people-are-saying</link>
+            <guid>https://blog.system76.com/post/cosmic-alpha-released-heres-what-people-are-saying</guid>
+            <pubDate>Mon, 26 Aug 2024 20:22:26 GMT</pubDate>
+            <description><![CDATA[How to install, first impressions, and what makes it ready.]]></description>
+            <content:encoded><![CDATA[How to install, first impressions, and what makes it ready. <a href="https://blog.system76.com/post/cosmic-alpha-released-heres-what-people-are-saying">https://blog.system76.com/post/cosmic-alpha-released-heres-what-people-are-saying</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZskluEaF0TcGJXs7_COSMICAlpha1Header.png"/>
+        </item>
         <item>
             <title><![CDATA[COSMIC Team Interview: Building Your Own User Experience]]></title>
             <link>https://blog.system76.com/post/cosmic-team-interview-byoux</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Demystifying the Linux boot process.]]></description>
             <content:encoded><![CDATA[Demystifying the Linux boot process. <a href="https://blog.system76.com/post/linux-boot-process">https://blog.system76.com/post/linux-boot-process</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZgMkbscYqOFdyGUK_image-13-.png"/>
-        </item>
-        <item>
-            <title><![CDATA[New Oryx Pro Laptop gets HX-class CPU Upgrade, Available via Preorder]]></title>
-            <link>https://blog.system76.com/post/new-oryx-pro-laptop-press-release</link>
-            <guid>https://blog.system76.com/post/new-oryx-pro-laptop-press-release</guid>
-            <pubDate>Tue, 26 Mar 2024 14:52:10 GMT</pubDate>
-            <description><![CDATA[Engineers & gamers unfold ambition in 16:10 on powerful processing and graphics.]]></description>
-            <content:encoded><![CDATA[Engineers & gamers unfold ambition in 16:10 on powerful processing and graphics. <a href="https://blog.system76.com/post/new-oryx-pro-laptop-press-release">https://blog.system76.com/post/new-oryx-pro-laptop-press-release</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZgHQRscYqOFdyEjY_social_blog.png"/>
         </item>
     </channel>
 </rss>
