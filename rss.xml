@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 19 Sep 2024 17:27:51 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Sep 2024 16:23:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[Software Freedom Day Update]]></title>
+            <link>https://blog.system76.com/post/software-freedom-day-at-system76</link>
+            <guid>https://blog.system76.com/post/software-freedom-day-at-system76</guid>
+            <pubDate>Wed, 25 Sep 2024 16:23:47 GMT</pubDate>
+            <description><![CDATA[Excitement for Software Freedom Day spanned across the globe!]]></description>
+            <content:encoded><![CDATA[Excitement for Software Freedom Day spanned across the globe! <a href="https://blog.system76.com/post/software-freedom-day-at-system76">https://blog.system76.com/post/software-freedom-day-at-system76</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZvMj6LVsGrYSv5D7_softwarefreedomday.png"/>
+        </item>
         <item>
             <title><![CDATA[COSMIC Alpha Released! Here’s what people are saying.]]></title>
             <link>https://blog.system76.com/post/cosmic-alpha-released-heres-what-people-are-saying</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Updates & fixes, dev contributors, and the new COSMIC App Store.]]></description>
             <content:encoded><![CDATA[Updates & fixes, dev contributors, and the new COSMIC App Store. <a href="https://blog.system76.com/post/hammering-out-cosmic-features">https://blog.system76.com/post/hammering-out-cosmic-features</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/65cbc5b49be9a5b998b5c5c1_CosmicHeader-AlphaCountdown.png"/>
-        </item>
-        <item>
-            <title><![CDATA["Powering On" Explained]]></title>
-            <link>https://blog.system76.com/post/linux-boot-process</link>
-            <guid>https://blog.system76.com/post/linux-boot-process</guid>
-            <pubDate>Wed, 27 Mar 2024 18:14:19 GMT</pubDate>
-            <description><![CDATA[Demystifying the Linux boot process.]]></description>
-            <content:encoded><![CDATA[Demystifying the Linux boot process. <a href="https://blog.system76.com/post/linux-boot-process">https://blog.system76.com/post/linux-boot-process</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZgMkbscYqOFdyGUK_image-13-.png"/>
         </item>
     </channel>
 </rss>
