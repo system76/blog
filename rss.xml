@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 25 Sep 2024 16:23:47 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 25 Sep 2024 16:25:19 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[Software Freedom Day Update]]></title>
             <link>https://blog.system76.com/post/software-freedom-day-at-system76</link>
             <guid>https://blog.system76.com/post/software-freedom-day-at-system76</guid>
-            <pubDate>Wed, 25 Sep 2024 16:23:47 GMT</pubDate>
+            <pubDate>Wed, 25 Sep 2024 16:25:19 GMT</pubDate>
             <description><![CDATA[Excitement for Software Freedom Day spanned across the globe!]]></description>
             <content:encoded><![CDATA[Excitement for Software Freedom Day spanned across the globe! <a href="https://blog.system76.com/post/software-freedom-day-at-system76">https://blog.system76.com/post/software-freedom-day-at-system76</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZvMj6LVsGrYSv5D7_softwarefreedomday.png"/>
