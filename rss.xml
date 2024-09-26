@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 25 Sep 2024 16:32:19 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 26 Sep 2024 13:43:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[System76 COSMIC Alpha 2 Released]]></title>
+            <link>https://blog.system76.com/post/cosmic-alpha-2-press-release</link>
+            <guid>https://blog.system76.com/post/cosmic-alpha-2-press-release</guid>
+            <pubDate>Thu, 26 Sep 2024 13:43:40 GMT</pubDate>
+            <description><![CDATA[System76 Desktop Environment COSMIC Enters Alpha: Stage 2. Building out COSMIC Files, Settings pages, and WM features.]]></description>
+            <content:encoded><![CDATA[System76 Desktop Environment COSMIC Enters Alpha: Stage 2. Building out COSMIC Files, Settings pages, and WM features. <a href="https://blog.system76.com/post/cosmic-alpha-2-press-release">https://blog.system76.com/post/cosmic-alpha-2-press-release</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZvVkdLVsGrYSwCWI_CosmicHeader-alpha2.png"/>
+        </item>
         <item>
             <title><![CDATA[Software Freedom Day Update]]></title>
             <link>https://blog.system76.com/post/software-freedom-day-at-system76</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Discover the highlights of the conference in our latest blog post.]]></description>
             <content:encoded><![CDATA[Discover the highlights of the conference in our latest blog post. <a href="https://blog.system76.com/post/linuxfest-northwest-2024-wrapup">https://blog.system76.com/post/linuxfest-northwest-2024-wrapup</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZjO_70MTzAJOCf8P_lfnw2024wrapupfinal.png"/>
-        </item>
-        <item>
-            <title><![CDATA[April Tools: Hammering out new COSMIC Features]]></title>
-            <link>https://blog.system76.com/post/hammering-out-cosmic-features</link>
-            <guid>https://blog.system76.com/post/hammering-out-cosmic-features</guid>
-            <pubDate>Mon, 06 May 2024 19:52:57 GMT</pubDate>
-            <description><![CDATA[Updates & fixes, dev contributors, and the new COSMIC App Store.]]></description>
-            <content:encoded><![CDATA[Updates & fixes, dev contributors, and the new COSMIC App Store. <a href="https://blog.system76.com/post/hammering-out-cosmic-features">https://blog.system76.com/post/hammering-out-cosmic-features</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/65cbc5b49be9a5b998b5c5c1_CosmicHeader-AlphaCountdown.png"/>
         </item>
     </channel>
 </rss>
