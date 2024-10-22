@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 22 Oct 2024 18:04:30 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 22 Oct 2024 19:58:13 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[System76 and Ampere® pioneer custom-built Thelio Astra arm64 developer desktop]]></title>
             <link>https://blog.system76.com/post/system76-and-ampere-pioneer-arm64-developer-desktop</link>
             <guid>https://blog.system76.com/post/system76-and-ampere-pioneer-arm64-developer-desktop</guid>
-            <pubDate>Tue, 22 Oct 2024 18:04:30 GMT</pubDate>
+            <pubDate>Tue, 22 Oct 2024 19:58:13 GMT</pubDate>
             <description><![CDATA[System76 Thelio Astra arm64 developer desktop for autonomous driving and software-defined vehicle developers.]]></description>
             <content:encoded><![CDATA[System76 Thelio Astra arm64 developer desktop for autonomous driving and software-defined vehicle developers. <a href="https://blog.system76.com/post/system76-and-ampere-pioneer-arm64-developer-desktop">https://blog.system76.com/post/system76-and-ampere-pioneer-arm64-developer-desktop</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zw7C3YF3NbkBXeiH_ThelioAstra-ComingSoon.png"/>
