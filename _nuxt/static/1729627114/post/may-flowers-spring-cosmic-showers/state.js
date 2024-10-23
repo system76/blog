@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1729627114",layout:"default",error:a,serverRendered:true,routePath:"\u002Fpost\u002Fmay-flowers-spring-cosmic-showers",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}}}}(null));
