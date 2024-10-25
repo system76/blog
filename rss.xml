@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 23 Oct 2024 20:26:51 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 25 Oct 2024 16:02:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[Pioneering Japan's self-driving cars on open source software]]></title>
+            <link>https://blog.system76.com/post/thelio-astra-tier-iv</link>
+            <guid>https://blog.system76.com/post/thelio-astra-tier-iv</guid>
+            <pubDate>Fri, 25 Oct 2024 16:02:31 GMT</pubDate>
+            <description><![CDATA[Thelio Astra is set to accelerate Tier IV towards autonomous self-driving.]]></description>
+            <content:encoded><![CDATA[Thelio Astra is set to accelerate Tier IV towards autonomous self-driving. <a href="https://blog.system76.com/post/thelio-astra-tier-iv">https://blog.system76.com/post/thelio-astra-tier-iv</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zxq8lYF3NbkBYAwt_Blogheader-THELIOASTRAANDTIER4.png"/>
+        </item>
         <item>
             <title><![CDATA[System76 and Ampere® pioneer custom-built Thelio Astra arm64 developer desktop]]></title>
             <link>https://blog.system76.com/post/system76-and-ampere-pioneer-arm64-developer-desktop</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Ampere® Altra® family of processors offers faster arm64 builds, high affordability]]></description>
             <content:encoded><![CDATA[Ampere® Altra® family of processors offers faster arm64 builds, high affordability <a href="https://blog.system76.com/post/scale-quickly-with-new-starling-arm-based-ampere-s">https://blog.system76.com/post/scale-quickly-with-new-starling-arm-based-ampere-s</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZnR6E5m069VX17nq_StarlingArm-BasedAmpereServers.png"/>
-        </item>
-        <item>
-            <title><![CDATA[A Blog to Satisfy Your Monthly COSMIC Fix(es)]]></title>
-            <link>https://blog.system76.com/post/your-monthly-cosmic-fix</link>
-            <guid>https://blog.system76.com/post/your-monthly-cosmic-fix</guid>
-            <pubDate>Wed, 08 May 2024 22:48:50 GMT</pubDate>
-            <description><![CDATA[Display mirroring, ARM support, and a long list of repairs for the new COSMIC desktop environment.]]></description>
-            <content:encoded><![CDATA[Display mirroring, ARM support, and a long list of repairs for the new COSMIC desktop environment. <a href="https://blog.system76.com/post/your-monthly-cosmic-fix">https://blog.system76.com/post/your-monthly-cosmic-fix</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/65cbc5b49be9a5b998b5c5c1_CosmicHeader-AlphaCountdown.png"/>
         </item>
     </channel>
 </rss>
