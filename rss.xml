@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Mon, 28 Oct 2024 15:24:02 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 28 Oct 2024 17:02:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[System76 and Ampere Collaborate on New Thelio Astra: An Interview with Joe Speed]]></title>
             <link>https://blog.system76.com/post/system76-and-ampere-collaborate-on-new-thelio-astra</link>
             <guid>https://blog.system76.com/post/system76-and-ampere-collaborate-on-new-thelio-astra</guid>
-            <pubDate>Mon, 28 Oct 2024 15:24:02 GMT</pubDate>
+            <pubDate>Mon, 28 Oct 2024 17:02:50 GMT</pubDate>
             <description><![CDATA[System76 new Thelio Astra brings Ampere processors and arm64 architecture to the Thelio desktop line.]]></description>
             <content:encoded><![CDATA[System76 new Thelio Astra brings Ampere processors and arm64 architecture to the Thelio desktop line. <a href="https://blog.system76.com/post/system76-and-ampere-collaborate-on-new-thelio-astra">https://blog.system76.com/post/system76-and-ampere-collaborate-on-new-thelio-astra</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zxupa4F3NbkBYCdK_JOESPEEDINTERVIEW.png"/>
