@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Mon, 28 Oct 2024 17:02:50 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Nov 2024 13:01:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[Alpha 3: Tales from the COSMIC Desktop Environment]]></title>
+            <link>https://blog.system76.com/post/cosmic-alpha-3</link>
+            <guid>https://blog.system76.com/post/cosmic-alpha-3</guid>
+            <pubDate>Fri, 01 Nov 2024 13:01:36 GMT</pubDate>
+            <description><![CDATA[Upgrade to Alpha 3 for custom system fonts, testable screen reader support, and more.]]></description>
+            <content:encoded><![CDATA[Upgrade to Alpha 3 for custom system fonts, testable screen reader support, and more. <a href="https://blog.system76.com/post/cosmic-alpha-3">https://blog.system76.com/post/cosmic-alpha-3</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/ZyQDyK8jQArT0Gb1_cosmic-alpha-3-launch-blog-header.jpg.jpg"/>
+        </item>
         <item>
             <title><![CDATA[System76 and Ampere Collaborate on New Thelio Astra: An Interview with Joe Speed]]></title>
             <link>https://blog.system76.com/post/system76-and-ampere-collaborate-on-new-thelio-astra</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[Super+Tab, configurable keyboard shortcuts, and more before the Alpha storm.]]></description>
             <content:encoded><![CDATA[Super+Tab, configurable keyboard shortcuts, and more before the Alpha storm. <a href="https://blog.system76.com/post/cosmic-july-2024">https://blog.system76.com/post/cosmic-july-2024</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZpE_eB5LeNNTxHGl_CosmicHeaderNewBranding.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Announcing COSMIC Branding...in a Sale!]]></title>
-            <link>https://blog.system76.com/post/cosmic-branding</link>
-            <guid>https://blog.system76.com/post/cosmic-branding</guid>
-            <pubDate>Mon, 08 Jul 2024 18:40:33 GMT</pubDate>
-            <description><![CDATA[COSMIC logos, tagline, shirt, stickers, and sweet discounts.]]></description>
-            <content:encoded><![CDATA[COSMIC logos, tagline, shirt, stickers, and sweet discounts. <a href="https://blog.system76.com/post/cosmic-branding">https://blog.system76.com/post/cosmic-branding</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZnszuJbWFbowe2nk_COSMICBrandReveal.png"/>
         </item>
     </channel>
 </rss>
