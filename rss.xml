@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Mon, 11 Nov 2024 16:27:54 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Nov 2024 16:47:35 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[Engineering Thelio Astra]]></title>
             <link>https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</link>
             <guid>https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</guid>
-            <pubDate>Mon, 11 Nov 2024 16:27:54 GMT</pubDate>
+            <pubDate>Mon, 11 Nov 2024 16:47:35 GMT</pubDate>
             <description><![CDATA[An interview with System76 Product Manager and Mechanical Engineer]]></description>
             <content:encoded><![CDATA[An interview with System76 Product Manager and Mechanical Engineer <a href="https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop">https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZzIv9a8jQArT0tHy_EngineeringThelioAstra.png"/>
