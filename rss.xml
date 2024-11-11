@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 01 Nov 2024 13:01:36 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Nov 2024 16:27:54 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <title><![CDATA[Engineering Thelio Astra]]></title>
+            <link>https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</link>
+            <guid>https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</guid>
+            <pubDate>Mon, 11 Nov 2024 16:27:54 GMT</pubDate>
+            <description><![CDATA[An interview with System76 Product Manager and Mechanical Engineer]]></description>
+            <content:encoded><![CDATA[An interview with System76 Product Manager and Mechanical Engineer <a href="https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop">https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZzIv9a8jQArT0tHy_EngineeringThelioAstra.png"/>
+        </item>
         <item>
             <title><![CDATA[Alpha 3: Tales from the COSMIC Desktop Environment]]></title>
             <link>https://blog.system76.com/post/cosmic-alpha-3</link>
@@ -95,15 +104,6 @@
             <description><![CDATA[System76 Partners with Digital Freedom Foundation to Promote Software Freedom Day]]></description>
             <content:encoded><![CDATA[System76 Partners with Digital Freedom Foundation to Promote Software Freedom Day <a href="https://blog.system76.com/post/system76-partners-with-digital-freedom-foundation-to-promote-software-freedom-day">https://blog.system76.com/post/system76-partners-with-digital-freedom-foundation-to-promote-software-freedom-day</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZpknBx5LeNNTxRmV_softwarefreedomday.png"/>
-        </item>
-        <item>
-            <title><![CDATA[COSMIC Updates (feat. Community)]]></title>
-            <link>https://blog.system76.com/post/cosmic-july-2024</link>
-            <guid>https://blog.system76.com/post/cosmic-july-2024</guid>
-            <pubDate>Fri, 12 Jul 2024 15:28:54 GMT</pubDate>
-            <description><![CDATA[Super+Tab, configurable keyboard shortcuts, and more before the Alpha storm.]]></description>
-            <content:encoded><![CDATA[Super+Tab, configurable keyboard shortcuts, and more before the Alpha storm. <a href="https://blog.system76.com/post/cosmic-july-2024">https://blog.system76.com/post/cosmic-july-2024</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZpE_eB5LeNNTxHGl_CosmicHeaderNewBranding.png"/>
         </item>
     </channel>
 </rss>
