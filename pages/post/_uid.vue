@@ -101,8 +101,8 @@
             ? [
               { hid: 'og:image', property: 'og:image', content: seoImage.url },
               { hid: 'og:image:alt', property: 'og:image:alt', content: seoImage.alt },
-              { hid: 'og:image:width', property: 'og:image:width', content: seoImage.dimensions.width },
-              { hid: 'og:image:height', property: 'og:image:height', content: seoImage.dimensions.height },
+              { hid: 'og:image:width', property: 'og:image:width', content: seoImage.dimensions?.width },
+              { hid: 'og:image:height', property: 'og:image:height', content: seoImage.dimensions?.height },
 
               { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
               { hid: 'twitter:image:src', name: 'twitter:image:src', content: seoImage.url }
