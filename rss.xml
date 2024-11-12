@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 12 Nov 2024 17:49:29 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Nov 2024 17:51:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -18,7 +18,7 @@
         <item>
             <link>https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</link>
             <guid>https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</guid>
-            <pubDate>Tue, 12 Nov 2024 17:49:29 GMT</pubDate>
+            <pubDate>Tue, 12 Nov 2024 17:51:10 GMT</pubDate>
             <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours">https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZzOUx68jQArT0xq8_manufacturing-1-.png"/>
         </item>
