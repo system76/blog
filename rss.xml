@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 12 Nov 2024 17:51:10 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 12 Nov 2024 18:37:36 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -16,10 +16,14 @@
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
         <item>
+            <title><![CDATA[See How It's Made: Denver Computer Manufacturer Opens Doors for Free Tours]]></title>
             <link>https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</link>
             <guid>https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</guid>
-            <pubDate>Tue, 12 Nov 2024 17:51:10 GMT</pubDate>
-            <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours">https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</a>]]></content:encoded>
+            <pubDate>Tue, 12 Nov 2024 18:37:36 GMT</pubDate>
+            <description><![CDATA[See How It's Made: Denver Computer Manufacturer Opens Doors for Free Tours 
+Yes, they really do manufacture computers and keyboards in Denver!]]></description>
+            <content:encoded><![CDATA[See How It's Made: Denver Computer Manufacturer Opens Doors for Free Tours 
+Yes, they really do manufacture computers and keyboards in Denver! <a href="https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours">https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZzOUx68jQArT0xq8_manufacturing-1-.png"/>
         </item>
         <item>
