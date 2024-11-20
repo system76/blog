@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 12 Nov 2024 19:39:21 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 20 Nov 2024 22:28:27 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,13 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
+        <item>
+            <link>https://blog.system76.com/post/high-seas-coding-challenge</link>
+            <guid>https://blog.system76.com/post/high-seas-coding-challenge</guid>
+            <pubDate>Wed, 20 Nov 2024 22:28:27 GMT</pubDate>
+            <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/high-seas-coding-challenge">https://blog.system76.com/post/high-seas-coding-challenge</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zz5gd68jQArT1GIq_HackClub.png"/>
+        </item>
         <item>
             <title><![CDATA[See How It's Made: Denver Computer Manufacturer Opens Doors for Free Tours]]></title>
             <link>https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</link>
@@ -97,15 +104,6 @@ Yes, they really do manufacture computers and keyboards in Denver! <a href="http
             <description><![CDATA[How to install, first impressions, and what makes it ready.]]></description>
             <content:encoded><![CDATA[How to install, first impressions, and what makes it ready. <a href="https://blog.system76.com/post/cosmic-alpha-released-heres-what-people-are-saying">https://blog.system76.com/post/cosmic-alpha-released-heres-what-people-are-saying</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZskluEaF0TcGJXs7_COSMICAlpha1Header.png"/>
-        </item>
-        <item>
-            <title><![CDATA[COSMIC Team Interview: Building Your Own User Experience]]></title>
-            <link>https://blog.system76.com/post/cosmic-team-interview-byoux</link>
-            <guid>https://blog.system76.com/post/cosmic-team-interview-byoux</guid>
-            <pubDate>Tue, 30 Jul 2024 23:18:03 GMT</pubDate>
-            <description><![CDATA[COSMIC's beginnings, foundation, and lots of custom themes.]]></description>
-            <content:encoded><![CDATA[COSMIC's beginnings, foundation, and lots of custom themes. <a href="https://blog.system76.com/post/cosmic-team-interview-byoux">https://blog.system76.com/post/cosmic-team-interview-byoux</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zqkn8B5LeNNTxmz7_COSMICTeamInterviewBlogHeader.png"/>
         </item>
     </channel>
 </rss>
