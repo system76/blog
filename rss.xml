@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 20 Nov 2024 22:37:20 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 26 Nov 2024 15:40:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -16,10 +16,12 @@
         </image>
         <copyright>All rights reserved 2024, System76</copyright>
         <item>
+            <title><![CDATA[Teen-Driven Hack Club launches High Seas Coding Challenge]]></title>
             <link>https://blog.system76.com/post/high-seas-coding-challenge</link>
             <guid>https://blog.system76.com/post/high-seas-coding-challenge</guid>
-            <pubDate>Wed, 20 Nov 2024 22:37:20 GMT</pubDate>
-            <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/high-seas-coding-challenge">https://blog.system76.com/post/high-seas-coding-challenge</a>]]></content:encoded>
+            <pubDate>Tue, 26 Nov 2024 15:40:02 GMT</pubDate>
+            <description><![CDATA[High Seas, a coding challenge that rewards teens for coding projects with sweet prizes — including 15 System76 Launch Keyboards is happening now!]]></description>
+            <content:encoded><![CDATA[High Seas, a coding challenge that rewards teens for coding projects with sweet prizes — including 15 System76 Launch Keyboards is happening now! <a href="https://blog.system76.com/post/high-seas-coding-challenge">https://blog.system76.com/post/high-seas-coding-challenge</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zz5gd68jQArT1GIq_HackClub.png"/>
         </item>
         <item>
