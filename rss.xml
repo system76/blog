@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 26 Nov 2024 15:40:02 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Dec 2024 01:34:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[Teen-Driven Hack Club launches High Seas Coding Challenge]]></title>
             <link>https://blog.system76.com/post/high-seas-coding-challenge</link>
             <guid>https://blog.system76.com/post/high-seas-coding-challenge</guid>
-            <pubDate>Tue, 26 Nov 2024 15:40:02 GMT</pubDate>
+            <pubDate>Wed, 04 Dec 2024 01:34:31 GMT</pubDate>
             <description><![CDATA[High Seas, a coding challenge that rewards teens for coding projects with sweet prizes — including 15 System76 Launch Keyboards is happening now!]]></description>
             <content:encoded><![CDATA[High Seas, a coding challenge that rewards teens for coding projects with sweet prizes — including 15 System76 Launch Keyboards is happening now! <a href="https://blog.system76.com/post/high-seas-coding-challenge">https://blog.system76.com/post/high-seas-coding-challenge</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zz5gd68jQArT1GIq_HackClub.png"/>
@@ -39,7 +39,7 @@ Yes, they really do manufacture computers and keyboards in Denver! <a href="http
             <title><![CDATA[Engineering Thelio Astra]]></title>
             <link>https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</link>
             <guid>https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</guid>
-            <pubDate>Wed, 20 Nov 2024 16:54:43 GMT</pubDate>
+            <pubDate>Wed, 04 Dec 2024 01:34:08 GMT</pubDate>
             <description><![CDATA[An interview with System76 Product Manager and Mechanical Engineer]]></description>
             <content:encoded><![CDATA[An interview with System76 Product Manager and Mechanical Engineer <a href="https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop">https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZzIv9a8jQArT0tHy_EngineeringThelioAstra.png"/>
