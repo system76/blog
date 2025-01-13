@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 05 Dec 2024 15:35:06 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 10 Jan 2025 16:11:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -14,7 +14,25 @@
             <url>https://blog.system76.com/images/hero.jpg</url>
             <link>https://blog.system76.com/rss.xml</link>
         </image>
-        <copyright>All rights reserved 2024, System76</copyright>
+        <copyright>All rights reserved 2025, System76</copyright>
+        <item>
+            <title><![CDATA[2025: The Year of COSMIC — Alpha 5 Released!]]></title>
+            <link>https://blog.system76.com/post/cosmic-alpha-5-released</link>
+            <guid>https://blog.system76.com/post/cosmic-alpha-5-released</guid>
+            <pubDate>Fri, 10 Jan 2025 16:11:10 GMT</pubDate>
+            <description><![CDATA[COSMIC Media Player, Alt+Tab update, Users Settings, and more!]]></description>
+            <content:encoded><![CDATA[COSMIC Media Player, Alt+Tab update, Users Settings, and more! <a href="https://blog.system76.com/post/cosmic-alpha-5-released">https://blog.system76.com/post/cosmic-alpha-5-released</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Z4ADfpbqstJ99RbE_CosmicHeader-alpha5.png"/>
+        </item>
+        <item>
+            <title><![CDATA[Just Released: Premium Upgrades Abound for the Latest Pangolin Laptop]]></title>
+            <link>https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late</link>
+            <guid>https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late</guid>
+            <pubDate>Thu, 09 Jan 2025 21:45:10 GMT</pubDate>
+            <description><![CDATA[New all-aluminum build feels pristine in your hands, plus higher resolution and a larger screen.]]></description>
+            <content:encoded><![CDATA[New all-aluminum build feels pristine in your hands, plus higher resolution and a larger screen. <a href="https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late">https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/Z2C2G5bqstJ98lIT_pangolinblogheader2025.jpg"/>
+        </item>
         <item>
             <title><![CDATA[‘Tis the Season for COSMIC Alpha 4!]]></title>
             <link>https://blog.system76.com/post/cosmic-alpha-4</link>
@@ -88,24 +106,6 @@ Yes, they really do manufacture computers and keyboards in Denver! <a href="http
             <description><![CDATA[System76 Thelio Astra arm64 developer desktop for autonomous driving and software-defined vehicle developers.]]></description>
             <content:encoded><![CDATA[System76 Thelio Astra arm64 developer desktop for autonomous driving and software-defined vehicle developers. <a href="https://blog.system76.com/post/system76-and-ampere-pioneer-arm64-developer-desktop">https://blog.system76.com/post/system76-and-ampere-pioneer-arm64-developer-desktop</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zw7C3YF3NbkBXeiH_ThelioAstra-ComingSoon.png"/>
-        </item>
-        <item>
-            <title><![CDATA[System76 COSMIC Alpha 2 Released]]></title>
-            <link>https://blog.system76.com/post/cosmic-alpha-2-press-release</link>
-            <guid>https://blog.system76.com/post/cosmic-alpha-2-press-release</guid>
-            <pubDate>Wed, 04 Dec 2024 01:34:55 GMT</pubDate>
-            <description><![CDATA[System76 Desktop Environment COSMIC Enters Alpha: Stage 2. Building out COSMIC Files, Settings pages, and WM features.]]></description>
-            <content:encoded><![CDATA[System76 Desktop Environment COSMIC Enters Alpha: Stage 2. Building out COSMIC Files, Settings pages, and WM features. <a href="https://blog.system76.com/post/cosmic-alpha-2-press-release">https://blog.system76.com/post/cosmic-alpha-2-press-release</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZvVkdLVsGrYSwCWI_CosmicHeader-alpha2.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Software Freedom Day Update]]></title>
-            <link>https://blog.system76.com/post/software-freedom-day-at-system76</link>
-            <guid>https://blog.system76.com/post/software-freedom-day-at-system76</guid>
-            <pubDate>Wed, 04 Dec 2024 01:33:34 GMT</pubDate>
-            <description><![CDATA[Excitement for Software Freedom Day spanned across the globe!]]></description>
-            <content:encoded><![CDATA[Excitement for Software Freedom Day spanned across the globe! <a href="https://blog.system76.com/post/software-freedom-day-at-system76">https://blog.system76.com/post/software-freedom-day-at-system76</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZvMj6LVsGrYSv5D7_softwarefreedomday.png"/>
         </item>
     </channel>
 </rss>
