@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 10 Jan 2025 16:11:10 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 16 Jan 2025 17:43:50 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2025, System76</copyright>
+        <item>
+            <title><![CDATA[System76 Workstations Chosen to Feature New Tech at CES and COVESA]]></title>
+            <link>https://blog.system76.com/post/system76-workstations-ces-covesa</link>
+            <guid>https://blog.system76.com/post/system76-workstations-ces-covesa</guid>
+            <pubDate>Thu, 16 Jan 2025 17:43:50 GMT</pubDate>
+            <description><![CDATA[Our computers cast new GIGABYTE, Ampere, and Tier IV products in the best light.]]></description>
+            <content:encoded><![CDATA[Our computers cast new GIGABYTE, Ampere, and Tier IV products in the best light. <a href="https://blog.system76.com/post/system76-workstations-ces-covesa">https://blog.system76.com/post/system76-workstations-ces-covesa</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/Z4VOAJbqstJ99ZQ8_CESBooth.jpg"/>
+        </item>
         <item>
             <title><![CDATA[2025: The Year of COSMIC — Alpha 5 Released!]]></title>
             <link>https://blog.system76.com/post/cosmic-alpha-5-released</link>
@@ -28,7 +37,7 @@
             <title><![CDATA[Just Released: Premium Upgrades Abound for the Latest Pangolin Laptop]]></title>
             <link>https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late</link>
             <guid>https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late</guid>
-            <pubDate>Thu, 09 Jan 2025 21:45:10 GMT</pubDate>
+            <pubDate>Thu, 16 Jan 2025 17:43:39 GMT</pubDate>
             <description><![CDATA[New all-aluminum build feels pristine in your hands, plus higher resolution and a larger screen.]]></description>
             <content:encoded><![CDATA[New all-aluminum build feels pristine in your hands, plus higher resolution and a larger screen. <a href="https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late">https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/Z2C2G5bqstJ98lIT_pangolinblogheader2025.jpg"/>
@@ -93,19 +102,10 @@ Yes, they really do manufacture computers and keyboards in Denver! <a href="http
             <title><![CDATA[Pioneering Japan's self-driving cars on open source software]]></title>
             <link>https://blog.system76.com/post/thelio-astra-tier-iv</link>
             <guid>https://blog.system76.com/post/thelio-astra-tier-iv</guid>
-            <pubDate>Wed, 04 Dec 2024 01:36:37 GMT</pubDate>
+            <pubDate>Thu, 16 Jan 2025 17:43:50 GMT</pubDate>
             <description><![CDATA[Thelio Astra is set to accelerate Tier IV towards autonomous self-driving.]]></description>
             <content:encoded><![CDATA[Thelio Astra is set to accelerate Tier IV towards autonomous self-driving. <a href="https://blog.system76.com/post/thelio-astra-tier-iv">https://blog.system76.com/post/thelio-astra-tier-iv</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zxq8lYF3NbkBYAwt_Blogheader-THELIOASTRAANDTIER4.png"/>
-        </item>
-        <item>
-            <title><![CDATA[System76 and Ampere® pioneer custom-built Thelio Astra arm64 developer desktop]]></title>
-            <link>https://blog.system76.com/post/system76-and-ampere-pioneer-arm64-developer-desktop</link>
-            <guid>https://blog.system76.com/post/system76-and-ampere-pioneer-arm64-developer-desktop</guid>
-            <pubDate>Wed, 23 Oct 2024 20:26:51 GMT</pubDate>
-            <description><![CDATA[System76 Thelio Astra arm64 developer desktop for autonomous driving and software-defined vehicle developers.]]></description>
-            <content:encoded><![CDATA[System76 Thelio Astra arm64 developer desktop for autonomous driving and software-defined vehicle developers. <a href="https://blog.system76.com/post/system76-and-ampere-pioneer-arm64-developer-desktop">https://blog.system76.com/post/system76-and-ampere-pioneer-arm64-developer-desktop</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zw7C3YF3NbkBXeiH_ThelioAstra-ComingSoon.png"/>
         </item>
     </channel>
 </rss>
