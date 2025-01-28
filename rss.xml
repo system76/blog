@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 16 Jan 2025 17:43:50 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Jan 2025 15:37:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2025, System76</copyright>
+        <item>
+            <title><![CDATA[Introducing the 2025 Meerkat Mini]]></title>
+            <link>https://blog.system76.com/post/2025-meerkat-mini</link>
+            <guid>https://blog.system76.com/post/2025-meerkat-mini</guid>
+            <pubDate>Tue, 28 Jan 2025 15:37:07 GMT</pubDate>
+            <description><![CDATA[Now with 62% faster RAM and Intel Core Ultra.]]></description>
+            <content:encoded><![CDATA[Now with 62% faster RAM and Intel Core Ultra. <a href="https://blog.system76.com/post/2025-meerkat-mini">https://blog.system76.com/post/2025-meerkat-mini</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/Z5f8m5bqstJ996Cy_meer9-launch-socials-blog.jpg"/>
+        </item>
         <item>
             <title><![CDATA[System76 Workstations Chosen to Feature New Tech at CES and COVESA]]></title>
             <link>https://blog.system76.com/post/system76-workstations-ces-covesa</link>
@@ -97,15 +106,6 @@ Yes, they really do manufacture computers and keyboards in Denver! <a href="http
             <description><![CDATA[System76 new Thelio Astra brings Ampere processors and arm64 architecture to the Thelio desktop line.]]></description>
             <content:encoded><![CDATA[System76 new Thelio Astra brings Ampere processors and arm64 architecture to the Thelio desktop line. <a href="https://blog.system76.com/post/system76-and-ampere-collaborate-on-new-thelio-astra">https://blog.system76.com/post/system76-and-ampere-collaborate-on-new-thelio-astra</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zxupa4F3NbkBYCdK_JOESPEEDINTERVIEW.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Pioneering Japan's self-driving cars on open source software]]></title>
-            <link>https://blog.system76.com/post/thelio-astra-tier-iv</link>
-            <guid>https://blog.system76.com/post/thelio-astra-tier-iv</guid>
-            <pubDate>Thu, 16 Jan 2025 17:43:50 GMT</pubDate>
-            <description><![CDATA[Thelio Astra is set to accelerate Tier IV towards autonomous self-driving.]]></description>
-            <content:encoded><![CDATA[Thelio Astra is set to accelerate Tier IV towards autonomous self-driving. <a href="https://blog.system76.com/post/thelio-astra-tier-iv">https://blog.system76.com/post/thelio-astra-tier-iv</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zxq8lYF3NbkBYAwt_Blogheader-THELIOASTRAANDTIER4.png"/>
         </item>
     </channel>
 </rss>
