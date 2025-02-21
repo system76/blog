@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 28 Jan 2025 15:37:07 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 21 Feb 2025 18:12:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2025, System76</copyright>
+        <item>
+            <title><![CDATA[COSMIC Alpha 6: Big Leaps Forward]]></title>
+            <link>https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward</link>
+            <guid>https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward</guid>
+            <pubDate>Fri, 21 Feb 2025 18:12:31 GMT</pubDate>
+            <description><![CDATA[New accessibility features, workspaces polish, desktop icons, and more!]]></description>
+            <content:encoded><![CDATA[New accessibility features, workspaces polish, desktop icons, and more! <a href="https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward">https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Z7inFJ7c43Q3gFB3_CosmicHeader-alpha6.png"/>
+        </item>
         <item>
             <title><![CDATA[Introducing the 2025 Meerkat Mini]]></title>
             <link>https://blog.system76.com/post/2025-meerkat-mini</link>
@@ -97,15 +106,6 @@ Yes, they really do manufacture computers and keyboards in Denver! <a href="http
             <description><![CDATA[Upgrade to Alpha 3 for custom system fonts, testable screen reader support, and more.]]></description>
             <content:encoded><![CDATA[Upgrade to Alpha 3 for custom system fonts, testable screen reader support, and more. <a href="https://blog.system76.com/post/cosmic-alpha-3">https://blog.system76.com/post/cosmic-alpha-3</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/ZyQDyK8jQArT0Gb1_cosmic-alpha-3-launch-blog-header.jpg.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[System76 and Ampere Collaborate on New Thelio Astra: An Interview with Joe Speed]]></title>
-            <link>https://blog.system76.com/post/system76-and-ampere-collaborate-on-new-thelio-astra</link>
-            <guid>https://blog.system76.com/post/system76-and-ampere-collaborate-on-new-thelio-astra</guid>
-            <pubDate>Thu, 12 Dec 2024 16:34:28 GMT</pubDate>
-            <description><![CDATA[System76 new Thelio Astra brings Ampere processors and arm64 architecture to the Thelio desktop line.]]></description>
-            <content:encoded><![CDATA[System76 new Thelio Astra brings Ampere processors and arm64 architecture to the Thelio desktop line. <a href="https://blog.system76.com/post/system76-and-ampere-collaborate-on-new-thelio-astra">https://blog.system76.com/post/system76-and-ampere-collaborate-on-new-thelio-astra</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zxupa4F3NbkBYCdK_JOESPEEDINTERVIEW.png"/>
         </item>
     </channel>
 </rss>
