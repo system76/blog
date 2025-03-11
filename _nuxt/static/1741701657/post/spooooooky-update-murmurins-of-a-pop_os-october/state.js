@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1741701657",layout:"default",error:a,serverRendered:true,routePath:"\u002Fpost\u002Fspooooooky-update-murmurins-of-a-pop_os-october",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}}}}(null));
