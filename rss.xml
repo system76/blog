@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 11 Mar 2025 14:02:25 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 24 Apr 2025 23:08:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2025, System76</copyright>
+        <item>
+            <title><![CDATA[COSMIC Alpha 7: Never Been Beta]]></title>
+            <link>https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</link>
+            <guid>https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</guid>
+            <pubDate>Thu, 24 Apr 2025 23:08:04 GMT</pubDate>
+            <description><![CDATA[Wrapping up COSMIC’s main features before the first beta release.]]></description>
+            <content:encoded><![CDATA[Wrapping up COSMIC’s main features before the first beta release. <a href="https://blog.system76.com/post/cosmic-alpha-7-never-been-beta">https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aAlwmPIqRLdaBjDE_cosmicalpha7blogheader.jpg"/>
+        </item>
         <item>
             <title><![CDATA[Bug Fixes: Unlocking Health Secrets from Insect Genomes on Thelio Astra]]></title>
             <link>https://blog.system76.com/post/bioinformatics-thelio-astra-rjnowling-interview</link>
@@ -97,15 +106,6 @@ Yes, they really do manufacture computers and keyboards in Denver!]]></descripti
             <content:encoded><![CDATA[See How It's Made: Denver Computer Manufacturer Opens Doors for Free Tours 
 Yes, they really do manufacture computers and keyboards in Denver! <a href="https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours">https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZzOUx68jQArT0xq8_manufacturing-1-.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Engineering Thelio Astra]]></title>
-            <link>https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</link>
-            <guid>https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</guid>
-            <pubDate>Wed, 04 Dec 2024 01:34:08 GMT</pubDate>
-            <description><![CDATA[An interview with System76 Product Manager and Mechanical Engineer]]></description>
-            <content:encoded><![CDATA[An interview with System76 Product Manager and Mechanical Engineer <a href="https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop">https://blog.system76.com/post/engineering-thelio-astra-arm-powered-desktop</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZzIv9a8jQArT0tHy_EngineeringThelioAstra.png"/>
         </item>
     </channel>
 </rss>
