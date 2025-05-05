@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 24 Apr 2025 23:08:04 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 May 2025 18:16:47 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -19,7 +19,7 @@
             <title><![CDATA[COSMIC Alpha 7: Never Been Beta]]></title>
             <link>https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</link>
             <guid>https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</guid>
-            <pubDate>Thu, 24 Apr 2025 23:08:04 GMT</pubDate>
+            <pubDate>Mon, 05 May 2025 18:16:47 GMT</pubDate>
             <description><![CDATA[Wrapping up COSMIC’s main features before the first beta release.]]></description>
             <content:encoded><![CDATA[Wrapping up COSMIC’s main features before the first beta release. <a href="https://blog.system76.com/post/cosmic-alpha-7-never-been-beta">https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aAlwmPIqRLdaBjDE_cosmicalpha7blogheader.jpg"/>
