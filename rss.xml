@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 08 May 2025 21:09:02 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 May 2025 21:11:05 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -18,7 +18,7 @@
         <item>
             <link>https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</link>
             <guid>https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</guid>
-            <pubDate>Thu, 08 May 2025 21:09:02 GMT</pubDate>
+            <pubDate>Thu, 08 May 2025 21:11:05 GMT</pubDate>
             <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov">https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aB0cIydWJ-7kRxr4_serw14-pre-order-mailchimp.jpg"/>
         </item>
