@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Mon, 05 May 2025 18:16:47 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 08 May 2025 21:09:02 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,13 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2025, System76</copyright>
+        <item>
+            <link>https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</link>
+            <guid>https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</guid>
+            <pubDate>Thu, 08 May 2025 21:09:02 GMT</pubDate>
+            <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov">https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aB0cIydWJ-7kRxr4_serw14-pre-order-mailchimp.jpg"/>
+        </item>
         <item>
             <title><![CDATA[COSMIC Alpha 7: Never Been Beta]]></title>
             <link>https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</link>
@@ -95,17 +102,6 @@
             <description><![CDATA[High Seas, a coding challenge that rewards teens for coding projects with sweet prizes — including 15 System76 Launch Keyboards is happening now!]]></description>
             <content:encoded><![CDATA[High Seas, a coding challenge that rewards teens for coding projects with sweet prizes — including 15 System76 Launch Keyboards is happening now! <a href="https://blog.system76.com/post/high-seas-coding-challenge">https://blog.system76.com/post/high-seas-coding-challenge</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zz5gd68jQArT1GIq_HackClub.png"/>
-        </item>
-        <item>
-            <title><![CDATA[See How It's Made: Denver Computer Manufacturer Opens Doors for Free Tours]]></title>
-            <link>https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</link>
-            <guid>https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</guid>
-            <pubDate>Tue, 12 Nov 2024 19:39:21 GMT</pubDate>
-            <description><![CDATA[See How It's Made: Denver Computer Manufacturer Opens Doors for Free Tours 
-Yes, they really do manufacture computers and keyboards in Denver!]]></description>
-            <content:encoded><![CDATA[See How It's Made: Denver Computer Manufacturer Opens Doors for Free Tours 
-Yes, they really do manufacture computers and keyboards in Denver! <a href="https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours">https://blog.system76.com/post/see-how-its-made-denver-computer-manufacturer-tours</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/ZzOUx68jQArT0xq8_manufacturing-1-.png"/>
         </item>
     </channel>
 </rss>
