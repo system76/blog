@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 08 May 2025 21:11:05 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 12 May 2025 13:37:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2025, System76</copyright>
+        <item>
+            <title><![CDATA[10 Years of Memories at LinuxFest Northwest]]></title>
+            <link>https://blog.system76.com/post/10-years-of-linuxfest-northwest</link>
+            <guid>https://blog.system76.com/post/10-years-of-linuxfest-northwest</guid>
+            <pubDate>Mon, 12 May 2025 13:37:41 GMT</pubDate>
+            <description><![CDATA[System76 reminisces on the last 10 years attending LinuxFest Northwest.]]></description>
+            <content:encoded><![CDATA[System76 reminisces on the last 10 years attending LinuxFest Northwest. <a href="https://blog.system76.com/post/10-years-of-linuxfest-northwest">https://blog.system76.com/post/10-years-of-linuxfest-northwest</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/aB4wcSdWJ-7kR2E7_lfnwsmaller.png"/>
+        </item>
         <item>
             <link>https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</link>
             <guid>https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</guid>
@@ -93,15 +102,6 @@
             <description><![CDATA[New additions include settings and COSMIC app updates, plus an early Accessibility applet.]]></description>
             <content:encoded><![CDATA[New additions include settings and COSMIC app updates, plus an early Accessibility applet. <a href="https://blog.system76.com/post/cosmic-alpha-4">https://blog.system76.com/post/cosmic-alpha-4</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Z0-rIZbqstJ98Af2_CosmicHeader-alpha4.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Teen-Driven Hack Club launches High Seas Coding Challenge]]></title>
-            <link>https://blog.system76.com/post/high-seas-coding-challenge</link>
-            <guid>https://blog.system76.com/post/high-seas-coding-challenge</guid>
-            <pubDate>Wed, 04 Dec 2024 01:34:31 GMT</pubDate>
-            <description><![CDATA[High Seas, a coding challenge that rewards teens for coding projects with sweet prizes — including 15 System76 Launch Keyboards is happening now!]]></description>
-            <content:encoded><![CDATA[High Seas, a coding challenge that rewards teens for coding projects with sweet prizes — including 15 System76 Launch Keyboards is happening now! <a href="https://blog.system76.com/post/high-seas-coding-challenge">https://blog.system76.com/post/high-seas-coding-challenge</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Zz5gd68jQArT1GIq_HackClub.png"/>
         </item>
     </channel>
 </rss>
