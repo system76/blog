@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Mon, 12 May 2025 13:37:41 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 27 Jun 2025 17:20:14 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2025, System76</copyright>
+        <item>
+            <title><![CDATA[Open Source Summit 2025 Recap with System76]]></title>
+            <link>https://blog.system76.com/post/open-source-summit-recap</link>
+            <guid>https://blog.system76.com/post/open-source-summit-recap</guid>
+            <pubDate>Fri, 27 Jun 2025 17:20:14 GMT</pubDate>
+            <description><![CDATA[Thelio Astra, System76 COSMIC Desktop Presentation and an epic happy hour.]]></description>
+            <content:encoded><![CDATA[Thelio Astra, System76 COSMIC Desktop Presentation and an epic happy hour. <a href="https://blog.system76.com/post/open-source-summit-recap">https://blog.system76.com/post/open-source-summit-recap</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/aF7QY3fc4bHWizFz_image.png"/>
+        </item>
         <item>
             <title><![CDATA[10 Years of Memories at LinuxFest Northwest]]></title>
             <link>https://blog.system76.com/post/10-years-of-linuxfest-northwest</link>
@@ -93,15 +102,6 @@
             <description><![CDATA[New all-aluminum build feels pristine in your hands, plus higher resolution and a larger screen.]]></description>
             <content:encoded><![CDATA[New all-aluminum build feels pristine in your hands, plus higher resolution and a larger screen. <a href="https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late">https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/Z2C2G5bqstJ98lIT_pangolinblogheader2025.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[‘Tis the Season for COSMIC Alpha 4!]]></title>
-            <link>https://blog.system76.com/post/cosmic-alpha-4</link>
-            <guid>https://blog.system76.com/post/cosmic-alpha-4</guid>
-            <pubDate>Thu, 05 Dec 2024 15:35:06 GMT</pubDate>
-            <description><![CDATA[New additions include settings and COSMIC app updates, plus an early Accessibility applet.]]></description>
-            <content:encoded><![CDATA[New additions include settings and COSMIC app updates, plus an early Accessibility applet. <a href="https://blog.system76.com/post/cosmic-alpha-4">https://blog.system76.com/post/cosmic-alpha-4</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Z0-rIZbqstJ98Af2_CosmicHeader-alpha4.png"/>
         </item>
     </channel>
 </rss>
