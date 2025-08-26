@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 27 Jun 2025 17:20:14 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 05 Aug 2025 14:55:41 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -16,10 +16,19 @@
         </image>
         <copyright>All rights reserved 2025, System76</copyright>
         <item>
+            <title><![CDATA[System76 Announces Gazelle Laptop: A Powerful Everyday Companion]]></title>
+            <link>https://blog.system76.com/post/system76-announces-gazelle-laptop</link>
+            <guid>https://blog.system76.com/post/system76-announces-gazelle-laptop</guid>
+            <pubDate>Tue, 05 Aug 2025 14:55:41 GMT</pubDate>
+            <description><![CDATA[Now featuring NVIDIA RTX 50 Series graphics and Intel Core 7 processing.]]></description>
+            <content:encoded><![CDATA[Now featuring NVIDIA RTX 50 Series graphics and Intel Core 7 processing. <a href="https://blog.system76.com/post/system76-announces-gazelle-laptop">https://blog.system76.com/post/system76-announces-gazelle-laptop</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aJE2BqTt2nPbZ1UD_gazelle-2025-blog.jpg"/>
+        </item>
+        <item>
             <title><![CDATA[Open Source Summit 2025 Recap with System76]]></title>
             <link>https://blog.system76.com/post/open-source-summit-recap</link>
             <guid>https://blog.system76.com/post/open-source-summit-recap</guid>
-            <pubDate>Fri, 27 Jun 2025 17:20:14 GMT</pubDate>
+            <pubDate>Mon, 07 Jul 2025 14:30:09 GMT</pubDate>
             <description><![CDATA[Thelio Astra, System76 COSMIC Desktop Presentation and an epic happy hour.]]></description>
             <content:encoded><![CDATA[Thelio Astra, System76 COSMIC Desktop Presentation and an epic happy hour. <a href="https://blog.system76.com/post/open-source-summit-recap">https://blog.system76.com/post/open-source-summit-recap</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/aF7QY3fc4bHWizFz_image.png"/>
@@ -44,7 +53,7 @@
             <title><![CDATA[COSMIC Alpha 7: Never Been Beta]]></title>
             <link>https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</link>
             <guid>https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</guid>
-            <pubDate>Mon, 05 May 2025 18:16:47 GMT</pubDate>
+            <pubDate>Tue, 26 Aug 2025 16:32:29 GMT</pubDate>
             <description><![CDATA[Wrapping up COSMIC’s main features before the first beta release.]]></description>
             <content:encoded><![CDATA[Wrapping up COSMIC’s main features before the first beta release. <a href="https://blog.system76.com/post/cosmic-alpha-7-never-been-beta">https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aAlwmPIqRLdaBjDE_cosmicalpha7blogheader.jpg"/>
@@ -93,15 +102,6 @@
             <description><![CDATA[COSMIC Media Player, Alt+Tab update, Users Settings, and more!]]></description>
             <content:encoded><![CDATA[COSMIC Media Player, Alt+Tab update, Users Settings, and more! <a href="https://blog.system76.com/post/cosmic-alpha-5-released">https://blog.system76.com/post/cosmic-alpha-5-released</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Z4ADfpbqstJ99RbE_CosmicHeader-alpha5.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Just Released: Premium Upgrades Abound for the Latest Pangolin Laptop]]></title>
-            <link>https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late</link>
-            <guid>https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late</guid>
-            <pubDate>Thu, 16 Jan 2025 17:43:39 GMT</pubDate>
-            <description><![CDATA[New all-aluminum build feels pristine in your hands, plus higher resolution and a larger screen.]]></description>
-            <content:encoded><![CDATA[New all-aluminum build feels pristine in your hands, plus higher resolution and a larger screen. <a href="https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late">https://blog.system76.com/post/just-released-premium-upgrades-abound-for-the-late</a>]]></content:encoded>
-            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/Z2C2G5bqstJ98lIT_pangolinblogheader2025.jpg"/>
         </item>
     </channel>
 </rss>
