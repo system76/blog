@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 05 Aug 2025 14:55:41 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 08 Oct 2025 14:54:07 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2025, System76</copyright>
+        <item>
+            <title><![CDATA[Betting on Beta: Oryx Pro debuts with new Pop!_OS]]></title>
+            <link>https://blog.system76.com/post/betting-on-beta-oryx-pro-debuts-with-new-pop_os</link>
+            <guid>https://blog.system76.com/post/betting-on-beta-oryx-pro-debuts-with-new-pop_os</guid>
+            <pubDate>Wed, 08 Oct 2025 14:54:07 GMT</pubDate>
+            <description><![CDATA[System76’s flagship laptop is back with a Big Bang.]]></description>
+            <content:encoded><![CDATA[System76’s flagship laptop is back with a Big Bang. <a href="https://blog.system76.com/post/betting-on-beta-oryx-pro-debuts-with-new-pop_os">https://blog.system76.com/post/betting-on-beta-oryx-pro-debuts-with-new-pop_os</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/aOZx-J5xUNkB1vvx_oryxcosmicblog_header.png"/>
+        </item>
         <item>
             <title><![CDATA[System76 Announces Gazelle Laptop: A Powerful Everyday Companion]]></title>
             <link>https://blog.system76.com/post/system76-announces-gazelle-laptop</link>
@@ -93,15 +102,6 @@
             <description><![CDATA[Our computers cast new GIGABYTE, Ampere, and Tier IV products in the best light.]]></description>
             <content:encoded><![CDATA[Our computers cast new GIGABYTE, Ampere, and Tier IV products in the best light. <a href="https://blog.system76.com/post/system76-workstations-ces-covesa">https://blog.system76.com/post/system76-workstations-ces-covesa</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/Z4VOAJbqstJ99ZQ8_CESBooth.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[2025: The Year of COSMIC — Alpha 5 Released!]]></title>
-            <link>https://blog.system76.com/post/cosmic-alpha-5-released</link>
-            <guid>https://blog.system76.com/post/cosmic-alpha-5-released</guid>
-            <pubDate>Fri, 10 Jan 2025 16:11:10 GMT</pubDate>
-            <description><![CDATA[COSMIC Media Player, Alt+Tab update, Users Settings, and more!]]></description>
-            <content:encoded><![CDATA[COSMIC Media Player, Alt+Tab update, Users Settings, and more! <a href="https://blog.system76.com/post/cosmic-alpha-5-released">https://blog.system76.com/post/cosmic-alpha-5-released</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Z4ADfpbqstJ99RbE_CosmicHeader-alpha5.png"/>
         </item>
     </channel>
 </rss>
