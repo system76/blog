@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Wed, 08 Oct 2025 14:54:07 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 11 Dec 2025 18:17:40 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2025, System76</copyright>
+        <item>
+            <title><![CDATA[Pop!_OS 24.04 LTS Released: A Letter From Our Founder]]></title>
+            <link>https://blog.system76.com/post/pop-os-letter-from-our-founder</link>
+            <guid>https://blog.system76.com/post/pop-os-letter-from-our-founder</guid>
+            <pubDate>Thu, 11 Dec 2025 18:17:40 GMT</pubDate>
+            <description><![CDATA[An important message on Pop!_OS, Linux, and one downright fantastic community.]]></description>
+            <content:encoded><![CDATA[An important message on Pop!_OS, Linux, and one downright fantastic community. <a href="https://blog.system76.com/post/pop-os-letter-from-our-founder">https://blog.system76.com/post/pop-os-letter-from-our-founder</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aTork3NYClf9oCvf_FounderLetterSpace.jpg"/>
+        </item>
         <item>
             <title><![CDATA[Betting on Beta: Oryx Pro debuts with new Pop!_OS]]></title>
             <link>https://blog.system76.com/post/betting-on-beta-oryx-pro-debuts-with-new-pop_os</link>
@@ -93,15 +102,6 @@
             <description><![CDATA[Now with 62% faster RAM and Intel Core Ultra.]]></description>
             <content:encoded><![CDATA[Now with 62% faster RAM and Intel Core Ultra. <a href="https://blog.system76.com/post/2025-meerkat-mini">https://blog.system76.com/post/2025-meerkat-mini</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/Z5f8m5bqstJ996Cy_meer9-launch-socials-blog.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[System76 Workstations Chosen to Feature New Tech at CES and COVESA]]></title>
-            <link>https://blog.system76.com/post/system76-workstations-ces-covesa</link>
-            <guid>https://blog.system76.com/post/system76-workstations-ces-covesa</guid>
-            <pubDate>Thu, 16 Jan 2025 17:43:50 GMT</pubDate>
-            <description><![CDATA[Our computers cast new GIGABYTE, Ampere, and Tier IV products in the best light.]]></description>
-            <content:encoded><![CDATA[Our computers cast new GIGABYTE, Ampere, and Tier IV products in the best light. <a href="https://blog.system76.com/post/system76-workstations-ces-covesa">https://blog.system76.com/post/system76-workstations-ces-covesa</a>]]></content:encoded>
-            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/Z4VOAJbqstJ99ZQ8_CESBooth.jpg"/>
         </item>
     </channel>
 </rss>
