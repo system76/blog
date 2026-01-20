@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 11 Dec 2025 18:17:40 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 16 Jan 2026 22:59:20 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -14,7 +14,16 @@
             <url>https://blog.system76.com/images/hero.jpg</url>
             <link>https://blog.system76.com/rss.xml</link>
         </image>
-        <copyright>All rights reserved 2025, System76</copyright>
+        <copyright>All rights reserved 2026, System76</copyright>
+        <item>
+            <title><![CDATA[The Latest Updates to COSMIC Epoch 1]]></title>
+            <link>https://blog.system76.com/post/cosmic-epoch-1-updates</link>
+            <guid>https://blog.system76.com/post/cosmic-epoch-1-updates</guid>
+            <pubDate>Fri, 16 Jan 2026 22:59:20 GMT</pubDate>
+            <description><![CDATA[Features and fixes added since COSMIC's first release.]]></description>
+            <content:encoded><![CDATA[Features and fixes added since COSMIC's first release. <a href="https://blog.system76.com/post/cosmic-epoch-1-updates">https://blog.system76.com/post/cosmic-epoch-1-updates</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aWq16gIvOtkhBq03_cosmicblogbanner.jpg"/>
+        </item>
         <item>
             <title><![CDATA[Pop!_OS 24.04 LTS Released: A Letter From Our Founder]]></title>
             <link>https://blog.system76.com/post/pop-os-letter-from-our-founder</link>
@@ -93,15 +102,6 @@
             <description><![CDATA[New accessibility features, workspaces polish, desktop icons, and more!]]></description>
             <content:encoded><![CDATA[New accessibility features, workspaces polish, desktop icons, and more! <a href="https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward">https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Z7inFJ7c43Q3gFB3_CosmicHeader-alpha6.png"/>
-        </item>
-        <item>
-            <title><![CDATA[Introducing the 2025 Meerkat Mini]]></title>
-            <link>https://blog.system76.com/post/2025-meerkat-mini</link>
-            <guid>https://blog.system76.com/post/2025-meerkat-mini</guid>
-            <pubDate>Tue, 28 Jan 2025 15:37:07 GMT</pubDate>
-            <description><![CDATA[Now with 62% faster RAM and Intel Core Ultra.]]></description>
-            <content:encoded><![CDATA[Now with 62% faster RAM and Intel Core Ultra. <a href="https://blog.system76.com/post/2025-meerkat-mini">https://blog.system76.com/post/2025-meerkat-mini</a>]]></content:encoded>
-            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/Z5f8m5bqstJ996Cy_meer9-launch-socials-blog.jpg"/>
         </item>
     </channel>
 </rss>
