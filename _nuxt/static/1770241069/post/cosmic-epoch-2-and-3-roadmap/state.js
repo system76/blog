@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1770241069",layout:"default",error:a,serverRendered:true,routePath:"\u002Fpost\u002Fcosmic-epoch-2-and-3-roadmap",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}}}}(null));
