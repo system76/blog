@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Fri, 16 Jan 2026 22:59:20 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 04 Feb 2026 21:28:31 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2026, System76</copyright>
+        <item>
+            <title><![CDATA[COSMIC Epoch 2 and 3 Roadmap]]></title>
+            <link>https://blog.system76.com/post/cosmic-epoch-2-and-3-roadmap</link>
+            <guid>https://blog.system76.com/post/cosmic-epoch-2-and-3-roadmap</guid>
+            <pubDate>Wed, 04 Feb 2026 21:28:31 GMT</pubDate>
+            <description><![CDATA[View planned features for upcoming releases, such as frosted glass, desktop animations, and printer settings.]]></description>
+            <content:encoded><![CDATA[View planned features for upcoming releases, such as frosted glass, desktop animations, and printer settings. <a href="https://blog.system76.com/post/cosmic-epoch-2-and-3-roadmap">https://blog.system76.com/post/cosmic-epoch-2-and-3-roadmap</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aWq16gIvOtkhBq03_cosmicblogbanner.jpg"/>
+        </item>
         <item>
             <title><![CDATA[The Latest Updates to COSMIC Epoch 1]]></title>
             <link>https://blog.system76.com/post/cosmic-epoch-1-updates</link>
@@ -93,15 +102,6 @@
             <description><![CDATA[RJ Nowling joins Transmission Log to discuss mosquitos, bioinformatics, and Thelio Astra.]]></description>
             <content:encoded><![CDATA[RJ Nowling joins Transmission Log to discuss mosquitos, bioinformatics, and Thelio Astra. <a href="https://blog.system76.com/post/bioinformatics-thelio-astra-rjnowling-interview">https://blog.system76.com/post/bioinformatics-thelio-astra-rjnowling-interview</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Z8onrRsAHJWomNPK_InsectGenomeHeader-RJNowling.png"/>
-        </item>
-        <item>
-            <title><![CDATA[COSMIC Alpha 6: Big Leaps Forward]]></title>
-            <link>https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward</link>
-            <guid>https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward</guid>
-            <pubDate>Fri, 21 Feb 2025 18:12:31 GMT</pubDate>
-            <description><![CDATA[New accessibility features, workspaces polish, desktop icons, and more!]]></description>
-            <content:encoded><![CDATA[New accessibility features, workspaces polish, desktop icons, and more! <a href="https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward">https://blog.system76.com/post/cosmic-alpha-6-big-leaps-forward</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/Z7inFJ7c43Q3gFB3_CosmicHeader-alpha6.png"/>
         </item>
     </channel>
 </rss>
