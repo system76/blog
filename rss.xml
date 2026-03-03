@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 24 Feb 2026 18:50:09 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Mar 2026 17:30:08 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -16,9 +16,18 @@
         </image>
         <copyright>All rights reserved 2026, System76</copyright>
         <item>
+            <title><![CDATA[The Pop!_OS 24.04 LTS Upgrade is here!]]></title>
+            <link>https://blog.system76.com/post/pop-24-04-lts-upgrade</link>
+            <guid>https://blog.system76.com/post/pop-24-04-lts-upgrade</guid>
+            <pubDate>Tue, 03 Mar 2026 17:30:08 GMT</pubDate>
+            <description><![CDATA[Essential info for 22.04 LTS users on upgrading to the new Pop!_OS.]]></description>
+            <content:encoded><![CDATA[Essential info for 22.04 LTS users on upgrading to the new Pop!_OS. <a href="https://blog.system76.com/post/pop-24-04-lts-upgrade">https://blog.system76.com/post/pop-24-04-lts-upgrade</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/aaYUU1xvIZEnjQJF_Pop24.04upgradeblogheader.png"/>
+        </item>
+        <item>
             <link>https://blog.system76.com/post/cosmic-1-0-8-released</link>
             <guid>https://blog.system76.com/post/cosmic-1-0-8-released</guid>
-            <pubDate>Tue, 24 Feb 2026 18:50:09 GMT</pubDate>
+            <pubDate>Mon, 02 Mar 2026 17:34:17 GMT</pubDate>
             <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/cosmic-1-0-8-released">https://blog.system76.com/post/cosmic-1-0-8-released</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aWq16gIvOtkhBq03_cosmicblogbanner.jpg"/>
         </item>
@@ -26,7 +35,7 @@
             <title><![CDATA[COSMIC Epoch 2 and 3 Roadmap]]></title>
             <link>https://blog.system76.com/post/cosmic-epoch-2-and-3-roadmap</link>
             <guid>https://blog.system76.com/post/cosmic-epoch-2-and-3-roadmap</guid>
-            <pubDate>Wed, 04 Feb 2026 22:33:35 GMT</pubDate>
+            <pubDate>Mon, 02 Mar 2026 17:32:54 GMT</pubDate>
             <description><![CDATA[View planned features for upcoming releases, such as frosted glass, desktop animations, and printer settings.]]></description>
             <content:encoded><![CDATA[View planned features for upcoming releases, such as frosted glass, desktop animations, and printer settings. <a href="https://blog.system76.com/post/cosmic-epoch-2-and-3-roadmap">https://blog.system76.com/post/cosmic-epoch-2-and-3-roadmap</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aWq16gIvOtkhBq03_cosmicblogbanner.jpg"/>
@@ -35,7 +44,7 @@
             <title><![CDATA[The Latest Updates to COSMIC Epoch 1]]></title>
             <link>https://blog.system76.com/post/cosmic-epoch-1-updates</link>
             <guid>https://blog.system76.com/post/cosmic-epoch-1-updates</guid>
-            <pubDate>Fri, 16 Jan 2026 22:59:20 GMT</pubDate>
+            <pubDate>Mon, 02 Mar 2026 17:33:24 GMT</pubDate>
             <description><![CDATA[Features and fixes added since COSMIC's first release.]]></description>
             <content:encoded><![CDATA[Features and fixes added since COSMIC's first release. <a href="https://blog.system76.com/post/cosmic-epoch-1-updates">https://blog.system76.com/post/cosmic-epoch-1-updates</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aWq16gIvOtkhBq03_cosmicblogbanner.jpg"/>
@@ -44,7 +53,7 @@
             <title><![CDATA[Pop!_OS 24.04 LTS Released: A Letter From Our Founder]]></title>
             <link>https://blog.system76.com/post/pop-os-letter-from-our-founder</link>
             <guid>https://blog.system76.com/post/pop-os-letter-from-our-founder</guid>
-            <pubDate>Thu, 11 Dec 2025 18:17:40 GMT</pubDate>
+            <pubDate>Mon, 02 Mar 2026 17:32:34 GMT</pubDate>
             <description><![CDATA[An important message on Pop!_OS, Linux, and one downright fantastic community.]]></description>
             <content:encoded><![CDATA[An important message on Pop!_OS, Linux, and one downright fantastic community. <a href="https://blog.system76.com/post/pop-os-letter-from-our-founder">https://blog.system76.com/post/pop-os-letter-from-our-founder</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aTork3NYClf9oCvf_FounderLetterSpace.jpg"/>
@@ -53,7 +62,7 @@
             <title><![CDATA[Betting on Beta: Oryx Pro debuts with new Pop!_OS]]></title>
             <link>https://blog.system76.com/post/betting-on-beta-oryx-pro-debuts-with-new-pop_os</link>
             <guid>https://blog.system76.com/post/betting-on-beta-oryx-pro-debuts-with-new-pop_os</guid>
-            <pubDate>Wed, 08 Oct 2025 14:54:07 GMT</pubDate>
+            <pubDate>Mon, 02 Mar 2026 17:33:56 GMT</pubDate>
             <description><![CDATA[System76’s flagship laptop is back with a Big Bang.]]></description>
             <content:encoded><![CDATA[System76’s flagship laptop is back with a Big Bang. <a href="https://blog.system76.com/post/betting-on-beta-oryx-pro-debuts-with-new-pop_os">https://blog.system76.com/post/betting-on-beta-oryx-pro-debuts-with-new-pop_os</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/aOZx-J5xUNkB1vvx_oryxcosmicblog_header.png"/>
@@ -91,15 +100,6 @@
             <pubDate>Thu, 08 May 2025 21:11:05 GMT</pubDate>
             <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov">https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aB0cIydWJ-7kRxr4_serw14-pre-order-mailchimp.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[COSMIC Alpha 7: Never Been Beta]]></title>
-            <link>https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</link>
-            <guid>https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</guid>
-            <pubDate>Tue, 26 Aug 2025 16:32:29 GMT</pubDate>
-            <description><![CDATA[Wrapping up COSMIC’s main features before the first beta release.]]></description>
-            <content:encoded><![CDATA[Wrapping up COSMIC’s main features before the first beta release. <a href="https://blog.system76.com/post/cosmic-alpha-7-never-been-beta">https://blog.system76.com/post/cosmic-alpha-7-never-been-beta</a>]]></content:encoded>
-            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aAlwmPIqRLdaBjDE_cosmicalpha7blogheader.jpg"/>
         </item>
     </channel>
 </rss>
