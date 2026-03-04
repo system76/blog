@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 03 Mar 2026 17:30:08 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 03 Mar 2026 22:57:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2026, System76</copyright>
+        <item>
+            <title><![CDATA[Launch Keyboard tips to make you more productive]]></title>
+            <link>https://blog.system76.com/post/launch-keyboards-productivity</link>
+            <guid>https://blog.system76.com/post/launch-keyboards-productivity</guid>
+            <pubDate>Tue, 03 Mar 2026 22:57:18 GMT</pubDate>
+            <description><![CDATA[Tips & tricks for the newly redesigned Launch Configurable Keyboards.]]></description>
+            <content:encoded><![CDATA[Tips & tricks for the newly redesigned Launch Configurable Keyboards. <a href="https://blog.system76.com/post/launch-keyboards-productivity">https://blog.system76.com/post/launch-keyboards-productivity</a>]]></content:encoded>
+            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aadgg1xvIZEnjS3v_Launch-Black-blog.jpg"/>
+        </item>
         <item>
             <title><![CDATA[The Pop!_OS 24.04 LTS Upgrade is here!]]></title>
             <link>https://blog.system76.com/post/pop-24-04-lts-upgrade</link>
@@ -93,13 +102,6 @@
             <description><![CDATA[System76 reminisces on the last 10 years attending LinuxFest Northwest.]]></description>
             <content:encoded><![CDATA[System76 reminisces on the last 10 years attending LinuxFest Northwest. <a href="https://blog.system76.com/post/10-years-of-linuxfest-northwest">https://blog.system76.com/post/10-years-of-linuxfest-northwest</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/aB4wcSdWJ-7kR2E7_lfnwsmaller.png"/>
-        </item>
-        <item>
-            <link>https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</link>
-            <guid>https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</guid>
-            <pubDate>Thu, 08 May 2025 21:11:05 GMT</pubDate>
-            <content:encoded><![CDATA[null <a href="https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov">https://blog.system76.com/post/system76s-premium-engineering-laptop-serval-ws-mov</a>]]></content:encoded>
-            <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aB0cIydWJ-7kRxr4_serw14-pre-order-mailchimp.jpg"/>
         </item>
     </channel>
 </rss>
