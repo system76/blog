@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Tue, 03 Mar 2026 22:57:18 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 05 Mar 2026 19:40:44 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2026, System76</copyright>
+        <item>
+            <title><![CDATA[System76 on Age Verification Laws]]></title>
+            <link>https://blog.system76.com/post/system76-on-age-verification</link>
+            <guid>https://blog.system76.com/post/system76-on-age-verification</guid>
+            <pubDate>Thu, 05 Mar 2026 19:40:44 GMT</pubDate>
+            <description><![CDATA[Liberty has costs, but it's worth it.]]></description>
+            <content:encoded><![CDATA[Liberty has costs, but it's worth it. <a href="https://blog.system76.com/post/system76-on-age-verification">https://blog.system76.com/post/system76-on-age-verification</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/aanZaFxvIZEnjYa7_system76-on-age-verifcation-lawsRR.png"/>
+        </item>
         <item>
             <title><![CDATA[Launch Keyboard tips to make you more productive]]></title>
             <link>https://blog.system76.com/post/launch-keyboards-productivity</link>
@@ -93,15 +102,6 @@
             <description><![CDATA[Thelio Astra, System76 COSMIC Desktop Presentation and an epic happy hour.]]></description>
             <content:encoded><![CDATA[Thelio Astra, System76 COSMIC Desktop Presentation and an epic happy hour. <a href="https://blog.system76.com/post/open-source-summit-recap">https://blog.system76.com/post/open-source-summit-recap</a>]]></content:encoded>
             <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/aF7QY3fc4bHWizFz_image.png"/>
-        </item>
-        <item>
-            <title><![CDATA[10 Years of Memories at LinuxFest Northwest]]></title>
-            <link>https://blog.system76.com/post/10-years-of-linuxfest-northwest</link>
-            <guid>https://blog.system76.com/post/10-years-of-linuxfest-northwest</guid>
-            <pubDate>Mon, 12 May 2025 13:37:41 GMT</pubDate>
-            <description><![CDATA[System76 reminisces on the last 10 years attending LinuxFest Northwest.]]></description>
-            <content:encoded><![CDATA[System76 reminisces on the last 10 years attending LinuxFest Northwest. <a href="https://blog.system76.com/post/10-years-of-linuxfest-northwest">https://blog.system76.com/post/10-years-of-linuxfest-northwest</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/aB4wcSdWJ-7kR2E7_lfnwsmaller.png"/>
         </item>
     </channel>
 </rss>
