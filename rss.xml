@@ -5,7 +5,7 @@
         <title>System76 Blog RSS Feed</title>
         <link>https://blog.system76.com/rss.xml</link>
         <description>System76 Blog RSS Feed</description>
-        <lastBuildDate>Thu, 05 Mar 2026 19:40:44 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 17 Mar 2026 14:40:32 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>@nuxtjs/feed</generator>
         <language>en</language>
@@ -15,6 +15,15 @@
             <link>https://blog.system76.com/rss.xml</link>
         </image>
         <copyright>All rights reserved 2026, System76</copyright>
+        <item>
+            <title><![CDATA[Introducing the New Thelio Mira High Performance Desktop]]></title>
+            <link>https://blog.system76.com/post/system76-introduces-new-thelio-mira-high-performance-desktop</link>
+            <guid>https://blog.system76.com/post/system76-introduces-new-thelio-mira-high-performance-desktop</guid>
+            <pubDate>Tue, 17 Mar 2026 14:40:32 GMT</pubDate>
+            <description><![CDATA[Engineered for High Performance Under Demanding Workloads]]></description>
+            <content:encoded><![CDATA[Engineered for High Performance Under Demanding Workloads <a href="https://blog.system76.com/post/system76-introduces-new-thelio-mira-high-performance-desktop">https://blog.system76.com/post/system76-introduces-new-thelio-mira-high-performance-desktop</a>]]></content:encoded>
+            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/abHKw1xvIZEnjliV_just-launched-thelio-mira-blogr.png"/>
+        </item>
         <item>
             <title><![CDATA[System76 on Age Verification Laws]]></title>
             <link>https://blog.system76.com/post/system76-on-age-verification</link>
@@ -93,15 +102,6 @@
             <description><![CDATA[Now featuring NVIDIA RTX 50 Series graphics and Intel Core 7 processing.]]></description>
             <content:encoded><![CDATA[Now featuring NVIDIA RTX 50 Series graphics and Intel Core 7 processing. <a href="https://blog.system76.com/post/system76-announces-gazelle-laptop">https://blog.system76.com/post/system76-announces-gazelle-laptop</a>]]></content:encoded>
             <enclosure length="0" type="image/jpg" url="https://images.prismic.io/blog-system76/aJE2BqTt2nPbZ1UD_gazelle-2025-blog.jpg"/>
-        </item>
-        <item>
-            <title><![CDATA[Open Source Summit 2025 Recap with System76]]></title>
-            <link>https://blog.system76.com/post/open-source-summit-recap</link>
-            <guid>https://blog.system76.com/post/open-source-summit-recap</guid>
-            <pubDate>Mon, 07 Jul 2025 14:30:09 GMT</pubDate>
-            <description><![CDATA[Thelio Astra, System76 COSMIC Desktop Presentation and an epic happy hour.]]></description>
-            <content:encoded><![CDATA[Thelio Astra, System76 COSMIC Desktop Presentation and an epic happy hour. <a href="https://blog.system76.com/post/open-source-summit-recap">https://blog.system76.com/post/open-source-summit-recap</a>]]></content:encoded>
-            <enclosure length="0" type="image/png" url="https://images.prismic.io/blog-system76/aF7QY3fc4bHWizFz_image.png"/>
         </item>
     </channel>
 </rss>
