@@ -5,11 +5,15 @@ const prismicApiUrl = apiEndpoint
 const HOST = process.env.NODE_ENV === 'development'
   ? 'http://localhost:3000'
   : process.env.NODE_ENV === 'staging'
-    ? 'https://blog.genesis76.com'
-    : 'https://blog.system76.com'
+    ? 'https://genesis76.com/blog'
+    : 'https://system76.com/blog'
 
 export default {
   target: 'static',
+
+  router: {
+    base: '/blog/'
+  },
 
   components: [
     '~/components',

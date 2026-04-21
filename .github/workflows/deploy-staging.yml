@@ -52,13 +52,9 @@ jobs:
           path: 'deploy'
           token: ${{ secrets.RELEASE_TOKEN }}
 
-      - name: Push build to blog-staging repo
-        run: |
-          cp -r dist/* deploy
-          cd deploy
-          touch .nojekyll
-          echo "blog.genesis76.com" > CNAME
-          echo -e "User-agent: *\nDisallow: /" > robots.txt
-          git add .
-          git commit -m 'deploy: ${GITHUB_SHA::8}'
-          git push
+      - name: Deploy
+        run: aws s3 sync ./dist s3://${{ secrets.STAGING_AWS_S3_BUCKET }}/blog --delete
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.STAGING_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.STAGING_AWS_SECRET_ACCESS_KEY }}
+          AWS_DEFAULT_REGION: ${{ secrets.STAGING_AWS_REGION }}
