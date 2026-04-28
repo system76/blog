@@ -5,8 +5,8 @@ const prismicApiUrl = apiEndpoint
 const HOST = process.env.NODE_ENV === 'development'
   ? 'http://localhost:3000'
   : process.env.NODE_ENV === 'staging'
-    ? 'https://genesis76.com/blog'
-    : 'https://system76.com/blog'
+    ? 'https://genesis76.com/blog/'
+    : 'https://system76.com/blog/'
 
 export default {
   target: 'static',
@@ -147,7 +147,7 @@ export default {
 
   feed: [
     {
-      path: '/blog/rss.xml',
+      path: '/rss.xml',
       type: 'rss2',
       create: async feed => await createFeed(feed, HOST)
     }
