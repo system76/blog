@@ -147,7 +147,7 @@ export default {
 
   feed: [
     {
-      path: '/rss.xml',
+      path: '/blog/rss.xml',
       type: 'rss2',
       create: async feed => await createFeed(feed, HOST)
     }
