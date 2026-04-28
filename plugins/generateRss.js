@@ -55,7 +55,7 @@ const updateRssFile = () => {
     const rssFeed = fs.readFileSync(rssFeedPath, 'utf8')
     const rssFeedReplaced = rssFeed.replace(
       '?>',
-      '?>\r\n<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>'
+      '?>\r\n<?xml-stylesheet href="/blog/rss.xsl" type="text/xsl"?>'
     )
     fs.writeFileSync(rssFeedPath, rssFeedReplaced)
   }
