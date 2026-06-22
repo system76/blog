@@ -1,0 +1,14 @@
+[
+  {
+    "variation": "default",
+    "version": "sktwi1xtmkfgx8626",
+    "items": [
+      {}
+    ],
+    "primary": {
+      "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+      "title": "Example YouTube video"
+    },
+    "slice_type": "youtube_video"
+  }
+]

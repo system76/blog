@@ -67,7 +67,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostCopy/default-slice/preview.png",
+            "path": "/home/erin/repos/blog/.slicemachine/assets/slices/PostCopy/default-slice/preview.png",
             "width": 1168,
             "height": 289
           }
@@ -238,21 +238,79 @@
         },
         "screenshotPaths": {
           "full-width": {
-            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostImage/full-width/preview.png",
+            "path": "/home/erin/repos/blog/.slicemachine/assets/slices/PostImage/full-width/preview.png",
             "width": 1168,
             "height": 317
           },
           "article-width": {
-            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostImage/article-width/preview.png",
+            "path": "/home/erin/repos/blog/.slicemachine/assets/slices/PostImage/article-width/preview.png",
             "width": 1168,
             "height": 437
           },
           "free-width": {
-            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostImage/free-width/preview.png",
+            "path": "/home/erin/repos/blog/.slicemachine/assets/slices/PostImage/free-width/preview.png",
             "width": 1168,
             "height": 692
           }
         }
+      },
+      "youtube_video": {
+        "library": "slices",
+        "id": "youtube_video",
+        "name": "YoutubeVideo",
+        "description": "Embeds a YouTube video from a URL",
+        "model": {
+          "id": "youtube_video",
+          "type": "SharedSlice",
+          "name": "YoutubeVideo",
+          "description": "Embeds a YouTube video from a URL",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "YoutubeVideo",
+              "primary": {
+                "url": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Video URL",
+                    "placeholder": "Paste a YouTube link (e.g. https://youtu.be/dQw4w9WgXcQ)"
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Caption (optional)",
+                    "placeholder": "Shown below the video"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format",
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+              "title": "Example YouTube video"
+            },
+            "slice_type": "youtube_video"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
       }
     }
   }
