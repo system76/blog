@@ -1,6 +1,61 @@
 {
   "slices": {
     "components": {
+      "markdown_list": {
+        "library": "slices",
+        "id": "markdown_list",
+        "name": "MarkdownList",
+        "description": "Renders a multi-level ordered/unordered list authored in Markdown",
+        "model": {
+          "id": "markdown_list",
+          "type": "SharedSlice",
+          "name": "MarkdownList",
+          "description": "Renders a multi-level ordered/unordered list authored in Markdown",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MarkdownList",
+              "primary": {
+                "body": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "List (Markdown)",
+                    "placeholder": "- Fruit\n  - Apple\n    - Gala\n- Vegetables",
+                    "multi": "preformatted"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "markdown_list",
+            "items": [],
+            "primary": {
+              "body": [
+                {
+                  "type": "preformatted",
+                  "text": "- Fruit\n  - Apple\n    - Gala\n    - Fuji\n  - Banana\n- Vegetables\n  - Carrot\n  - Potato\n\n1. Preheat the oven\n2. Mix the ingredients\n   1. Dry ingredients first\n   2. Then the wet ingredients\n3. Bake for 20 minutes",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
+      },
       "post_copy": {
         "library": "slices",
         "id": "post_copy",

@@ -38,6 +38,7 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-vue": "^7.13.0",
     "lodash": "^4.17.21",
+    "marked": "^4.3.0",
     "nuxt-sm": "0.0.8",
     "postcss": "^8.3.5",
     "prismic-cli": "^3.8.13",

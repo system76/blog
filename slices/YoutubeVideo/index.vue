@@ -1,7 +1,7 @@
 <template>
   <figure
     v-if="embedUrl"
-    class="w-full my-6 md:my-12 mx-auto max-w-4xl px-4"
+    class="w-full my-6 md:my-12 mx-auto max-w-[65ch] px-4 text-base sm:text-lg xl:text-xl"
   >
     <div class="embed-responsive">
       <iframe
