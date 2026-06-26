@@ -1,0 +1,26 @@
+{
+  "id": "markdown_list",
+  "type": "SharedSlice",
+  "name": "MarkdownList",
+  "description": "Renders a multi-level ordered/unordered list authored in Markdown",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "MarkdownList",
+      "primary": {
+        "body": {
+          "type": "StructuredText",
+          "config": {
+            "label": "List (Markdown)",
+            "placeholder": "- Fruit\n  - Apple\n    - Gala\n- Vegetables",
+            "multi": "preformatted"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

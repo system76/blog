@@ -1,0 +1,33 @@
+{
+  "id": "youtube_video",
+  "type": "SharedSlice",
+  "name": "YoutubeVideo",
+  "description": "Embeds a YouTube video from a URL",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "YoutubeVideo",
+      "primary": {
+        "url": {
+          "type": "Text",
+          "config": {
+            "label": "Video URL",
+            "placeholder": "Paste a YouTube link (e.g. https://youtu.be/dQw4w9WgXcQ)"
+          }
+        },
+        "title": {
+          "type": "Text",
+          "config": {
+            "label": "Caption (optional)",
+            "placeholder": "Shown below the video"
+          }
+        }
+      },
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format",
+      "items": {}
+    }
+  ]
+}

@@ -58,6 +58,12 @@
             },
             "post_copy": {
               "type": "SharedSlice"
+            },
+            "youtube_video": {
+              "type": "SharedSlice"
+            },
+            "markdown_list": {
+              "type": "SharedSlice"
             }
           }
         }

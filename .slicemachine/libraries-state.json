@@ -1,6 +1,61 @@
 {
   "slices": {
     "components": {
+      "markdown_list": {
+        "library": "slices",
+        "id": "markdown_list",
+        "name": "MarkdownList",
+        "description": "Renders a multi-level ordered/unordered list authored in Markdown",
+        "model": {
+          "id": "markdown_list",
+          "type": "SharedSlice",
+          "name": "MarkdownList",
+          "description": "Renders a multi-level ordered/unordered list authored in Markdown",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "MarkdownList",
+              "primary": {
+                "body": {
+                  "type": "StructuredText",
+                  "config": {
+                    "label": "List (Markdown)",
+                    "placeholder": "- Fruit\n  - Apple\n    - Gala\n- Vegetables",
+                    "multi": "preformatted"
+                  }
+                }
+              },
+              "items": {},
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "name": "Default",
+            "slice_type": "markdown_list",
+            "items": [],
+            "primary": {
+              "body": [
+                {
+                  "type": "preformatted",
+                  "text": "- Fruit\n  - Apple\n    - Gala\n    - Fuji\n  - Banana\n- Vegetables\n  - Carrot\n  - Potato\n\n1. Preheat the oven\n2. Mix the ingredients\n   1. Dry ingredients first\n   2. Then the wet ingredients\n3. Bake for 20 minutes",
+                  "spans": []
+                }
+              ]
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
+      },
       "post_copy": {
         "library": "slices",
         "id": "post_copy",
@@ -67,7 +122,7 @@
         },
         "screenshotPaths": {
           "default-slice": {
-            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostCopy/default-slice/preview.png",
+            "path": "/home/erin/repos/blog/.slicemachine/assets/slices/PostCopy/default-slice/preview.png",
             "width": 1168,
             "height": 289
           }
@@ -238,21 +293,79 @@
         },
         "screenshotPaths": {
           "full-width": {
-            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostImage/full-width/preview.png",
+            "path": "/home/erin/repos/blog/.slicemachine/assets/slices/PostImage/full-width/preview.png",
             "width": 1168,
             "height": 317
           },
           "article-width": {
-            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostImage/article-width/preview.png",
+            "path": "/home/erin/repos/blog/.slicemachine/assets/slices/PostImage/article-width/preview.png",
             "width": 1168,
             "height": 437
           },
           "free-width": {
-            "path": "/home/mikeg/Projects/system76/blog/.slicemachine/assets/slices/PostImage/free-width/preview.png",
+            "path": "/home/erin/repos/blog/.slicemachine/assets/slices/PostImage/free-width/preview.png",
             "width": 1168,
             "height": 692
           }
         }
+      },
+      "youtube_video": {
+        "library": "slices",
+        "id": "youtube_video",
+        "name": "YoutubeVideo",
+        "description": "Embeds a YouTube video from a URL",
+        "model": {
+          "id": "youtube_video",
+          "type": "SharedSlice",
+          "name": "YoutubeVideo",
+          "description": "Embeds a YouTube video from a URL",
+          "variations": [
+            {
+              "id": "default",
+              "name": "Default",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "YoutubeVideo",
+              "primary": {
+                "url": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Video URL",
+                    "placeholder": "Paste a YouTube link (e.g. https://youtu.be/dQw4w9WgXcQ)"
+                  }
+                },
+                "title": {
+                  "type": "Text",
+                  "config": {
+                    "label": "Caption (optional)",
+                    "placeholder": "Shown below the video"
+                  }
+                }
+              },
+              "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format",
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default": {
+            "variation": "default",
+            "version": "sktwi1xtmkfgx8626",
+            "items": [
+              {}
+            ],
+            "primary": {
+              "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+              "title": "Example YouTube video"
+            },
+            "slice_type": "youtube_video"
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "extension": "vue"
+        },
+        "screenshotPaths": {}
       }
     }
   }
