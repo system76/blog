@@ -45,6 +45,22 @@
   </div>
 </template>
 
+<script>
+  export default {
+    head () {
+      // Nuxt has no built-in canonical support. Without one, /blog and /blog/ (and any other duplicate URL)
+      // are separate pages to search engines. HOST already includes the /blog base.
+      const path = this.$route.path === '/' ? '/' : this.$route.path.replace(/\/+$/, '')
+
+      return {
+        link: [
+          { hid: 'canonical', rel: 'canonical', href: `${process.env.HOST}${path}` }
+        ]
+      }
+    }
+  }
+</script>
+
 <style>
 html,
 body,
