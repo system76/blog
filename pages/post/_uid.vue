@@ -85,6 +85,16 @@
       return {
         title: this.post.data.seoTitle,
 
+        script: [
+          {
+            hid: 'ld-json-blogposting',
+            type: 'application/ld+json',
+            // Sanitizers are disabled for script in nuxt.config.js (needed for the GA snippet), so
+            // vue-meta won't escape this. Escape "<" ourselves so editor content can't close the tag.
+            innerHTML: JSON.stringify(this.jsonLd).replace(/</g, '\\u003c')
+          }
+        ],
+
         meta: [
           { hid: 'description', name: 'description', content: this.post.data.seoDescription },
 
@@ -113,6 +123,31 @@
     },
 
     computed: {
+      jsonLd () {
+        const url = `${process.env.HOST}/post/${this.post.uid}`
+        const image = this.post.data.seoSocial[0]?.image?.url ||
+          this.post.data.image?.url ||
+          `${process.env.HOST}/images/social.jpg`
+        const iso = value => value ? new Date(value).toISOString() : undefined
+
+        const jsonLd = {
+          '@context': 'https://schema.org',
+          '@type': 'BlogPosting',
+          headline: this.post.data.seoTitle || this.$prismic.asText(this.post.data.title),
+          description: this.post.data.seoDescription || this.$prismic.asText(this.post.data.description),
+          image,
+          datePublished: iso(this.datePublished),
+          dateModified: iso(this.post.last_publication_date),
+          mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+          url,
+          author: { '@type': 'Organization', name: 'System76', url: 'https://system76.com' },
+          publisher: { '@type': 'Organization', name: 'System76', url: 'https://system76.com' }
+        }
+
+        // Drop empty fields instead of emitting null/empty strings.
+        return Object.fromEntries(Object.entries(jsonLd).filter(([, v]) => v))
+      },
+
       datePublished () {
         if ('date' in this.post.data) {
           if (this.post.data.date) {
