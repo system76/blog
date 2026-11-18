@@ -10,7 +10,7 @@
           href="https://system76.com/desktops"
           target="_blank"
         >
-          Computers Engineered to Unleash Your Potential
+          Computing you control
         </a>
       </template>
 
